@@ -13,8 +13,3 @@
 ## Fundamentals
 
 * [Glossary of Terms](fundamentals/glossary-of-terms.md)
-
-## Use Cases
-
-* [For Designers](use-cases/for-designers/README.md)
-  * [Figma Integration](use-cases/for-designers/figma-integration.md)
