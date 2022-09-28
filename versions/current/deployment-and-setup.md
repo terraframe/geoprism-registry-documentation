@@ -24,11 +24,11 @@ All production GeoPrism Registry Docker containers can be found on Docker Hub al
 
 * https://hub.docker.com/r/terraframe/geoprism-registry
 
-### 3.5 Organization management
+### 3.3 Organization management
 
 The GeoPrism Registry supports the management of lists, spatial data and hierarchies across multiple organizations, so that only those with the responsibility to maintain data for a given organization can do so within that organization only.
 
-#### 3.5.1 Create organization
+#### 3.3.1 Create organization
 
 Organizations can only be created by users with the System Administrator role.
 

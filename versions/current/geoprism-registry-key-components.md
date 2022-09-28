@@ -279,3 +279,9 @@ For types 1 and 2, the user will start from the top of the window to complete th
 For type 3, the user will first have to select items (geo-object types, hierarchies) in the left panel for the information to appear in the right panel and then be able to complete the desired action in that panel.
 
 For type 4, the user might first have to expand one of the panels before being able to complete the desired action.
+
+### 5.4.3 Settings
+
+The GPR settings are accessible from the hamburger menu. The settings window is separated in different sections which are accessible or not depending on the user role as presented here:
+
+<table><thead><tr><th>Section</th><th>Functionality</th><th data-type="checkbox">SA</th><th data-type="checkbox">RA</th><th data-type="checkbox">RM</th><th data-type="checkbox">RC</th></tr></thead><tbody><tr><td>System information</td><td>Indication of the current version of GPR</td><td>true</td><td>true</td><td>true</td><td>true</td></tr><tr><td>System administrators</td><td>List and contact information of the user(s) having the SA role</td><td>true</td><td>true</td><td>true</td><td>true</td></tr><tr><td>Organizations</td><td>List of organizations registered in the GPR and possibility to add new ones for the SA role (see <a href="deployment-and-setup.md#3.3-organization-management">Section 3.3</a>)</td><td>true</td><td>true</td><td>false</td><td>false</td></tr><tr><td>User accounts</td><td>Management and invitation of users by the SA and RA roles + possibility for the RM and RC to see the users of their own organization (see Section 6.3)</td><td>true</td><td>true</td><td>true</td><td>true</td></tr></tbody></table>
