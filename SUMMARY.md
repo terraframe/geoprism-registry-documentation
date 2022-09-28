@@ -5,6 +5,7 @@
     * [Introduction](versions/current/introduction.md)
     * [Deployment and Setup](versions/current/deployment-and-setup.md)
     * [External System Integration](versions/current/external-system-integration.md)
+    * [GeoPrism Registry Key Components](versions/current/geoprism-registry-key-components.md)
 
 ## Guides
 
