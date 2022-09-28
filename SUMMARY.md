@@ -5,8 +5,17 @@
     * [Introduction](versions/current/introduction.md)
     * [Deployment and Setup](versions/current/deployment-and-setup.md)
     * [External System Integration](versions/current/external-system-integration.md)
-    * [GeoPrism Registry Key Components](versions/current/geoprism-registry-key-components.md)
-    * [GeoPrism Registry Tutorial](versions/current/geoprism-registry-tutorial.md)
+    * [GeoPrism Registry Key Components](versions/current/geoprism-registry-key-components/README.md)
+      * [5.1 Content](versions/current/geoprism-registry-key-components/5.1-content.md)
+      * [5.2 Content related capacities of GeoPrism Registry](versions/current/geoprism-registry-key-components/5.2-content-related-capacities-of-geoprism-registry.md)
+      * [5.3 User roles and their rights](versions/current/geoprism-registry-key-components/5.3-user-roles-and-their-rights.md)
+      * [5.4 User interface](versions/current/geoprism-registry-key-components/5.4-user-interface.md)
+    * [GeoPrism Registry Tutorial](versions/current/geoprism-registry-tutorial/README.md)
+      * [6.1 GeoPrism Sandbox](versions/current/geoprism-registry-tutorial/6.1-geoprism-sandbox.md)
+      * [6.2 Logging in](versions/current/geoprism-registry-tutorial/6.2-logging-in.md)
+      * [6.3 User management](versions/current/geoprism-registry-tutorial/6.3-user-management.md)
+      * [6.4 Content setup](versions/current/geoprism-registry-tutorial/6.4-content-setup.md)
+      * [6.5 Content management](versions/current/geoprism-registry-tutorial/6.5-content-management.md)
 
 ## Guides
 
