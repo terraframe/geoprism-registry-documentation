@@ -26,6 +26,11 @@
           * [6.4.2.2 Manage the attributes associated to a geographic object type](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.2-geographic-object-types-outside-a-group/6.4.2.2-manage-the-attributes-associated-to-a-geographic-object-type.md)
           * [6.4.2.3 Edit the metadata of a geographic object type](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.2-geographic-object-types-outside-a-group/6.4.2.3-edit-the-metadata-of-a-geographic-object-type.md)
           * [6.4.2.4 Delete a geographic object type](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.2-geographic-object-types-outside-a-group/6.4.2.4-delete-a-geographic-object-type.md)
+        * [6.4.3 Hierarchies](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/README.md)
+          * [6.4.3.1 Add a hierarchy](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.1-add-a-hierarchy.md)
+          * [6.4.3.2 Manage the content of the hierarchy](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.2-manage-the-content-of-the-hierarchy.md)
+          * [6.4.3.3 Edit the metadata of a hierarchy](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.3-edit-the-metadata-of-a-hierarchy.md)
+          * [6.4.3.4 Delete a hierarchy](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.4-delete-a-hierarchy.md)
       * [6.5 Content management](versions/current/geoprism-registry-tutorial/6.5-content-management.md)
 
 ## Guides
