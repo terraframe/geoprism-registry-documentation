@@ -31,7 +31,9 @@
           * [6.4.3.2 Manage the content of the hierarchy](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.2-manage-the-content-of-the-hierarchy.md)
           * [6.4.3.3 Edit the metadata of a hierarchy](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.3-edit-the-metadata-of-a-hierarchy.md)
           * [6.4.3.4 Delete a hierarchy](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.4-delete-a-hierarchy.md)
-      * [6.5 Content management](versions/current/geoprism-registry-tutorial/6.5-content-management.md)
+      * [6.5 Content management](versions/current/geoprism-registry-tutorial/6.5-content-management/README.md)
+        * [6.5.1 Lists and spatial data](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/README.md)
+          * [6.5.1.1 Import](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.1-import.md)
 
 ## Guides
 
