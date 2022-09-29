@@ -14,7 +14,10 @@
       * [6.1 GeoPrism Sandbox](versions/current/geoprism-registry-tutorial/6.1-geoprism-sandbox.md)
       * [6.2 Logging in](versions/current/geoprism-registry-tutorial/6.2-logging-in.md)
       * [6.3 User management](versions/current/geoprism-registry-tutorial/6.3-user-management.md)
-      * [6.4 Content setup](versions/current/geoprism-registry-tutorial/6.4-content-setup.md)
+      * [6.4 Content setup](versions/current/geoprism-registry-tutorial/6.4-content-setup/README.md)
+        * [6.4.1.1 Add a group](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.1.1-add-a-group.md)
+        * [6.4.1.2 Add a geographic object type to a group](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.1.2-add-a-geographic-object-type-to-a-group.md)
+        * [6.4.1.3 Manage the attributes associated to all the geographic object types included in a group](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.1.3-manage-the-attributes-associated-to-all-the-geographic-object-types-included-in-a-group.md)
       * [6.5 Content management](versions/current/geoprism-registry-tutorial/6.5-content-management.md)
 
 ## Guides
