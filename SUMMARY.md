@@ -43,6 +43,7 @@
         * [6.5.3 Historical events](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events.md)
         * [6.5.2 Change requests](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/README.md)
           * [6.5.2.1 Submit a change request](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/6.5.2.1-submit-a-change-request.md)
+          * [6.5.2.2 Review a change request](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/6.5.2.2-review-a-change-request.md)
 
 ## Guides
 
