@@ -36,6 +36,7 @@
           * [6.5.1.1 Import](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.1-import.md)
           * [6.5.1.2 Create a set](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.2-create-a-set.md)
           * [6.5.1.3 Manage the versions part of a set](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.3-manage-the-versions-part-of-a-set.md)
+          * [6.5.1.4 Explore](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.4-explore.md)
 
 ## Guides
 
