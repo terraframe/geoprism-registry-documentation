@@ -1,4 +1,6 @@
-# External System Integration
+# 4 External System Integration
+
+The GPR supports integrating with external systems to help facilitate the exchange of data between systems. Registering an external system enables the GPR to send data to an external system instance in a predictable way. This is useful to ensure that data in another system is using updated data from the curated data in the GPR.
 
 ### 4.2 Register an external system
 

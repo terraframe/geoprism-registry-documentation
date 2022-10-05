@@ -1,2 +1,0 @@
-# GeoPrism Registry Key Components
-
