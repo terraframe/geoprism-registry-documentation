@@ -1,71 +1,10 @@
-# Deployment and Setup
+# 3 Deployment and Setup
 
-### 3.1 License and citation
+This chapter provides the necessary information with links to associated resources in order for someone to deploy the GPR on a server.
 
-The GPR is released under a GNU Lesser General Public Version 3 license. The details can be found on the public code repository on GitHub.
+###
 
-### 3.2 Creating a new installation
 
-{% hint style="info" %}
-This documentation is written assuming you are using Amazon Web Services (AWS) with an Amazon Linux 2 operating system. While it is possible to install GeoPrism Registry on other environments, this documentation does not cover the configuration differences that may be needed.
-{% endhint %}
-
-#### Hardware requirements
-
-The standard hardware for the target machine is an AWS r4.large server (16 GB RAM), as the GeoPrism Registry tends to be memory intensive, and 500GB gp2 (general purpose SSD) hard drives.
-
-#### SSL
-
-GeoPrism Registry is configured to use HTTP by default. Any SSL/HTTPS configuration should be done outside of the GeoPrism Registry web container. The recommended way to do this is to use a reverse proxy.
-
-#### Installation with Docker (recommended)
-
-All production GeoPrism Registry Docker containers can be found on Docker Hub along with the most current documentation for install and update.&#x20;
-
-* https://hub.docker.com/r/terraframe/geoprism-registry
-
-### 3.3 Organization management
-
-The GeoPrism Registry supports the management of lists, spatial data and hierarchies across multiple organizations, so that only those with the responsibility to maintain data for a given organization can do so within that organization only.
-
-#### 3.3.1 Create organization
-
-Organizations can only be created by users with the System Administrator role.
-
-1. Go to the Settings module.\
-   \
-   ![](https://lh6.googleusercontent.com/hQu5GCHC-h11UA08oAy4\_4ify1PS0M4z-l8ZrYALEH6jkZyaP0Ew7L8vxBUjOQNhB7mLn7eV-IEMvevGpRSbZYPpQ7oTPmK71OyfpQzpgX0oSPVVRMPCjBTUbTwiLsWf3k3xLkQqBS1vIH\_GAfc)
-
-2\. Scroll down to the ‘Organizations’ section and click on the plus icon.\
-\
-![](https://lh5.googleusercontent.com/E2c1IFW2i0WQGlr0tVP8JshmoaNRJtGsdznHrRW-7sKhXfEvP9B6fGr2NhM\_U-n5VUYtDJ8qzvfG-G55tpB08\_s0iWQIRQsOyVJGHPDyAe5p8N6DV6iBddZNPSzi5CIr0CNNkzNm4PuuI2syK-c)
-
-3\. Complete the ‘Organization’ modal that opens up.\
-\
-![](https://lh6.googleusercontent.com/ELMCDwJEaNJaQhr3Qpyq23Rb3jHZI8f-p9uhenPef\_CWIIg3TmPE2YcBoY8DO8FuI5Ueh9g5XmYCmpN5XqZSeDLnmvc3UpdVxW5qb8by-UYVJid4BUyHkyiTZ-K5sRV93wcOI03k-6IHf34Ltds)
-
-| Form Field | Description                                                                                        |
-| ---------- | -------------------------------------------------------------------------------------------------- |
-| Unique ID  | Unique identifier of the organization.                                                             |
-| Name       | Name of the organization in the default and any installed locales.                                 |
-| Contact    | Details of the primary contact point of the organization in the default and any installed locales. |
-
-4\. Click Submit. The organization now appears in the table under the ‘Organizations’ section in the Settings module.\
-![](https://lh5.googleusercontent.com/tJ4fwkktvtDh3PojxBNFyBHr\_C\_9aeEE0gRIbEmoCuIriQnYfv9l-ms9MquFk0LG58daebLZNfwT5A67u48yJL4nESt7qFcJhpgXE9VpWZAyhTVakJhAYJ\_PFWYxqYtxs0FRBvFEc8H0lx9e37s)
-
-### 3.6 Localisation
-
-The GPR can be localized to different languages. The default locale of the system is English, however support for other locales can be added Localization management must be done by a System Administrator.
-
-The GPR currently supports the following localization tasks:
-
-* Exporting the localized values of the system to an Excel spreadsheet
-* Importing the localized values from an Excel spreadsheet
-* Extending the system to support new locales
-
-{% hint style="info" %}
-Note: Locales cannot be uninstalled.
-{% endhint %}
 
 #### 3.6.1 Install a new locale
 

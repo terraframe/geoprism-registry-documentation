@@ -1,12 +1,12 @@
 # Introduction
 
-### Acknowledgements
+### 1 Acknowledgements
 
 We thank Steeve Ebener and Izay Pantanilla from the Health GeoLab as well as Rica Duchateau From the Clinton Health Access Initiative (CHAI) for their contribution to the development of the present user manual and tutorial.
 
 The development of Ve… of the GeoPrism Registry platform and of the present user manual and tutorial has been possible thanks to the support of the Bill & Melinda Gates Foundation.
 
-### Introduction
+### 2 Introduction
 
 GeoPrism Registry is an online platform aiming at providing the functionalities of a Common Geo-Registry (CGR) for the simultaneous hosting, maintenance, update and sharing of lists as well as associated hierarchies and spatial data for the geographic objects core to development in general and public health in particular.
 
