@@ -2,10 +2,6 @@
 
 This chapter provides the necessary information with links to associated resources in order for someone to deploy the GPR on a server.
 
-###
-
-
-
 #### 3.6.1 Install a new locale
 
 Installing a locale enables the GPR to be translated to that language. This is the first step to enable a GPR instance to be translated. All locale options can be found here.
