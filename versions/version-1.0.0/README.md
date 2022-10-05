@@ -3,5 +3,5 @@ coverY: 0
 layout: landing
 ---
 
-# Current
+# Version 1.0.0
 
