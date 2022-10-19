@@ -2,7 +2,7 @@
 
 ### 1. Acknowledgements
 
-We thank Steeve Ebener and Izay Pantanilla from the [Health GeoLab Collaborative](https://healthgeolab.net/) as well as Rica Zamora Duchateau, Nicole Dagata, Thinnakone Ounniyom and Varshana Rajasekaran from the [Clinton Health Access Initiative](https://www.clintonhealthaccess.org/) (CHAI) for their contribution to the development of this user manual and tutorial.
+We thank Steeve Ebener and Izay Pantanilla from the [Health GeoLab Collaborative](https://healthgeolab.net/) as well as Rica Zamora Duchateau, Nicole Dagata, Truong Nguyen, Thinnakone Ounniyom and Varshana Rajasekaran from the [Clinton Health Access Initiative](https://www.clintonhealthaccess.org/) (CHAI) for their contribution to the development of this user manual and tutorial.
 
 The development of version 1.0.0 of the GeoPrism Registry platform and of this user manual and tutorial has been possible thanks to the support of the [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/).
 
