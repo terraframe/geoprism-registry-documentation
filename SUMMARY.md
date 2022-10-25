@@ -19,6 +19,7 @@
       * [3.5 System email management](versions/current/3-deployment-and-setup/3.5-system-email-management.md)
       * [3.6 Branding (Logo)](versions/current/3-deployment-and-setup/3.6-branding-logo.md)
       * [3.7 FHIR custom implementation](versions/current/3-deployment-and-setup/3.7-fhir-custom-implementation.md)
+      * [Rapid domain setup](readme/current/deployment-and-setup/rapid-domain-setup.md)
     * [4 External System Integration](versions/current/external-system-integration.md)
       * [4.1 Available APIs](versions/current/4-external-system-integration/4.1-available-apis.md)
       * [4.2 Register and synchronize an external system](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/README.md)
