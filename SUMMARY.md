@@ -73,3 +73,7 @@
 ## Fundamentals
 
 * [Glossary of Terms](fundamentals/glossary-of-terms.md)
+
+***
+
+* [API Documentation](https://georegistry-api-docs.geoprism.net/)
