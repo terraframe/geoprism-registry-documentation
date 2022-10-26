@@ -77,3 +77,4 @@
 ***
 
 * [API Documentation](https://georegistry-api-docs.geoprism.net/)
+* [Install from Docker Hub](https://hub.docker.com/r/terraframe/geoprism-registry)
