@@ -21,7 +21,7 @@
       * [3.7. FHIR custom implementation](versions/current/3-deployment-and-setup/3.7-fhir-custom-implementation.md)
       * [3.8. Configuration-based type setup](readme/current/deployment-and-setup/3.8-configuration-based-type-setup.md)
       * [3.9. DHIS2 OAuth integration](readme/current/deployment-and-setup/3.9-dhis2-oauth-integration.md)
-    * [4 External System Integration](versions/current/external-system-integration.md)
+    * [4. External System Integration](versions/current/external-system-integration.md)
       * [4.1 Available APIs](versions/current/4-external-system-integration/4.1-available-apis.md)
       * [4.2 Register and synchronize an external system](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/README.md)
         * [4.2.1 DHIS2](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.1-dhis2.md)
