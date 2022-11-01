@@ -19,6 +19,8 @@
       * [3.5. System email management](versions/current/3-deployment-and-setup/3.5-system-email-management.md)
       * [3.6. Branding (Logo)](versions/current/3-deployment-and-setup/3.6-branding-logo.md)
       * [3.7. FHIR custom implementation](versions/current/3-deployment-and-setup/3.7-fhir-custom-implementation.md)
+      * [3.8 Configuration based type setup](readme/current/deployment-and-setup/3.8-configuration-based-type-setup.md)
+      * [3.9 DHIS2 Oauth Integration](readme/current/deployment-and-setup/3.9-dhis2-oauth-integration.md)
     * [4 External System Integration](versions/current/external-system-integration.md)
       * [4.1 Available APIs](versions/current/4-external-system-integration/4.1-available-apis.md)
       * [4.2 Register and synchronize an external system](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/README.md)
@@ -29,7 +31,10 @@
       * [5.1 Content](versions/current/geoprism-registry-key-components/5.1-content.md)
       * [5.2 Content related capacities of GeoPrism Registry](versions/current/geoprism-registry-key-components/5.2-content-related-capacities-of-geoprism-registry.md)
       * [5.3 User roles and their rights](versions/current/geoprism-registry-key-components/5.3-user-roles-and-their-rights.md)
-      * [5.4 User interface](versions/current/geoprism-registry-key-components/5.4-user-interface.md)
+      * [5.4 User interface](readme/current/geoprism-registry-key-components/5.4-user-interface/README.md)
+        * [5.4.1 Home page](readme/current/geoprism-registry-key-components/5.4-user-interface/5.4.1-home-page.md)
+        * [5.4.2 Modules](readme/current/geoprism-registry-key-components/5.4-user-interface/5.4.2-modules.md)
+        * [5.4.3 Settings](readme/current/geoprism-registry-key-components/5.4-user-interface/5.4.3-settings.md)
     * [GeoPrism Registry Tutorial](versions/current/geoprism-registry-tutorial/README.md)
       * [6.1 GeoPrism Sandbox](versions/current/geoprism-registry-tutorial/6.1-geoprism-sandbox.md)
       * [6.2 Logging in](versions/current/geoprism-registry-tutorial/6.2-logging-in.md)
@@ -72,3 +77,8 @@
 ## Fundamentals
 
 * [Glossary of Terms](fundamentals/glossary-of-terms.md)
+
+***
+
+* [API Documentation](https://api.geoprismregistry.com)
+* [Install from Docker Hub](https://hub.docker.com/r/terraframe/geoprism-registry)
