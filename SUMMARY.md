@@ -26,7 +26,7 @@
       * [4.1. Available APIs](versions/current/4-external-system-integration/4.1-available-apis.md)
       * [4.2. Register and synchronize an external system](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/README.md)
         * [4.2.1. DHIS2](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.1-dhis2.md)
-        * [4.2.2 Reveal](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.2-reveal.md)
+        * [4.2.2. Reveal](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.2-reveal.md)
         * [4.2.3 FHIR](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.3-fhir.md)
     * [5 GeoPrism Registry Key Components](versions/current/geoprism-registry-key-components/README.md)
       * [5.1 Content](versions/current/geoprism-registry-key-components/5.1-content.md)
