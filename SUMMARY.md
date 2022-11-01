@@ -2,7 +2,8 @@
 
 * [Versions](README.md)
   * [Version 1.0.0](versions/current/README.md)
-    * [Introduction](versions/current/introduction.md)
+    * [1. Introduction](versions/current/introduction.md)
+    * [2. Acknowledgements](readme/current/introduction-1.md)
     * [3. Deployment and setup](versions/current/deployment-and-setup.md)
       * [3.1. License](versions/current/3-deployment-and-setup/3.1-license.md)
       * [3.2. Creating a new installation](versions/current/3-deployment-and-setup/3.2-creating-a-new-installation.md)
