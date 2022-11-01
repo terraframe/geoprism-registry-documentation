@@ -1,16 +1,7 @@
 # 2. Acknowledgements
 
-We thank the following individuals for their contribution to the development of this user manual and tutorial:
+TerraFrame thanks the following individuals for their contribution to the development of this user manual and tutorial:
 
-* [Health GeoLab Collaborative](https://healthgeolab.net/)
-  * Steeve Ebener
-  * Izay Pantanilla
-* [Clinton Health Access Initiative](https://www.clintonhealthaccess.org/)
-  * Rica Zamora Duchateau (Laos)
-  * Thinnakone Ounniyom (Laos)
-  * Nicole Dagata (Global Digital Health)
-  * Truong Nguyen (Global Malaria Analytics, Surveillance and Technology)
-  * Varshana Rajasekaran (Global Digital Health)
-  * Pedro Pagalday Olivares (Global Malaria Analytics, Surveillance and Technology)
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="files"></th></tr></thead><tbody><tr><td><strong>Steeve EBENER, PhD</strong></td><td>Manager</td><td><em>Health GeoLab Collaborative</em></td><td><a href="../../.gitbook/assets/1516317586969.jpg">1516317586969.jpg</a></td></tr><tr><td><strong>Izay PANTANILLA</strong></td><td>GIS Analyst</td><td><em>Health GeoLab Collaborative</em></td><td><a href="../../.gitbook/assets/1516920668336.jpg">1516920668336.jpg</a></td></tr><tr><td><strong>Rica ZAMORA DUCHATEAU</strong></td><td>Senior Associate, Geospatial Health Information | Laos</td><td><em>Clinton Health Access Initiative</em></td><td><a href="../../.gitbook/assets/rica-profile-photo-4.jpeg">rica-profile-photo-4.jpeg</a></td></tr><tr><td><strong>Thinnakone OUNNIYOM</strong></td><td>Geospatial Data and Technologies Officer | Health Information Division, Department of Planning and Cooperation</td><td><em>Ministry of Health, Laos</em></td><td><a href="../../.gitbook/assets/Picture1.png">Picture1.png</a></td></tr><tr><td><strong>Nicole DAGATA</strong></td><td>Technical Advisor | Global Digital Health</td><td><em>Clinton Health Access Initiative</em></td><td><a href="../../.gitbook/assets/1516882487135.jpg">1516882487135.jpg</a></td></tr><tr><td><strong>NGUYEN Truong</strong></td><td>Technical Advisor, Health Informatics | Global Malaria Analytics, Surveillance and Technology</td><td><em>Clinton Health Access Initiative</em></td><td><a href="../../.gitbook/assets/1517619658961.jpg">1517619658961.jpg</a></td></tr><tr><td><strong>Varshana RAJASEKARAN</strong></td><td>Technical Advisor | Global Digital Health (former)</td><td><em>Clinton Health Access Initiative</em></td><td><a href="../../.gitbook/assets/1516981914643.jpg">1516981914643.jpg</a></td></tr><tr><td><strong>Pedro PAGALDAY OLIVARES</strong></td><td>Technical Advisor, Health Informatics | Global Malaria Analytics, Surveillance and Technology (former)</td><td><em>Clinton Health Access Initiative</em></td><td><a href="../../.gitbook/assets/1633622227458.jpg">1633622227458.jpg</a></td></tr></tbody></table>
 
 The development of version 1.0.0 of the GeoPrism Registry platform and of this user manual and tutorial has been possible thanks to the support of the [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org/).
