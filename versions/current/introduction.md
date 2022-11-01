@@ -1,5 +1,7 @@
 # 1. Introduction
 
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-01 143354.jpg" alt=""><figcaption></figcaption></figure>
+
 GeoPrism Registry is an online platform aiming at providing the functionalities of a common geo-registry (CGR) for the simultaneous hosting, maintenance, update and sharing of lists as well as associated hierarchies and spatial data for the geographic objects core to development in general and public health in particular.
 
 A CGR provides a container accessible by any information system to obtain reliable information on geography through time. Subsequently, information systems’ users can benefit from this information to improve geographically based decision making and support a more systemic approach to solving developmental problems in general and public health ones in particular.
