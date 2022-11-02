@@ -64,7 +64,7 @@ One of the functions of GeoPrism Registry is to capture and use not only geograp
 
 These different relationships can be represented in distinct **hierarchies** like those included in Figure 1.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-11-01 141427.jpg" alt=""><figcaption><p>Figure 1: Example of hierarchies.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2022-11-01 141427.jpg" alt=""><figcaption><p>Figure 1: Example of hierarchies.</p></figcaption></figure>
 
 ## 5.1.5. Lists
 
@@ -72,7 +72,7 @@ A **list** is a tabular representation of the data elements associated with all 
 
 Lists represent the most familiar way for users to look at the information associated with any type of geographic object. When they are authoritative and curated by the mandated governmental entity, these lists, referred as **master lists** in this case, also serve as a ground reference to assess the completeness, uniqueness, timeliness, validity, and consistency of the geospatial data also hosted in a common geo-registry, as well as a denominator for the implementation of any public health program.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-11-01 141635.jpg" alt=""><figcaption><p>Extract of list corresponding to the data dictionary reported in Annex 2 of <a href="https://healthgeolab.net/DOCUMENTS/Guidance_Common_Geo-registry_Ve2.pdf">Ebener (2022)</a>.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2022-11-01 141635.jpg" alt=""><figcaption><p>Extract of list corresponding to the data dictionary reported in Annex 2 of <a href="https://healthgeolab.net/DOCUMENTS/Guidance_Common_Geo-registry_Ve2.pdf">Ebener (2022)</a>.</p></figcaption></figure>
 
 ## 5.1.6. Spatial data
 
@@ -82,7 +82,7 @@ As GeoPrism Registry only handles types of geographic objects that can be manage
 
 GeoPrism Registry is able to handle the three modes of representation of geographic features in the vector format: points, lines, or polygons (Figure 2).
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-11-01 141959.jpg" alt=""><figcaption><p>Figure 2: Modes of representation in the vector format: (a) points, (b) lines, and (c) polygons</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2022-11-01 141959.jpg" alt=""><figcaption><p>Figure 2: Modes of representation in the vector format: (a) points, (b) lines, and (c) polygons</p></figcaption></figure>
 
 ## 5.1.7. Data quality
 
@@ -94,4 +94,4 @@ The quality of the content before its upload in the platform can be ensured thro
 
 If an NSDI is not in place, the [reference material](https://healthgeolab.net/resources/reference-materials/) from the Health GeoLab Collaborative can be consulted to ensure the quality of the data and information to be uploaded in the platform.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-11-01 142310.jpg" alt=""><figcaption><p>Figure 3: Geospatial data management cycle.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Screenshot 2022-11-01 142310.jpg" alt=""><figcaption><p>Figure 3: Geospatial data management cycle.</p></figcaption></figure>
