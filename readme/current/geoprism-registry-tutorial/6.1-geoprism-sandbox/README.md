@@ -8,13 +8,13 @@ Because of the above, the sandbox is used as the reference for all the examples 
 
 ### 6.1.2 Organizations and roles
 
-The Tolkien dataset has been designed in such a way that it is distributed among 3 organizations: &#x20;
+The Tolkien dataset has been designed in such a way that it is distributed among 3 organizations:
 
-* Ministry of Home Affairs (MOHA)&#x20;
-* Ministry of Health (MOH)&#x20;
+* Ministry of Home Affairs (MOHA)
+* Ministry of Health (MOH)
 * Ministry of Education (MOE)
 
-For each of these organizations, a Registry Administrator (RA), Registry Maintainer (RM) and Registry Contributor (RC) user role has been created. Users can also access the demo instance as a System Administrator (SA). Please refer to the [CGR role section ](../geoprism-registry-key-components/#5.3-user-roles-and-their-rights)for more details on each of them.
+For each of these organizations, a Registry Administrator (RA), Registry Maintainer (RM) and Registry Contributor (RC) user role has been created. Users can also access the demo instance as a System Administrator (SA). Please refer to the [CGR role section ](../../../../versions/current/geoprism-registry-key-components/#5.3-user-roles-and-their-rights)for more details on each of them.
 
 ### 6.1.3 Content
 
@@ -24,23 +24,23 @@ This “Tolkien land” was initially created for a training that took place in 
 
 #### Geo-Object Types
 
-As it currently stands, the Tolkien land dataset contains Geo-Object Types under the curation mandate of three different organizations as follows:&#x20;
+As it currently stands, the Tolkien land dataset contains Geo-Object Types under the curation mandate of three different organizations as follows:
 
-* Ministry of Home Affairs (MOHA)&#x20;
-  * Provinces - Polygons&#x20;
-  * Counties - Polygons&#x20;
-  * Shire - Polygons&#x20;
-  * Villages - Points&#x20;
-* Ministry of Health (MOH)&#x20;
-  * National Hospitals - Points&#x20;
-  * Referral Hospitals – Points&#x20;
-  * Health Centre – Points&#x20;
-  * Health Posts – Points&#x20;
-  * Catchment areas – Polygons&#x20;
-  * Community Health workers - Points&#x20;
-* Ministry of Education (MOE)&#x20;
-  * Universities - Points&#x20;
-  * Colleges - Points Secondary schools - Points&#x20;
+* Ministry of Home Affairs (MOHA)
+  * Provinces - Polygons
+  * Counties - Polygons
+  * Shire - Polygons
+  * Villages - Points
+* Ministry of Health (MOH)
+  * National Hospitals - Points
+  * Referral Hospitals – Points
+  * Health Centre – Points
+  * Health Posts – Points
+  * Catchment areas – Polygons
+  * Community Health workers - Points
+* Ministry of Education (MOE)
+  * Universities - Points
+  * Colleges - Points Secondary schools - Points
   * Primary schools - Points
 
 #### Hierarchies
@@ -49,7 +49,7 @@ Organization specific hierarchies based on the above Geo-Object Types and the ge
 
 The hierarchies that were created per organization are as follows:
 
-* MOHA&#x20;
+* MOHA
   * Administrative structure hierarchy: hierarchy showing how the different administrative divisions are aggregated from the lowest level to the highest.\
     ![](https://lh3.googleusercontent.com/4UsBNirqTK0IpOyc3fNSZjMC1YjokQAFKMBgvlNSJc8zeLUCVTXtpd3ggyBcAZOoAJctNYT0NahJiqdXXEZxUspxTkZ8NSPM7i7\_z-GPXJVwx-gwt9oGIsaWlhDXZhc5\_FG4C2ZAjMMqi-EpXKxgniJNYOieG7kBY2xE3L8qctSLAknn\_-MjME5d)
 * MOH
@@ -73,4 +73,4 @@ The GeoPrism Registry Sandbox can be accessed from the following URL : https://d
 
 The sandbox is currently accessible through the following set of roles to external users.
 
-![](<../../../.gitbook/assets/Screenshot from 2022-09-28 15-56-36.png>)
+![](<../../../../.gitbook/assets/Screenshot from 2022-09-28 15-56-36.png>)
