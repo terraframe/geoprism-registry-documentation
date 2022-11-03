@@ -1,6 +1,6 @@
 ---
-cover: ../../.gitbook/assets/background-g97c87fc88_1920.jpg
-coverY: 0
+cover: ../../.gitbook/assets/GPR Background.jpg
+coverY: -11.564417177914109
 layout: landing
 ---
 
