@@ -64,7 +64,7 @@
       * [5.4. User interface](readme/current/geoprism-registry-key-components/5.4-user-interface/README.md)
         * [5.4.1. Home page](readme/current/geoprism-registry-key-components/5.4-user-interface/5.4.1-home-page.md)
         * [5.4.2. Modules](readme/current/geoprism-registry-key-components/5.4-user-interface/5.4.2-modules.md)
-        * [5.4.3 Settings](readme/current/geoprism-registry-key-components/5.4-user-interface/5.4.3-settings.md)
+        * [5.4.3. Settings](readme/current/geoprism-registry-key-components/5.4-user-interface/5.4.3-settings.md)
     * [6. GeoPrism Registry tutorial](versions/current/geoprism-registry-tutorial/README.md)
       * [6.1. GeoPrism Sandbox](readme/current/geoprism-registry-tutorial/6.1-geoprism-sandbox/README.md)
         * [6.1.1. Purpose](readme/current/geoprism-registry-tutorial/6.1-geoprism-sandbox/6.1-geoprism-sandbox.md)
