@@ -99,7 +99,7 @@
           * [6.4.3.4. Deleting a hierarchy](versions/current/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.4-delete-a-hierarchy.md)
       * [6.5. Content management](versions/current/geoprism-registry-tutorial/6.5-content-management.md)
         * [6.5.1. Lists and spatial data](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/README.md)
-          * [6.5.1.1 Import](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.1-import.md)
+          * [6.5.1.1. Import](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.1-import.md)
           * [6.5.1.2 Create a set](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.2-create-a-set.md)
           * [6.5.1.3 Manage the versions part of a set](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.3-manage-the-versions-part-of-a-set.md)
           * [6.5.1.4 Explore](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.4-explore.md)
