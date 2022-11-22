@@ -117,7 +117,7 @@
 
 ## Fundamentals
 
-* [Glossary of Terms](fundamentals/glossary-of-terms.md)
+* [Glossary of terms](fundamentals/glossary-of-terms.md)
 
 ***
 
