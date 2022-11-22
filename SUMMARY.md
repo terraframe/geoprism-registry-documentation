@@ -105,7 +105,7 @@
           * [6.5.1.4. Exploring lists and spatial data](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.4-explore.md)
           * [6.5.1.5. Editing lists and spatial data](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.5-edit.md)
           * [6.5.1.6. Curating lists and spatial data](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.6-curate.md)
-          * [6.5.1.7 Export](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.7-export.md)
+          * [6.5.1.7. Exporting lists and spatial data](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.7-export.md)
         * [6.5.2 Change requests](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/README.md)
           * [6.5.2.1 Submit a change request](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/6.5.2.1-submit-a-change-request.md)
           * [6.5.2.2 Review a change request](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/6.5.2.2-review-a-change-request.md)
