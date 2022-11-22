@@ -113,7 +113,7 @@
           * [6.5.3.1. Creating a historical event](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.1-create.md)
           * [6.5.3.2. Exploring historical events](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.2-explore.md)
           * [6.5.3.3. Editing a historical event](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.3-edit.md)
-          * [6.5.3.4 Export](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.4-export.md)
+          * [6.5.3.4. Exporting historical events](versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.4-export.md)
 
 ## Fundamentals
 
