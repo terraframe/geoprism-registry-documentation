@@ -36,6 +36,7 @@
         * [3.8.5. Undirect graph type definitions](readme/current/deployment-and-setup/3.8-configuration-based-type-setup/3.8-configuration-based-type-setup-4.md)
       * [3.9. DHIS2 OAuth integration](readme/current/deployment-and-setup/3.9-dhis2-oauth-integration/README.md)
         * [3.9.1. Configuring DHIS2](readme/current/deployment-and-setup/3.9-dhis2-oauth-integration/3.9-dhis2-oauth-integration.md)
+      * [3.10. Database Migrations](versions/current/3-deployment-and-setup/3.10-migration.md)
     * [4. External system integration](versions/current/external-system-integration.md)
       * [4.1. Available APIs](versions/current/4-external-system-integration/4.1-available-apis.md)
       * [4.2. Register and synchronize an external system](versions/current/4-external-system-integration/4.2-register-and-synchronize-an-external-system/README.md)
