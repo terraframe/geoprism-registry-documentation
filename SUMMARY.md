@@ -232,7 +232,7 @@
           * [6.5.3.3. Editing a historical event](readme/current-1/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.3-edit.md)
           * [6.5.3.4. Exporting historical events](readme/current-1/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.4-export.md)
   * [ສະບັບ 1.4.x (ພາສາລາວ)](readme/current-2/README.md)
-    * [1. Introduction](readme/current-2/introduction.md)
+    * [1. ບົດນຳ](readme/current-2/introduction.md)
     * [2. ຜູ້ຂຽນ](readme/current-2/introduction-1.md)
     * [3. Deployment and setup](readme/current-2/deployment-and-setup/README.md)
       * [3.1. License](readme/current-2/deployment-and-setup/3.1-license.md)
