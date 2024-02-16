@@ -1,3 +1,3 @@
-# 3.3. Organization management
+# 3.3. ການຈັດການອົງກອນ
 
-GeoPrism Registry supports the management of lists, spatial data and hierarchies across multiple organizations, so that only those with the responsibility to maintain data for a given organization can do so within that organization only.
+GeoPrism Registry ຮອງຮັບການຈັດການບັນຊີລາຍການ, ຂໍ້ມູນທາງພື້ນທີ່ ແລະ ລໍາດັບຊັ້ນໃນຫຼາຍໆອົງກອນ, ເພື່ອໃຫ້ສະເພາະແຕ່ຜູ້ທີ່ມີຄວາມຮັບຜິດຊອບໃນການຮັກສາຂໍ້ມູນຂອງອົງກອນ ສາມາດເຮັດໜ້າທີ່ໄດ້ພາຍໃນອົງກອນນັ້ນເທົ່ານັ້ນ.

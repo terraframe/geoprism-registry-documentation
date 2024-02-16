@@ -1,3 +1,3 @@
-# 3. Deployment and setup
+# 3. ການນໍາໃຊ້ ແລະ ການຕັ້ງຄ່າ
 
-This chapter provides instructions on deploying GeoPrism Registry to a server.
+ໃນບົດນີ້ຈະໃຫ້ຄໍາແນະນໍາກ່ຽວກັບການນໍາໃຊ້ GeoPrism Registry ກັບເຄື່ອຂ່າຍແມ່.
