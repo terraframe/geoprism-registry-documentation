@@ -1,10 +1,10 @@
-# 3.4. Localization
+# 3.4. ການກຳນົດທ້ອງຖິ່ນ
 
-GeoPrism Registry can be localized to different languages. The default locale of the system is English, however support for other locales can be added. Localization management must be done by a System Administrator.
+GeoPrism Registry ສາມາດຖືກແປເປັນພາສາຕ່າງໆໄດ້. ພາສາຕັ້ງຕົ້ນຂອງລະບົບແມ່ນພາສາອັງກິດ,ແຕ່ກໍສາມາດເພີ່ມການຮອງຮັບສໍາລັບພາສາທ້ອງຖິ່ນອື່ນໆ. ການຈັດການການແປພາສາທ້ອງຖິ່ນຕ້ອງດຳເນີນການໂດຍຜູ້ບໍລິຫານລະບົບ (System Administrator).
 
-GeoPrism Registry currently supports the following localization tasks:
+GeoPrism Registry ປະຈຸບັນຮອງຮັບການແປເປັນພາສາທ້ອງຖິ່ນດັ່ງຕໍ່ໄປນີ້:
 
-* Extending the system to support new locales
-* Exporting the localized values of the system to an Excel spreadsheet
-* Importing the localized values from an Excel spreadsheet
-* Uninstalling locales
+* ຂະຫຍາຍລະບົບເພື່ອຮອງຮັບພາສາທ້ອງຖິ່ນໃໝ່
+* ການສົ່ງອອກຄ່າທີ່ແປເປັນພາສາທ້ອງຖິ່ນຂອງລະບົບໄປຍັງຕາຕະລາງ Excel
+* ການນໍາເຂົ້າຄ່າທີ່ແປເປັນພາສາທ້ອງຖິ່ນຈາກຕາຕະລາງ Excel
+* ການຖອນການຕິດຕັ້ງພາສາທ້ອງຖິ່ນ
