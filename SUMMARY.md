@@ -243,7 +243,7 @@
         * [3.2.4. ການຕິດຕັ້ງ, ການກຳນົດຄ່າ ແລະ ການປັບປຸງ](readme/current-2/deployment-and-setup/3.2-creating-a-new-installation/3.2-creating-a-new-installation-2.md)
       * [3.3. ການຈັດການອົງກອນ](readme/current-2/deployment-and-setup/3.3-organization-management/README.md)
         * [3.3.1. ການສ້າງອົງກອນ](readme/current-2/deployment-and-setup/3.3-organization-management/3.3.1-create-organization.md)
-        * [3.3.2. Invite a user to serve as the Registry Administrator for an organization](readme/current-2/deployment-and-setup/3.3-organization-management/3.3.2-invite-a-user-to-serve-as-the-registry-administrator-for-an-organization.md)
+        * [3.3.2. ເຊີນຜູ້ໃຊ້ໃຫ້ເຮັດໜ້າທີ່ເປັນຜູ້ບໍລິຫານການລົງທະບຽນ (Registry Administrator) ສຳລັບອົງກອນ](readme/current-2/deployment-and-setup/3.3-organization-management/3.3.2-invite-a-user-to-serve-as-the-registry-administrator-for-an-organization.md)
       * [3.4. Localization](readme/current-2/deployment-and-setup/3.4-localisation/README.md)
         * [3.4.1. Install a new locale](readme/current-2/deployment-and-setup/3.4-localisation/3.4.1-install-a-new-locale.md)
         * [3.4.2. Export the default localization spreadsheet](readme/current-2/deployment-and-setup/3.4-localisation/3.4.2-export-the-default-localization-spreadsheet.md)
