@@ -1,11 +1,11 @@
-# 3.7. FHIR custom implementation
+# 3.7. ການຕິດຕັ້ງ FHIR ແບບກຳນົດເອງ
 
 {% hint style="warning" %}
-This documentation covers advanced system configuration.
+ເອກະສານນີ້ກວມເອົາການຕັ້ງຄ່າລະບົບຂັ້ນສູງ.
 {% endhint %}
 
 {% hint style="info" %}
-These transformations are what is used when importing or exporting data through an External Synchronization from or to a FHIR instance.
+ການຜັນປ່ຽນເຫຼົ່ານີ້ແມ່ນສິ່ງທີ່ຖືກນໍາໃຊ້ໃນເວລາທີ່ນໍາເຂົ້າ ຫຼື ສົ່ງອອກຂໍ້ມູນໂດຍຜ່ານການເຊື່ອມຕໍ່ຂໍ້ມູນພາຍນອກຈາກ ຫຼື ກັບ FHIR.
 {% endhint %}
 
-The data coming in and out of a Fast Healthcare Interoperability Resources (FHIR) instance is transformed through the use of the Java Service IOC architecture. A developer can add a new transformation by creating a JAR file that registers its classes as implementations of the FHIR interfaces. The following sections describe a step-by-step process to create a new FHIR implementation in the system.
+ຂໍ້ມູນທີ່ເຂົ້າມາ ແລະ ອອກໄປຈາກ Fast Healthcare Interoperability Resources (FHIR) ຈະຖືກປ່ຽນແປງໂດຍຜ່ານການນໍາໃຊ້ສະຖາປັດຕະຍະກໍາລະບົບ Java Service IOC. ນັກພັດທະນາສາມາດເພີ່ມການປ່ຽນແປງໃໝ່ໂດຍການສ້າງເອກະສານ JAR ທີ່ໄດ້ລົງທະບຽນການເຊື່ຶອມຕໍ່ FHIR. ຫົວຂໍ້ຕໍ່ໄປນີ້ຈະອະທິບາຍຂັ້ນຕອນແຕ່ລະຂັ້ນເພື່ອຕິດຕັ້ງ FHIR ໃໝ່ໃນລະບົບ.
