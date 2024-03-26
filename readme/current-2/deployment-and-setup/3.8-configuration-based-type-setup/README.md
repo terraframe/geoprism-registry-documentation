@@ -1,11 +1,11 @@
-# 3.8. Configuration-based type setup
+# 3.8. ການຕັ້ງຄ່າ ຄ່າກຳນົດ (configuration-based type setup)
 
-GeoPrism Registry supports automatically building Geo-Object Types, Hierarchies, directed acyclic graphs, and undirected graphs using configurations defined in XML. This is useful for quickly setting up a GeoPrism Registry instance.
+GeoPrism Registry ຮອງຮັບການສ້າງປະເພດວັດຖຸພູມສາດ Geo-Object, ລຳດັບຊັ້ນ, ກຣາຟ acyclic ທີ່ມີໂຕຊີ້ບອກ, ແລະ ກຣາຟທີ່ບໍ່ມີທິດທາງ ໂດຍນໍາໃຊ້ການກໍານົດຄ່າໄວ້ໃນ XML. ສິ່ງນີ້ມີປະໂຫຍດໃນການຕັ້ງຄ່າ GeoPrism Registry ໄດ້ໄວຂຶ້ນ.
 
 {% hint style="warning" %}
-Importing type definitions can only be done by a System Administrator.
+ການນຳເຂົ້າ ຄຳນິຍາມຂອງກຸ່ມຕ່າງໆສາມາດເຮັດໄດ້ໂດຍຜູ້ບໍລິຫານລະບົບ (System Administrator) ເທົ່ານັ້ນ.
 {% endhint %}
 
 {% hint style="info" %}
-XSD (XML Schema Descriptor) describes the structure of an XML document therefore the XSD definitions below describe how the configuration files must be structured for use with Geo-Prism Registry.
+XSD (XML Schema Descriptor) ອະທິບາຍໂຄງສ້າງຂອງເອກະສານ XML ດັ່ງນັ້ນຄຳນິຍາມຂອງ XSD ທາງລຸ່ມນີ້ຈະອະທິບາຍວ່າເອກະສານການກຳໜົດຄ່າຕ້ອງມີໂຄງສ້າງເພື່ອໃຊ້ກັບ Geo-Prism Registry ແນວໃດ.
 {% endhint %}
