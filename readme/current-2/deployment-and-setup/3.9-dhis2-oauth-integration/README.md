@@ -1,3 +1,3 @@
-# 3.9. DHIS2 OAuth integration
+# 3.9. ການເຊື່ອມກັນຂອງ DHIS2 OAuth (DHIS2 OAuth integration)
 
-GeoPrism Registry supports [OAuth](https://oauth.net/2/) integration with [DHIS2](https://dhis2.org/). This is accomplished primarily using GeoPrism Registry's External Systems options.
+GeoPrism Registry ຮອງຮັບການການເຊື່ອມກັນຂອງ [OAuth](https://oauth.net/2/) ກັບ [DHIS2](https://dhis2.org/). ສິ່ງນີ້ສາມາດເຮັດໄດ້ໂດຍໃຊ້ຕົວເລືອກ GeoPrism Registry's External Systems.
