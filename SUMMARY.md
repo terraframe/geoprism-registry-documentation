@@ -251,7 +251,7 @@
         * [3.4.4. ການນໍາເຂົ້າພາສາໃໝ່ຈາກຕາຕະລາງພາສາທ້ອງຖິ່ນ](readme/current-2/deployment-and-setup/3.4-localisation/3.4.4-import-a-new-locale-from-the-spreadsheet.md)
         * [3.4.5. ການສະຫຼັບພາສາ](readme/current-2/deployment-and-setup/3.4-localisation/3.4.5-switch-locale.md)
         * [3.4.6. ຖອນການຕິດຕັ້ງພາສາ](readme/current-2/deployment-and-setup/3.4-localisation/3.4.6-uninstall-a-locale.md)
-      * [3.5. System email management](readme/current-2/deployment-and-setup/3.5-system-email-management.md)
+      * [3.5. ການຈັດການອີເມວຂອງລະບົບ](readme/current-2/deployment-and-setup/3.5-system-email-management.md)
       * [3.6. Branding (Logo)](readme/current-2/deployment-and-setup/3.6-branding-logo.md)
       * [3.7. FHIR custom implementation](readme/current-2/deployment-and-setup/3.7-fhir-custom-implementation/README.md)
         * [3.7.1. Maven project setup](readme/current-2/deployment-and-setup/3.7-fhir-custom-implementation/3.7-fhir-custom-implementation.md)
