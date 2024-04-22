@@ -1,3 +1,3 @@
-# 5.2. Content-related capacities of GeoPrism Registry
+# 5.2. ຄວາມສາມາດທີ່ກ່ຽວຂ້ອງກັບເນື້ອຫາຂອງ GeoPrism Registry
 
-The following sections describe in more detail the capacities of GeoPrism Registry in managing the content being hosted in the platform (see [section 5.1](./#5.1-content) for further details on the hosted content itself).
+ຫົວຂໍ້ຕໍ່ໄປນີ້ອະທິບາຍລາຍລະອຽດເພີ່ມເຕີມກ່ຽວກັບຄວາມສາມາດຂອງ GeoPrism Registry ໃນການຈັດການເນື້ອຫາຫຼັກທີ່ຢູ່ໃນແພັດຟອມ (ເບິ່ງ[ຂໍ້ 5.1](../5.1-content/) ສໍາລັບລາຍລະອຽດເພີ່ມເຕີມກ່ຽວກັບເນື້ອໃນຫຼັກ).

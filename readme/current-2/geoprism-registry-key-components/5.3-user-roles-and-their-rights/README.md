@@ -1,3 +1,3 @@
-# 5.3. User roles and rights
+# 5.3. ບົດບາດ ແລະ ສິດຂອງຜູ້ໃຊ້
 
-This section describes ther roles currently implemented in GeoPrism Registry and the rights each of these roles has.
+ສ່ວນນີ້ອະທິບາຍເຖິງບົດບາດທີ່ປະຕິບັດໃນປັດຈຸບັນ ແລະ ສິດທິຂອງແຕ່ລະບົດບາດເຫຼົ່ານີ້ທີ່ມີຢູ່ໃນ GeoPrism Registry.
