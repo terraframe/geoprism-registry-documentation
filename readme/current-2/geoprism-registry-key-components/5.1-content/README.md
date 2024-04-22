@@ -1,7 +1,7 @@
-# 5.1. Content
+# 5.1. ເນື້ອໃນ
 
-GeoPrism Registry is being used to simultaneously host, maintain, update and share **lists** as well as associated **hierarchies** and **spatial data** for the **geographic objects** core to development in general and public health in particular.
+GeoPrism Registry ຖືກນໍາໃຊ້ເພື່ອເກັບຂໍ້ມູນ, ຮັກສາ, ປັບປຸງ ແລະ ແບ່ງປັນບັນຊີລາຍການເຊັ່ນດຽວກັນກັບລໍາດັບຊັ້ນທີ່ກ່ຽວຂ້ອງ ແລະ ຂໍ້ມູນທາງພື້ນທີ່ສໍາລັບວັດຖຸທີ່ຕັ້ງພູມສາດໃນການພັດທະນາໂດຍທົ່ວໄປ ແລະ ດ້ານສາທາລະນະສຸກໂດຍສະເພາະ.
 
-The following sections describe in more detail these different elements, as well as those associated with them (geographic features, geographic object types, data elements, classification tables).
+ຫົວຂໍ້ຕໍ່ໄປນີ້ຈະອະທິບາຍລາຍລະອຽດເພີ່ມເຕີມຂອງອົງປະກອບທີ່ແຕກຕ່າງກັນ, ສິ່ງທີ່ກ່ຽວຂ້ອງ (ລັກສະນະທາງພູມສາດ, ປະເພດວັດຖຸທາງພູມສາດ, ອົງປະກອບຂໍ້ມູນ, ຕາຕະລາງການຈັດປະເພດ).
 
-Please refer to the latest Health GeoLab Collaborative [guidance](https://healthgeolab.net/DOCUMENTS/Guidance\_Common\_Geo-registry\_Ve2.pdf) on the establishment of a common geo-registry for the simultaneous hosting, maintenance, update and sharing of lists as well as associated hierarchies and spatial data, for specific considerations to take into account when developing such content before uploading it in GeoPrism Registry (quality, unique identifier, master versus non-master list, etc.).
+ກະລຸນາເບິ່ງ[ຄໍາແນະນໍາລ່າສຸດຂອງ Health GeoLab Collaborative](https://healthgeolab.net/DOCUMENTS/Guidance\_Common\_Geo-registry\_Ve2.pdf) ກ່ຽວກັບການເກັບຂໍ້ມູນການສ້າງຕັ້ງການຈົດທະບຽນພູມສາດທົ່ວໄປ, ການບໍາລຸງຮັກສາ, ການປັບປຸງ ແລະ ການແບ່ງປັນລາຍການເຊັ່ນດຽວກັນກັບລໍາດັບຊັ້ນທີ່ກ່ຽວຂ້ອງ ແລະ ຂໍ້ມູນຂອງພື້ນທີ່, ໃນການພິຈາລະນາສະເພາະເພື່ອພັດທະນາເນື້ອຫາດັ່ງກ່າວກ່ອນທີ່ຈະອັບໂຫຼດມັນໃສ່ GeoPrism Registry (ຄຸນນະພາບ, ຕົວລະບຸທີ່ເປັນເອກະລັກ, ຕົ້ນສະບັບທຽບກັບລາຍການທີ່ບໍ່ແມ່ນຕົ້ນສະບັບ, ແລະ ອື່ນໆ).
