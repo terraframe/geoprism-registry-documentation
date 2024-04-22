@@ -269,7 +269,7 @@
         * [3.9.1. ການກຳນົດຄ່າ DHIS2](readme/current-2/deployment-and-setup/3.9-dhis2-oauth-integration/3.9-dhis2-oauth-integration.md)
       * [3.10. ການໂອນຍ້າຍຖານຂໍ້ມູນ (database migrations)](readme/current-2/deployment-and-setup/3.10-migration.md)
     * [4. ການເຊື່ອມໂຍງລະບົບພາຍນອກ](readme/current-2/external-system-integration/README.md)
-      * [4.1. Available APIs](readme/current-2/external-system-integration/4.1-available-apis.md)
+      * [4.1. APIs ທີ່ມີຢູ່](readme/current-2/external-system-integration/4.1-available-apis.md)
       * [4.2. Register and synchronize an external system](readme/current-2/external-system-integration/4.2-register-and-synchronize-an-external-system/README.md)
         * [4.2.1. DHIS2](readme/current-2/external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.1-dhis2.md)
         * [4.2.2. Reveal](readme/current-2/external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.2-reveal.md)
