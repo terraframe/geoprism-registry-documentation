@@ -1,15 +1,15 @@
-# 4.2. Register and synchronize an external system
+# 4.2. ການລົງທະບຽນ ແລະ ການເຊື່ອມຕໍ່ລະບົບພາຍນອກ
 
-Registering an external system allows to specify a persistent configuration for integrating with external systems. The external system registration is where synchronizations can be triggered (DHIS2 and FHIR only), modified, and generally referenced to understand how the integration is defined. Its primary function is for GeoPrism Registry to share its content with an external system. By storing both a standard GeoPrism Registry identifier and external system identifier, GeoPrism Registry can maintain a mapping between object instances in the two systems. The external identifiers are set in the system through the data import process.
+ການລົງທະບຽນລະບົບພາຍນອກ ອະນຸຍາດໃຫ້ມີການກໍານົດຄ່າຄົງທີ່ເພື່ອທີ່ຈະເຊື່ອມໂຍງກັບລະບົບພາຍນອກ. ການລົງທະບຽນລະບົບພາຍນອກແມ່ນ ບ່ອນທີ່ການເຊື່ອມຕໍ່ສາມາດຖືກກະຕຸ້ນ (DHIS2 ແລະ FHIR ເທົ່ານັ້ນ), ດັດແກ້, ແລະ ໂດຍທົ່ວໄປອ້າງອີງເພື່ອເຂົ້າໃຈເຖິງວິທີການກໍານົດການເຊື່ອມໂຍງ. ໜ້າທີ່ຕົ້ນຕໍຂອງມັນແມ່ນເພື່ອແບ່ງປັນເນື້ອໃນຂອງ GeoPrism Registry ກັບລະບົບພາຍນອກ. ໂດຍການເກັບຮັກສາທັງຕົວລະບຸມາດຕະຖານຂອງ GeoPrism Registry ແລະ ຕົວລະບຸຂອງລະບົບພາຍນອກ, GeoPrism Registry ສາມາດຮັກສາການເຊື່ອມໂຍງລະຫວ່າງວັດຖຸຕ່າງໆຈາກສອງລະບົບ. ຕົວລະບຸພາຍນອກຖືກກໍານົດໄວ້ໃນລະບົບໂດຍຜ່ານຂະບວນການນໍາເຂົ້າຂໍ້ມູນ.
 
-Registering an external system can only be done by a Registry Administrator or System Administrator. If a Registry Administrator creates the external system it will only be available to the organization that Registry Administrator is a member of. A System Administrator must assign the external system to an organization.
+ການລົງທະບຽນລະບົບພາຍນອກສາມາດເຮັດໄດ້ໂດຍຜູ້ບໍລິຫານການລົງທະບຽນ (Registry Administrator) ຫຼື ຜູ້ບໍລິຫານລະບົບ (System Administrator). ຖ້າຜູ້ບໍລິຫານການລົງທະບຽນ (Registry Administrator) ສ້າງລະບົບພາຍນອກມັນຈະສາມາດໃຊ້ໄດ້ກັບອົງກອນທີ່ຜູ້ບໍລິຫານການລົງທະບຽນ (Registry Administrator) ເປັນສະມາຊິກເທົ່ານັ້ນ. ຜູ້ບໍລິຫານລະບົບ (System Administrator) ຕ້ອງມອບໝາຍລະບົບພາຍນອກໃຫ້ອົງກອນໃດໜຶ່ງ.
 
-Setting up an external system synchronization enables a user to push data to that external system. Synchronization configurations require an external system to be registered and the external identifiers to be set through the data import process.
+ການຕັ້ງຄ່າການເຊື່ອມຕໍ່ລະບົບພາຍນອກເຮັດໃຫ້ຜູ້ໃຊ້ສາມາດສົ່ງຂໍ້ມູນໄປຍັງລະບົບພາຍນອກນັ້ນໄດ້. ການຕັ້ງຄ່າການເຊື່ອມຕໍ່ແມ່ນຮຽກຮ້ອງໃຫ້ລະບົບພາຍນອກມີການລົງທະບຽນ ແລະ ມີຕົວກໍານົດພາຍນອກທີ່ຖືກກໍານົດໂດຍຜ່ານຂະບວນການນໍາເຂົ້າຂໍ້ມູນ.
 
-GeoPrism Registry currently supports integrations with the following systems:
+ປະຈຸບັນ GeoPrism Registry ຮອງຮັບການເຊື່ອມໂຍງກັບລະບົບຕໍ່ໄປນີ້:
 
 * [District Health Information System](https://dhis2.org/) 2 (DHIS2)
 * [Reveal](https://revealprecision.com/)
 * [Fast Healthcare Interoperability Resources®](https://www.hl7.org/fhir/) (FHIR)
 
-The following sections provide more details on synchronizing with each system.
+ຫົວຂໍ້ຕໍ່ໄປນີ້ສາມາດໃຫ້ລາຍລະອຽດເພີ່ມເຕີມກ່ຽວກັບການເຊື່ອມຕໍ່ກັບແຕ່ລະລະບົບ.
