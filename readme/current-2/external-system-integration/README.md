@@ -1,3 +1,3 @@
-# 4. External system integration
+# 4. ການເຊື່ອມໂຍງລະບົບພາຍນອກ
 
-GeoPrism Registry supports integrating with external systems to help facilitate the exchange of data between systems. Registering an external system enables GeoPrism Registry to send data to an external system instance in a predictable way. This is useful to ensure that data in another system is using updated data from the curated data in GeoPrism Registry.
+GeoPrism Registry ຮອງຮັບການເຊື່ອມໂຍງກັບລະບົບພາຍນອກເພື່ອຊ່ວຍໃຫ້ສະດວກໃນການແລກປ່ຽນຂໍ້ມູນລະຫວ່າງລະບົບ. ການລົງທະບຽນລະບົບພາຍນອກຊ່ວຍໃຫ້ GeoPrism Registry ສົ່ງຂໍ້ມູນໄປຍັງລະບົບພາຍນອກໃນແບບທີ່ສາມາດຄາດເດົາໄດ້. ສິ່ງນີ້ມີປະໂຫຍດເພື່ອຮັບປະກັນວ່າຂໍ້ມູນໃນລະບົບອື່ນກໍາລັງໃຊ້ຂໍ້ມູນທີ່ຖືກປັບປຸງຈາກຂໍ້ມູນທີ່ຮວບຮວມໄວ້ໃນ GeoPrism Registry.
