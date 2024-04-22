@@ -1,3 +1,3 @@
-# 5. GeoPrism Registry key components
+# 5. ອົງປະກອບທີ່ສໍາຄັນ GeoPrism Registry
 
-This section covers the key components of GeoPrism Registry.
+ຫົວຂໍ້ນີ້ກວມເອົາອົງປະກອບທີ່ສໍາຄັນຂອງ GeoPrism Registry.

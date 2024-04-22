@@ -274,7 +274,7 @@
         * [4.2.1. DHIS2](readme/current-2/external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.1-dhis2.md)
         * [4.2.2. Reveal](readme/current-2/external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.2-reveal.md)
         * [4.2.3. FHIR](readme/current-2/external-system-integration/4.2-register-and-synchronize-an-external-system/4.2.3-fhir.md)
-    * [5. GeoPrism Registry key components](readme/current-2/geoprism-registry-key-components/README.md)
+    * [5. ອົງປະກອບທີ່ສໍາຄັນ GeoPrism Registry](readme/current-2/geoprism-registry-key-components/README.md)
       * [5.1. Content](readme/current-2/geoprism-registry-key-components/5.1-content/README.md)
         * [5.1.1. Geographic features and geographic objects](readme/current-2/geoprism-registry-key-components/5.1-content/5.1-content.md)
         * [5.1.2. Geographic object types and groups](readme/current-2/geoprism-registry-key-components/5.1-content/5.1-content-1.md)
