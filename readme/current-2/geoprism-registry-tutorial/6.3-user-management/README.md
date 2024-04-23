@@ -1,3 +1,3 @@
-# 6.3. User management
+# 6.3. ການຈັດການຜູ້ໃຊ້
 
-This section describes how users are managed within GeoPrism Registry.
+ຂໍ້ນີ້ອະທິບາຍວິທີການຈັດການຜູ້ໃຊ້ພາຍໃນ GeoPrism Registry.
