@@ -1,5 +1,4 @@
-# 6.4. Content setup
+# 6.4. ການຕັ້ງຄ່າເນື້ອຫາ
 
-This section describes how the GeoPrism Registry content is set up.
+ຂໍ້ນີ້ອະທິບາຍວິທີການສ້າງເນື້ອຫາ GeoPrism Registry.
 
-###
