@@ -1,3 +1,3 @@
-# 6.2. Logging in
+# 6.2. ການເຂົ້າສູ່ລະບົບ
 
-There are two ways a user can log in to GeoPrism Registry. These methods are described in detail in the following sections.
+ມີສອງວິທີທີ່ຜູ້ໃຊ້ສາມາດເຂົ້າສູ່ລະບົບ GeoPrism Registry. ວິທີການເຫຼົ່ານີ້ແມ່ນໄດ້ອະທິບາຍຢ່າງລະອຽດຢູ່ໃນຂໍ້ຕໍ່ໄປນີ້.
