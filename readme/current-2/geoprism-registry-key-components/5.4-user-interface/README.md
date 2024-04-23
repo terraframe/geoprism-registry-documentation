@@ -1,3 +1,3 @@
-# 5.4. User interface
+# 5.4. ການໂຕ້ຕອບຜູ້ໃຊ້
 
-This section describes the user interface of GeoPrism Registry.
+ສ່ວນນີ້ຈະອະທິບາຍການໂຕ້ຕອບຜູ້ໃຊ້ຂອງ GeoPrism Registry.
