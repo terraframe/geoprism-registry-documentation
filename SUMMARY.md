@@ -327,7 +327,7 @@
         * [6.4.3. Hierarchies](readme/current-2/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/README.md)
           * [6.4.3.1. ການເພີ່ມລຳດັບຊັ້ນ](readme/current-2/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.1-add-a-hierarchy.md)
           * [6.4.3.2. ການຈັດການເນື້ອໃນຂອງລໍາດັບຊັ້ນ](readme/current-2/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.2-manage-the-content-of-the-hierarchy.md)
-          * [6.4.3.3. Editing the metadata of a hierarchy](readme/current-2/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.3-edit-the-metadata-of-a-hierarchy.md)
+          * [6.4.3.3. ການແກ້ໄຂ metadata ຂອງລໍາດັບຊັ້ນ](readme/current-2/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.3-edit-the-metadata-of-a-hierarchy.md)
           * [6.4.3.4. Deleting a hierarchy](readme/current-2/geoprism-registry-tutorial/6.4-content-setup/6.4.3-hierarchies/6.4.3.4-delete-a-hierarchy.md)
       * [6.5. Content management](readme/current-2/geoprism-registry-tutorial/6.5-content-management/README.md)
         * [6.5.1. Lists and spatial data](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/README.md)
