@@ -339,7 +339,7 @@
           * [6.5.1.6. ຈັດການລາຍການ ແລະ ຂໍ້ມູນພື້ນທີ່](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.6-curate.md)
           * [6.5.1.7. ການສົ່ງອອກລາຍການ ແລະ ຂໍ້ມູນພື້ນທີ່](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.7-export.md)
         * [6.5.2. ການປ່ຽນແປງຄຳຮ້ອງຂໍ](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/README.md)
-          * [6.5.2.1. Submitting a change request](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/6.5.2.1-submit-a-change-request.md)
+          * [6.5.2.1. ການສົ່ງຄໍາຮ້ອງຂໍການປ່ຽນແປງ](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/6.5.2.1-submit-a-change-request.md)
           * [6.5.2.2. Reviewing a change request](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/6.5.2.2-review-a-change-request.md)
         * [6.5.3. Historical events](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/README.md)
           * [6.5.3.1. Creating a historical event](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.1-create.md)
