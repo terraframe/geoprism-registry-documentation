@@ -335,7 +335,7 @@
           * [6.5.1.2. ການສ້າງຊຸດ](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.2-create-a-set.md)
           * [6.5.1.3. ການຈັດການລຸ້ນຂອງຊຸດ](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.3-manage-the-versions-part-of-a-set.md)
           * [6.5.1.4. ການຄົ້ນຫາລາຍການ ແລະ ຂໍ້ມູນພື້ນທີ່](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.4-explore.md)
-          * [6.5.1.5. Editing lists and spatial data](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.5-edit.md)
+          * [6.5.1.5. ແກ້ໄຂລາຍການ ແລະ ຂໍ້ມູນພື້ນທີ່](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.5-edit.md)
           * [6.5.1.6. Curating lists and spatial data](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.6-curate.md)
           * [6.5.1.7. Exporting lists and spatial data](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.7-export.md)
         * [6.5.2. Change requests](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/README.md)
