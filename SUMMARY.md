@@ -343,9 +343,9 @@
           * [6.5.2.2. ການກວດສອບຄຳຮ້ອງຂໍການປ່ຽນແປງ](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.2-change-requests/6.5.2.2-review-a-change-request.md)
         * [6.5.3. ເຫດການທີ່ເກີດຂຶ້ນມາກ່ອນ (Historical events)](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/README.md)
           * [6.5.3.1. ການສ້າງ historical event](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.1-create.md)
-          * [6.5.3.2. Exploring historical events](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.2-explore.md)
-          * [6.5.3.3. Editing a historical event](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.3-edit.md)
-          * [6.5.3.4. Exporting historical events](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.4-export.md)
+          * [6.5.3.2. ການສຳຫຼວດ historical events](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.2-explore.md)
+          * [6.5.3.3. ການແກ້ໄຂ historical events](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.3-edit.md)
+          * [6.5.3.4. ການສົ່ງອອກ historical events](readme/current-2/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.4-export.md)
 
 ## Fundamentals
 
