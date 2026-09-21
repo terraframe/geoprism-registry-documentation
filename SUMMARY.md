@@ -231,7 +231,7 @@
           * [6.5.3.2. Exploring historical events](readme/current-1/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.2-explore.md)
           * [6.5.3.3. Editing a historical event](readme/current-1/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.3-edit.md)
           * [6.5.3.4. Exporting historical events](readme/current-1/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/6.5.3.4-export.md)
-  * [Version 2.0.0-Beta](readme/current-1-1/README.md)
+  * [Version 2.0.0](readme/current-1-1/README.md)
     * [Introduction](readme/current-1-1/introduction.md)
     * [GeoPrism Registry as a Common Geo-registry](readme/current-1-1/geoprism-registry-as-a-common-geo-registry.md)
     * [Deployment and setup](readme/current-1-1/deployment-and-setup/README.md)
