@@ -1,4 +1,4 @@
-# 6.4.1.5. Delete a group
+# Delete a group
 
 To delete a group:
 

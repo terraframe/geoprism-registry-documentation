@@ -1,4 +1,4 @@
-# 6.4.1.3. Managing the attributes for a Geo-Object Type in a group
+# Managing the attributes for a Geo-Object Type in a group
 
 Adding a Geo-Object Type to a group is done as follows:
 

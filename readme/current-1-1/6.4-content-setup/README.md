@@ -1,3 +1,4 @@
-# 6.4. Content setup
+# Configure
 
-This section describes how the GeoPrism Registry content is set up.
+
+

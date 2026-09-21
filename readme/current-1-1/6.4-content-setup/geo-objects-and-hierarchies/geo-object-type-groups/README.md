@@ -1,0 +1,2 @@
+# Geo-Object Type Groups
+

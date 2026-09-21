@@ -1,4 +1,4 @@
-# 6.4.1.2. Adding a Geo-Object Type to a group
+# Adding a Geo-Object Type to a group
 
 Adding a Geo-Object Type to a group happens as follows:
 

@@ -1,4 +1,4 @@
-# 6.4.1.4. Editing the metadata of a group
+# Editing the metadata of a group
 
 To edit the metadata of a group:
 

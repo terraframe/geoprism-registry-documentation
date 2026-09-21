@@ -1,4 +1,4 @@
-# 6.4.1.1. Adding a group
+# Adding a group
 
 1. Navigate to the Geo-Objects and Hierarchies page from the sidebar.<br>
 2.  If needed, expand the _Geo-Object Types_ column on the sidebar by clicking the arrow at the end.\\
