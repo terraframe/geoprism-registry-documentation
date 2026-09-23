@@ -20,8 +20,11 @@
     | Geometry Type                                                       | The geometry type (point, line, or polygon) that all instance data loaded to this Geo-Object Type group must adhere to.                                                                                                                              |          |
     | Enable geometry editing                                             | Sets whether the Geo-Object geometries can be edited through GeoPrism Registry's web-based editing tools.                                                                                                                                            |          |
     | Organization                                                        | The organization this Geo-Object Type group will be managed by.                                                                                                                                                                                      |          |
+    | Concept Set                                                         | The concept set this Geo-Object Type will have available to use on an attribute during import. This is how Concept Sets are used as constraints for Geo-Object values.                                                                               |          |
 
-    <figure><img src="https://lh4.googleusercontent.com/1eLPy3eTTpNoa7YxT8HbCbRm-rUqct8v332cLNTe4DU19L6AvsUXaLHRDQdGnJc2Q1ydgYT4qSfp90Ey7olh2b8PtYk1QENytALemvhAZ4_Zss8-mLgztmNtkC7PvJCUKtwBE_Bskx8Iu8I861d1Cl9Q7cvmEVJlNQhfPzMblNQSZee9oLhaEo3z" alt=""><figcaption></figcaption></figure>
+    <br>
+
+    <figure><img src="../../../../../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 4.  Click the **OK** button. Once one or more group members have been created, you will be able to see them under the Geo-Object Type group in the Geo-Object Types section on the sidebar.<br>
 
     <figure><img src="../../../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>

@@ -1,6 +1,6 @@
 # Concept Classes
 
-See [.](./ "mention") for a definiition of a Concept.
+See [.](./ "mention") for a definition of Concept and general overview.
 
 A Concept Class defines the attribution structure for concepts contained within a Concept Set, including enumerations, taxonomies, and ontologies. This acts as a template that defines what information each Concept in a Concept Set has. Every Concept has a name, but a Concept Class could also add a definition, a code, or a source.
 

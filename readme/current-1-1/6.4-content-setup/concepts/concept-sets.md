@@ -1,5 +1,7 @@
 # Concept Sets
 
+See [.](./ "mention") for a definition of Concept and general overview.
+
 Concept sets define a set of concept classes and edges that together define a formally defined constraint that can be used on data in the system.&#x20;
 
 There are two types of concept sets:

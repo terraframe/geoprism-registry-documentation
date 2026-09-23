@@ -1,6 +1,8 @@
 # Adding a group
 
-1. Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.
+1.  Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.<br>
+
+    <figure><img src="../../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
 2.  Click the **Add Group** button.
 
     <figure><img src="../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>

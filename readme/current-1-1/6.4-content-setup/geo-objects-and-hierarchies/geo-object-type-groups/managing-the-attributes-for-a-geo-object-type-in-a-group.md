@@ -1,7 +1,7 @@
 # Managing the attributes for a Geo-Object Type in a group
 
 1. Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.
-2.  Click the three dot menu option button to open the options for that group. Select the _Add Sub Type_ option to open the form for adding a Geo-Object Type as a member to the group.<br>
+2.  Click the three dot menu option button to open the options for that group. Select the _Edit_.<br>
 
     <figure><img src="../../../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 3.  The _Manage Geo-Object Type_ window will open. Scroll down to the _Attributes_ section and click the **+ Add** button.
