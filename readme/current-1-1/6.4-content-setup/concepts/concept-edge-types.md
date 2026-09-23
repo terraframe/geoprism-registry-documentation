@@ -1,10 +1,8 @@
 # Concept Edge Types
 
-Concept edge types define how concept classes can relate to each other. Concept classes can represent any type of object including an attribute on a Geo-Object Type making it possible to model a concept edge type that shows relationship between a Geo-Object Types attributes and a taxonomy.
+Concept edge types define how concept classes can relate to each other. Typically, concept edge types are used to model hierarchical relationships between concepts.  For instance, a concept edge type of 'Is A' can be used to model how different structure types relate to each other. A building is a structure, and residential building is a building. Therefore, a residential building is also a structure.
 
 Most use cases will create an edge where the parent and child concept classes are the same. This specifies that a concept edge type that has the same concept class set for the parent and child options will allow relationships between nodes in the same taxonomy tree.
-
-
 
 NOTE: After creation the values of the concept edge type taxonomy must be loaded into the system through the _Import_ [_Business Data_ importer](../../curate/import-business-data.md).
 

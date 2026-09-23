@@ -1,6 +1,10 @@
 # Concept Classes
 
-Concept classes define types of data in the system (e.g. levee, structure, occupancy type, etc...). By themselselves they are not linked to any other data in the system.&#x20;
+See [.](./ "mention") for a definiition of a Concept.
+
+A Concept Class defines the attribution structure for concepts contained within a Concept Set, including enumerations, taxonomies, and ontologies. This acts as a template that defines what information each Concept in a Concept Set has. Every Concept has a name, but a Concept Class could also add a definition, a code, or a source.
+
+By themselves a Concept Class is not linked to any other data in the system. They must be assigned to Concept Edge Type and Concept Set before that Concept Set can be used on a Geo-Object Type attribute.
 
 ### Creating a concept class
 
