@@ -6,9 +6,7 @@ Registry Administrators and Registry Maintainers can import the lists and spatia
 
 To import Geo-Object data into GeoPrism Registry, we have to take into account the Geo-Object Types, attributes, and hierarchies that have been defined. The data to be imported needs to be formatted so the fields/columns can be mapped onto the attributes of the relevant Geo-Object Type, and where available, hierarchy information can be matched with the correct hierarchy.
 
-## Importing a spreadsheet (list)
-
-Lists are imported in GeoPrism Registry under the form of a spreadsheet.
+## Importing a spreadsheet&#x20;
 
 To be able to smoothly import a list to GeoPrism Registry, the following basic requirements must be followed:
 
@@ -26,16 +24,13 @@ If the spreadsheet has multiple tabs only the first tab will be used for the imp
 
 Importing a spreadsheet happens as follows:
 
-1.  Go to the _Import_ module either by clicking the module icon on the homepage or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/4ieAODNcwrlKZ6iUiZnYlbLGZmQJiEse_Z8mls7B1vwiKHOfldO3TWH3smxfa1IJQb_BhxM7c6iTe--Wm0sPvlovt4jp-DaoMkTqq5MNslg-imIrXqyoa3A3Fnq-Ct_7AAaQzW-xMCIbev1kGSUU8xN5v8iFIayG4z8c4H78mU80Ms6J_4PBB1ghQw)) in the upper right corner and selecting _Import_.\\
+1.  Navigate to the _Import_ _Geospatial Data page in the sidebar._<br>
 
-    <figure><img src="../../../../.gitbook/assets/image (4) (2) (1).png" alt=""><figcaption></figcaption></figure>
-2.  If an external system has been registered in GeoPrism Registry (see [section 4](../../../../versions/current/external-system-integration.md)), a window will open providing the option for the import to take place from an external system or from your computer. Choose the option that applies.\\
-
-    <figure><img src="https://lh5.googleusercontent.com/gzrGuLtTRrA5Mjzgxqb-3bCZ8EupCmn-DBqw8im3wPxPxLSvRTrUsm6HUrlbdd2UejfDD1ZUrEgOkNy0a4ZAPjEAwqbG6-3zpMSHhAOhfIrjCMI5jNdgCsVuihaLS4AT5ULbSG7-u5LECgtna3HlKBua4dbc2PacOm8ZF82kxjo7jtMMIs3Y0LFSlQ" alt=""><figcaption></figcaption></figure>
-3.  Ensure the _Import Spreadsheet_ tab is selected.\\
+    <figure><img src="../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure>
+2.  Ensure the _Import Spreadsheet_ tab is selected.
 
     <figure><img src="../../../../.gitbook/assets/image (7) (1) (2).png" alt=""><figcaption></figcaption></figure>
-4.  Fill out the following fields for the list you would like to import:\\
+3.  Fill out the following fields for the list you would like to import:
 
     | Field             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Required |
     | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -47,16 +42,20 @@ Importing a spreadsheet happens as follows:
     | Import blank cell | Selecting this option ensures that if there are empty cells in the list being imported, they are imported as empty attribute values (overwrite). This option gives more control to ensure that updates will either only update cells with values or to overwrite existing values with null values.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |          |
 
     <figure><img src="https://lh6.googleusercontent.com/q_Kt90IuIgvWshDkgY5dbR1l_tcmlloKsfumtiAxKKFWn5HzzLeOn90f91SqqdpYJ7PtRgZswMNcJhMwtV0akMaOOrioiJ0Avs_251HMUO-ikiz4TpJnajBzU5zNKiV3bDR7JxN0pX1HKawyPo8yuEWK1v5hNpENZOo9tAE4fb6wzuPLxKI4S3w1JA" alt=""><figcaption></figcaption></figure>
-5.  Click the **Choose file** button and in the window that opens, browse to the location of the spreadsheet you would like to import. Select the file and click **Open**.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
-6. Click the **Submit** button in the _Spreadsheet import_ window.
-7.  The _Attribute Matching_ window opens containing the attributes for the Geo-Object Type. The number of attributes that appears depends on the number of attributes created for the Geo-Object Type for which the spreadsheet is being imported. In the dropdown option for each field, choose the attribute from the list being imported that matches the created attribute of the Geo-Object Type. Click the **Next** button.\
+4. Click the **Choose file** button and select the shapfile you'd like to download.
+5. Click the **Submit** button in the _Spreadsheet import_ window.
+6.  The _Attribute Matching_ window opens containing the attributes for the Geo-Object Type. The number of attributes that appears depends on the number of attributes created for the Geo-Object Type for which the spreadsheet is being imported. In the dropdown option for each field, choose the attribute from the list being imported that matches the created attribute of the Geo-Object Type. Click the **Next** button.\
     \
     _&#x4E;ote:_ When the spreadsheet is formatted correctly and completely as mentioned at the start of this section, you should be able to match all of its attributes to the Geo-Object Type for which it is being imported. Otherwise, some of the attributes will be left blank.
 
     <figure><img src="../../../../.gitbook/assets/image (11) (3).png" alt=""><figcaption></figcaption></figure>
-8.  The _Hierarchy Matching_ window opens listing the Geo-Object Types considered as parents in to the Geo-Object Type for which the spreadsheet is being imported. The number of parent Geo-Object Types that will be listed depends on the position of the imported Geo-Object Type data in the hierarchy. Fill out the following fields for each parent Geo-Object Type:\\
+7. The Alternative ID Mapping window opens providing an opportunity to add a mapping to additional ID columns from the shapefile so that can be included in the import.&#x20;
+   1. Click _Add ID Mapping._
+   2. Select a source authority and an attribute from the source data to be included.
+   3.  Click _Next._<br>
+
+       <figure><img src="../../../../.gitbook/assets/Screenshot from 2026-09-23 15-41-53.png" alt=""><figcaption></figcaption></figure>
+8.  The _Hierarchy Matching_ window opens listing the Geo-Object Types considered as parents in to the Geo-Object Type for which the spreadsheet is being imported. The number of parent Geo-Object Types that will be listed depends on the position of the imported Geo-Object Type data in the hierarchy. Fill out the following fields for each parent Geo-Object Type:
 
     | Field                     | Description                                                                                                                                                     | Required |
     | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -67,26 +66,7 @@ Importing a spreadsheet happens as follows:
 
     <figure><img src="https://lh6.googleusercontent.com/yz7Xwzre_HPMwY0HHOl1QyaEJU6-WfxBLaETyPJB9y4Aj93EgfpFWPmKAMItWC70ygZpx-3v1qrAOnSB6wss12E9Em4kBGM-cfvIboC7Q7Jxn7rTmZxSFXlnJLvyjKDAh3hB1PrVrkv-e4_sWVspvbJLPA6QZ83hl35te5Gw2PYEC8nI7zcjCLEBJg" alt=""><figcaption></figcaption></figure>
 9. Click **Submit**.
-10. The import will start processing. Click the **Go to jobs** button to view the progress.\\
+10. The import will start processing. Click the **Go to jobs** button to view the progress. This will direct you to the _Scheduled Jobs_ page.&#x20;
 
     <figure><img src="../../../../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
-11. This will direct you to the _Scheduled Jobs_ module. If there is no problem with the imported spreadsheet, the page will look as below. You will see the imported spreadsheet as one of the completed jobs when you click on the **View completed jobs** button.\\
 
-    <figure><img src="../../../../.gitbook/assets/image (21) (1).png" alt=""><figcaption></figcaption></figure>
-12. If there is any problem with the spreadsheet being imported, you will see this in the _In progress_ section, with the part of the process with the problem highlighted in red. Click on the **Resolve Problems** button to see the details of the problem.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (23) (1) (1).png" alt=""><figcaption></figcaption></figure>
-13. The _Job Details_ page will provide the problem type, message, and row number details of the issue and give you options on how to solve each problem when you click the **Resolve** button.\
-    \
-    _&#x4E;ote:_ Depending on the problem type, GeoPrism Registry may ask you to fix the problem in the spreadsheet itself and then re-import it.
-
-    <figure><img src="../../../../.gitbook/assets/image (10) (2).png" alt=""><figcaption></figcaption></figure>
-14. Depending on the problem type, there may also be cases when you may ignore the errors and proceed with the import. When this is the case, click the **Ignore All Errors** button.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (3) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
-15. A warning message will appear asking if you want to mark the import as completed. Click the **Complete Import** button. This will complete the import process.\\
-
-    <figure><img src="https://lh4.googleusercontent.com/dUb_qP2jbs_1Jhz2M7sL4o7SMNPXek9zMtd0Xp46sva4UFIpCsTrKtYZbineD3KV-a0sVu834moh72446WVaQ0JkGzugodEEHi86Mkar-GLpdgZ6t_GmLIclh1uBlGl6d-FGYyKI6-zGHAP8hpQ7KGXEjqGCiI1pDM-Zw4ULZizvbFCxF54ftmAmcQ" alt=""><figcaption></figcaption></figure>
-16. You will see the imported spreadsheet when you click on the **View completed jobs** button.\\
-
-    <figure><img src="https://lh5.googleusercontent.com/6ZOZD5kh6hO150MD-aQutGeXQFrKZmW8v3r3DGdr8SwAI8_BJfQ5l7BLHLx62dH8r5OTczV8MOgAmaw9NoOMKTOVW3Pi_8cfOQwoeTgnRHRQ3LXkGLyzGtuAs7D-04OvCuhUlnZ11yIn6uxdXvPh7ohny0GlrwYzGqVoLLfE76PTVgzM4fbt97FY0w" alt=""><figcaption></figcaption></figure>
