@@ -1,18 +1,12 @@
 # Adding a Geo-Object Type to a group
 
-Adding a Geo-Object Type to a group happens as follows:
 
-1.  Go to the _Geo-Objects and Hierarchies_ module either by clicking the Geo-Objects and Hierarchies module icon in the main menu page or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/iuPmL_Z1smFoRNK34qpVh9--96pLjj8A-P4QdCAlpcvxkSIfD3bihusMrW6MlenmddHse4DMtkIfNaLzts2tH95aM8vei5RBC6-FuLkbYRi4j4V9LiSgid0KfK2wPUgPo-Oim_IF7FqvJW8Ck-ESi0sPLJ2Hi6rets24LbXMhLUD7h3zOJePImZz)) in the upper right corner and selecting _Geo-Objects and Hierarchies_.\\
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-2.  If needed, expand the _Geo-Object Types_ column on the sidebar by clicking the arrow at the end.\\
+1. Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.
+2.  Click the three dot menu option button to open the options for that group. Select the _Add Sub Type_ option to open the form for adding a Geo-Object Type as a member to the group.<br>
 
-    <figure><img src="../../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
-3. Scroll down the _Geo-Object Types_ column to the organization you are a part of and find the Geo-Object Type group you would like to add a Geo-Object Type to.
-4.  Click the **+** button (![](https://lh3.googleusercontent.com/oA1JGDvIRjYWJbkQ6qnzwRzidAIp3crvNXzq9QGZiEcU-Ds_Ip32UH75jwICYZvIN6-eC2Eejc6pbFWAd2RQUFto26bBQOdC-u7FCxBBurtg4lFRmgBYuuphrlRhSwQB-1UtTuE_ILfJhnyZ9wWuwrkP-NQ4wFT1Vptl-pKt1OT_Neaf6OuH3B6k)) at the end of the group name to open the form for adding a Geo-Object Type as a member to the group.\\
-
-    <figure><img src="../../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-5.  Fill out all the required fields and any optional fields that are relevant in the form that appears. Note that some of the fields cannot be edited as these properties are inherited from the Geo-Object Type group.\\
+    <figure><img src="../../../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+3.  Fill out all the required fields and any optional fields that are relevant in the form that appears. Note that some of the fields cannot be edited as these properties are inherited from the Geo-Object Type group.
 
     | Field                                                               | Description                                                                                                                                                                                                                                          | Required |
     | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -28,6 +22,6 @@ Adding a Geo-Object Type to a group happens as follows:
     | Organization                                                        | The organization this Geo-Object Type group will be managed by.                                                                                                                                                                                      |          |
 
     <figure><img src="https://lh4.googleusercontent.com/1eLPy3eTTpNoa7YxT8HbCbRm-rUqct8v332cLNTe4DU19L6AvsUXaLHRDQdGnJc2Q1ydgYT4qSfp90Ey7olh2b8PtYk1QENytALemvhAZ4_Zss8-mLgztmNtkC7PvJCUKtwBE_Bskx8Iu8I861d1Cl9Q7cvmEVJlNQhfPzMblNQSZee9oLhaEo3z" alt=""><figcaption></figcaption></figure>
-6.  Click the **OK** button. Once one or more group members have been created, you will be able to see them under the Geo-Object Type group in the Geo-Object Types section on the sidebar (e.g., _Health facility (MOH)_ Geo-Object Type group in the image below).\\
+4.  Click the **OK** button. Once one or more group members have been created, you will be able to see them under the Geo-Object Type group in the Geo-Object Types section on the sidebar.<br>
 
-    <figure><img src="https://lh5.googleusercontent.com/zbxE0hEuzGjlPCAqFrZtJIRKQ7ZiKv8r2clieF1UGMlfmCcLLX8ncOtl0r4NNtaWnKhGlU2cXNOjNzvOJVZ8NqkV4HqidQFQ-MwtzUHcq95uGoBBIR7x6AWwFfYirLU1EePT1q_uJzuThNYw_4MRe-LtDYHVz5edPMWi5A4oSZBRGiOjjS-e2Pnb" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>

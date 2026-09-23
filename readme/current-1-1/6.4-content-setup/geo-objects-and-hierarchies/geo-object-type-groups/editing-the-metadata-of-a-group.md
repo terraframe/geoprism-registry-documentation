@@ -2,16 +2,11 @@
 
 To edit the metadata of a group:
 
-1.  Go to the _Geo-Objects and Hierarchies_ module either by clicking the Geo-Objects and Hierarchies module icon in the main menu page or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/iuPmL_Z1smFoRNK34qpVh9--96pLjj8A-P4QdCAlpcvxkSIfD3bihusMrW6MlenmddHse4DMtkIfNaLzts2tH95aM8vei5RBC6-FuLkbYRi4j4V9LiSgid0KfK2wPUgPo-Oim_IF7FqvJW8Ck-ESi0sPLJ2Hi6rets24LbXMhLUD7h3zOJePImZz)) in the upper right corner and selecting Geo-Objects and Hierarchies.\\
+1. Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.
+2.  Click the three dot menu option button to open the options for that group. Select the _Add Sub Type_ option to open the form for adding a Geo-Object Type as a member to the group.<br>
 
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
-2.  If needed, expand the Geo-Object Types column on the sidebar by clicking the arrow at the end.\\
-
-    <figure><img src="../../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
-3.  Scroll down the _Geo-Object Types_ column to the organization you are a part of. Find the Geo-Object Type group you want to edit and click the **Edit** button (![](https://lh5.googleusercontent.com/eWbIfLxWl4e8EDQxhct0paMJLckzJIfSi1K3wE4RtIDwyiWkSj73jYAYwkyoa-MkAjmqYo96Ete6QlKkUQ0omVtCFnaH6LfJRAPZrmrbDaSTWLHSImgY-cm-4P4S8h-Pgz0K9ql8d1nuIleRLMN_0Yzbajxj37KP5XNSfKtF3Lhs4O1ZVIK9S3PR)) beside its name.\\
-
-    <figure><img src="../../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
-4.  The _Manage Geo-Object Type_ window will open. Edit the group information as necessary.\\
+    <figure><img src="../../../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+3.  The _Manage Geo-Object Type_ window will open. Edit the group information as necessary.\\
 
     <figure><img src="https://lh5.googleusercontent.com/LUq2gF_rVLwaPqF1NQMcWjIxUWTeO7DzHB0lk4PKjennvyCI0HOu0gbn7-VZ7xpza9H1DwpQyKpg_ISpnW2A62Gt2TS8HBAnnVUi2wFfeMrLnTQ0roHYhx4HB2Q6FHKoPulHgxzOBq6frlLbwQu_BK-18-LPIOV69fWPPULED_ytG0tQTD7oduge" alt=""><figcaption></figcaption></figure>
-5. Click the **Submit** button.
+4. Click the **Submit** button.

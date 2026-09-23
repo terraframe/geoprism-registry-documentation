@@ -1,13 +1,10 @@
 # Adding a group
 
-1. Navigate to the Geo-Objects and Hierarchies page from the sidebar.<br>
-2.  If needed, expand the _Geo-Object Types_ column on the sidebar by clicking the arrow at the end.\\
-
-    <figure><img src="../../../../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
-3.  Scroll down the _Geo-Object Types_ column to the organization you are a part of and click the **Add Group** button.\\
+1. Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.
+2.  Click the **Add Group** button.
 
     <figure><img src="../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
-4. Fill out all the required fields and any optional fields that are relevant in the form that appears.
+3. Fill out all the required fields and any optional fields that are relevant in the form that appears.
 
 | Field                                                               | Description                                                                                                                                                                                                                                          | Required |
 | ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
@@ -24,6 +21,4 @@
 
 <figure><img src="https://lh3.googleusercontent.com/DWx50Sipzjq4Oddh9w1bM1_qnDFQbsX_t_9WaoNBF7r5qVWLwUFOmx6de-kWpgW1RPLWNZjUqNo7p8TKtPlA_j41xvpPbsr3E-UvVpN-Z8wG4q77DOYQM-4vHi19fLeaDW83oa-7NbLcdDLfcEzjBxRAFZ2YStw2mXvGGNrWseiRdmxL-XoYnN8O" alt=""><figcaption></figcaption></figure>
 
-5\. Click the **OK** button. The newly created group will now show up under the _Geo-Object Types_ column on the sidebar. A group is distinguished from a Geo-Object Type by the **+** button (![](https://lh3.googleusercontent.com/oA1JGDvIRjYWJbkQ6qnzwRzidAIp3crvNXzq9QGZiEcU-Ds_Ip32UH75jwICYZvIN6-eC2Eejc6pbFWAd2RQUFto26bBQOdC-u7FCxBBurtg4lFRmgBYuuphrlRhSwQB-1UtTuE_ILfJhnyZ9wWuwrkP-NQ4wFT1Vptl-pKt1OT_Neaf6OuH3B6k)) at the end of the group name.\
-\
-![](<../../../../../.gitbook/assets/image (11) (1) (1).png>)
+5\. Click the **OK** button. The newly created group will now show up under the _Geo-Object Types_ column on the sidebar. <br>

@@ -2,9 +2,7 @@
 
 To delete a group:
 
-1.  Go to the _Geo-Objects and Hierarchies_ module either by clicking the Geo-Objects and Hierarchies module icon in the main menu page or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/iuPmL_Z1smFoRNK34qpVh9--96pLjj8A-P4QdCAlpcvxkSIfD3bihusMrW6MlenmddHse4DMtkIfNaLzts2tH95aM8vei5RBC6-FuLkbYRi4j4V9LiSgid0KfK2wPUgPo-Oim_IF7FqvJW8Ck-ESi0sPLJ2Hi6rets24LbXMhLUD7h3zOJePImZz)) on the upper right corner and selecting _Geo-Objects and Hierarchies_.\\
-
-    <figure><img src="../../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+1. Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.
 2.  If needed, expand the _Geo-Object Types_ column on the sidebar by clicking the arrow at the end.\\
 
     <figure><img src="../../../../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
