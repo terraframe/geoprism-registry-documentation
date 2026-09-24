@@ -1,4 +1,4 @@
-# Apache Jena
+# Apache Jena External System
 
 ## Registration
 
@@ -23,7 +23,7 @@ The process for registering an Apache Jena instance in GeoPrism Registry is as f
 | URL                 | The URL of the Jena instance (ex: [https://example.com:8182](https://example.com:8182))                                     | Yes       |
 | Authentication Type | <ul><li>None</li><li>IAM</li></ul>                                                                                          | Yes       |
 
-### 4.2.1.2. Synchronization
+### Synchronization
 
 GeoPrism Registry supports using a Jena external system synchronization to push data to a Jena instance. The purpose of the external system synchronization is to define the Spatial Knowledge Graphs, the types that are included in them, and the time period of the data that is sent to the Jena instance.&#x20;
 
