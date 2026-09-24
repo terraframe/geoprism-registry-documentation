@@ -359,7 +359,7 @@
         * [Curating Lists and Spatial Data](readme/v2.0.0/explore/lists-and-spatial-data/curating-lists-and-spatial-data.md)
         * [Exporting Lists and Spatial Data](readme/v2.0.0/explore/lists-and-spatial-data/exporting-lists-and-spatial-data.md)
       * [Labeled Property Graphs](readme/v2.0.0/explore/labeled-property-graphs.md)
-      * [Spatial Knowledge Graphs](readme/v2.0.0/explore/spatial-knowledge-graphs.md)
+      * [Spatial Knowledge Graphs (SKG)](readme/v2.0.0/explore/spatial-knowledge-graphs-skg.md)
   * [ສະບັບ 1.4.x (ພາສາລາວ)](readme/current-2/README.md)
     * [1. ບົດນຳ](readme/current-2/introduction.md)
     * [2. ຜູ້ຂຽນ](readme/current-2/introduction-1.md)
