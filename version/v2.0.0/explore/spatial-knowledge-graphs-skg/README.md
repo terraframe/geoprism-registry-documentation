@@ -1,10 +1,12 @@
 # Spatial Knowledge Graphs (SKG)
 
-The _Spatial Knowledge Graph_ publishing page enables configuring, saving, managing, and publishing spatial knowledge graphs (SKG) to be used by external systems. A published spatial knowledge graph defines the types that are included in them and the time period of the data.&#x20;
+A Spatial Knowledge Graph (SKG) is a published snapshot of your Geo-Objects, business objects, and edges, in a standard format other systems can query.
+
+The _Spatial Knowledge Graph_ publishing page enables configuring, saving, managing, and publishing spatial knowledge graphs to be used by external systems. A published spatial knowledge graph defines which types it includes and the time period its data covers.
 
 #### Generated Format
 
-A published SKG generates [Resource Description Framework (RDF)](https://www.w3.org/RDF/) tripples.
+A published SKG generates [Resource Description Framework (RDF)](https://www.w3.org/RDF/) triples.
 
 
 
