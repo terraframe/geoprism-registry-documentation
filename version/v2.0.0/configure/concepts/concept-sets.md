@@ -2,7 +2,7 @@
 
 See [.](./ "mention") for a definition of Concept and general overview.
 
-A Concept Set defines the allowed values for a Geo-Object Type attribute, drawn from your imported Concepts. Concept Sets are defined by a set of concept classes and concept edge types.
+A Concept Set defines the allowed values for a Geo-Object Type attribute, drawn from your imported Concepts. Each Concept Set is defined by a set of concept classes and concept edge types.
 
 There are two types of concept sets:
 
@@ -15,14 +15,14 @@ Taxonomies define a hierarchical set of data for when classifications of informa
 
 Example:&#x20;
 
-If a taxonomy edge type and the associated concept edges (concepts) define the types of human built physical structures (e.g. building, dam, etc...), a concept set can package them together. That concept set can then be assigned to a Geo-Object Type and used during import to specify that the values of a Geo-Object attribute must be one of those physical structure options. A Geo-Object attribute value of "Dam" will be allowed because it's a type of built physical structure as defined by the taxonomy.
+If a taxonomy edge type and the imported concept edges define the types of human built physical structures (e.g. building, dam, etc...), a concept set can package them together. That concept set can then be assigned to a Geo-Object Type and used during import to specify that the values of a Geo-Object attribute must be one of those physical structure options. A Geo-Object attribute value of "Dam" will be allowed because it's a type of built physical structure as defined by the taxonomy.
 
 #### Where concept sets are used
 
 A concept set can be specified on a Geo-Object Type when [creating one new](../geo-objects-and-hierarchies/geographic-object-types-outside-a-group/) and used during import to apply a constraint to an attribute on the data.
 
 {% hint style="info" %}
-<mark style="color:$danger;">Pre-requisite: The concept edge type values must be</mark>[ <mark style="color:$danger;">imported</mark> ](../../curate/import-business-data.md)<mark style="color:$danger;">first before adding a concept set to a new Geo-Object Type and before importing Geo-Object data to that type in the system.</mark>
+Pre-requisite: The concept edge type values must be[ imported ](../../curate/import-business-data.md)first before adding a concept set to a new Geo-Object Type and before importing Geo-Object data to that type in the system.
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>

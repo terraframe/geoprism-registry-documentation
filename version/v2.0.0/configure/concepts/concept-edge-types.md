@@ -7,7 +7,7 @@ A Concept Edge Type defines a kind of relationship between Concepts, such as 'Is
 In most cases, set the parent and child to the same Concept Class. This lets Concepts in the same taxonomy be related to each other.
 
 {% hint style="info" %}
-NOTE: After creation the values of the concept edge type taxonomy must be loaded into the system through the _Import_ [_Business Data_ importer](../../curate/import-business-data.md).\
+After creation the values of the concept edge type taxonomy must be loaded into the system through the _Import_ [_Business Data_ importer](../../curate/import-business-data.md).\
 \
 This is how Concepts are added to the registry.
 {% endhint %}
