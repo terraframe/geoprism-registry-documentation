@@ -1,6 +1,6 @@
-# 4.2. Register and synchronize an external system
+# Register an External System
 
-Registering an external system allows to specify a persistent configuration for integrating with external systems. The external system registration is where synchronizations can be triggered (Apache Jena and FHIR only), modified, and generally referenced to understand how the integration is defined. Its primary function is to enable pushing content to an external system.
+Registering an external system lets you specify a persistent configuration for integrating with external systems. The external system registration is where synchronizations can be triggered (Apache Jena and FHIR only), modified, and generally referenced to understand how the integration is defined. Its primary function is to enable pushing content to an external system.
 
 Registering an external system can only be done by a Registry Administrator or System Administrator. If a Registry Administrator creates the external system it will only be available to the organization that Registry Administrator is a member of. A System Administrator must assign the external system to an organization.
 
@@ -11,4 +11,4 @@ GeoPrism Registry currently supports integrations with the following systems:
 * Apache Jena
 * [Fast Healthcare Interoperability Resources®](https://www.hl7.org/fhir/) (FHIR)
 
-The following sections provide more details on synchronizing with each system.
+The following sections provide more details on registering each type of system.

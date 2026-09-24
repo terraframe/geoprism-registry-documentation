@@ -2,7 +2,7 @@
 
 See [.](./ "mention") for a definition of Concept and general overview.
 
-A Concept Class defines the attribution structure for concepts contained within a Concept Set, including enumerations, taxonomies, and ontologies. This acts as a template that defines what information each Concept in a Concept Set has. Every Concept has a name, but a Concept Class could also add a definition, a code, or a source.
+A Concept Class defines the attribution structure for concepts contained within a Concept Set, including enumerations and taxonomies. This acts as a template that defines what information each Concept in a Concept Set has. Every Concept has a name, but a Concept Class could also add a definition, a code, or a source.
 
 By themselves a Concept Class is not linked to any other data in the system. They must be assigned to Concept Edge Type and Concept Set before that Concept Set can be used on a Geo-Object Type attribute.
 
@@ -11,7 +11,6 @@ By themselves a Concept Class is not linked to any other data in the system. The
 1. Navigate to _Concept Classes._
 2. Click on _Add._
 3. Fill out the form and push submit.
-4. Fill out the form and push submit.
 
 <figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 

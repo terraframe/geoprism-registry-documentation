@@ -2,7 +2,7 @@
 
 See [.](./ "mention") for a definition of Concept and general overview.
 
-Concept sets define a set of concept classes and edges that together define a formally defined constraint that can be used on data in the system.&#x20;
+A Concept Set defines the allowed values for a Geo-Object Type attribute, drawn from your imported Concepts. Concept Sets are defined by a set of concept classes and concept edge types.
 
 There are two types of concept sets:
 
@@ -15,13 +15,15 @@ Taxonomies define a hierarchical set of data for when classifications of informa
 
 Example:&#x20;
 
-If a taxonomy edge type defines the types of human built physical structures (e.g. building, dam, etc...), a concept set can use that to specify that the values of a Geo-Object attribute must be one of those physical structure options. A Geo-Object attribute value of "Dam" will be allowed because it's a type of built physical structure as defined by the taxonomy.
+If a taxonomy edge type and the associated concept edges (concepts) define the types of human built physical structures (e.g. building, dam, etc...), a concept set can package them together. That concept set can then be assigned to a Geo-Object Type and used during import to specify that the values of a Geo-Object attribute must be one of those physical structure options. A Geo-Object attribute value of "Dam" will be allowed because it's a type of built physical structure as defined by the taxonomy.
 
-#### Where concept sets be used
+#### Where concept sets are used
 
-A concept set can be specified on a Geo-Object Type when [creating one new](../geo-objects-and-hierarchies/geographic-object-types-outside-a-group/).&#x20;
+A concept set can be specified on a Geo-Object Type when [creating one new](../geo-objects-and-hierarchies/geographic-object-types-outside-a-group/) and used during import to apply a constraint to an attribute on the data.
 
+{% hint style="info" %}
 <mark style="color:$danger;">Pre-requisite: The concept edge type values must be</mark>[ <mark style="color:$danger;">imported</mark> ](../../curate/import-business-data.md)<mark style="color:$danger;">first before adding a concept set to a new Geo-Object Type and before importing Geo-Object data to that type in the system.</mark>
+{% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
 
@@ -33,4 +35,4 @@ A concept set can be specified on a Geo-Object Type when [creating one new](../g
 | Concept Class       | The concept class to use for this concept set.                                                                                                                                                                                                                                                                                       |
 | Concept Edge Type   | The concept edge type to use for this concept set.                                                                                                                                                                                                                                                                                   |
 | Discrete Graph Type | <p>The type of taxonomic structure to use for this concept set.</p><ul><li>Enumeration</li><li>Taxonomy<br></li></ul><p>Selecting enumeration specifies a flat list of options.</p><p></p><p>Selecting taxonomy allows you to specify a part of a multi-branched taxonomy by selecting the root node of a larger taxonomy tree. </p> |
-| Root Term           | The root node selector to specify the root node of a multi-branched taxonomy. Every option below the selected node will be a valid option.                                                                                                                                                                                           |
+| Root Term           | The root node selector to specify the root node of a multi-branched taxonomy. That root node and every option below it will be a valid option.                                                                                                                                                                                       |
