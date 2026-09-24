@@ -19,7 +19,7 @@ If a taxonomy edge type defines the types of human built physical structures (e.
 
 #### Where concept sets be used
 
-A concept set can be specified on a Geo-Object Type when [creating one new](../geo-objects-and-hierarchies/6.4.2-geographic-object-types-outside-a-group/).&#x20;
+A concept set can be specified on a Geo-Object Type when [creating one new](../geo-objects-and-hierarchies/geographic-object-types-outside-a-group/).&#x20;
 
 <mark style="color:$danger;">Pre-requisite: The concept edge type values must be</mark>[ <mark style="color:$danger;">imported</mark> ](../../curate/import-business-data.md)<mark style="color:$danger;">first before adding a concept set to a new Geo-Object Type and before importing Geo-Object data to that type in the system.</mark>
 

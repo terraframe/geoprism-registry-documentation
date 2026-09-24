@@ -1,4 +1,4 @@
-# 6.3.1. Adding users
+# Adding users
 
 {% hint style="info" %}
 System Administrators and Registry Administrators can be added to the system by a System Administrator. Registry Maintainers and Registry Contributors for an organization can be added by a Registry Administrator for the organization the users are being added to.
@@ -6,10 +6,10 @@ System Administrators and Registry Administrators can be added to the system by 
 
 1. Go to the **Settings** module from the sidebar.\
    ![](<../../../../.gitbook/assets/image (28).png>)
-2.  Under the _User Accounts_ section, click the **Manage Accounts** button.\\
+2.  Under the _User Accounts_ section, click the **Manage Accounts** button.
 
     <figure><img src="https://lh5.googleusercontent.com/iY-i15Toiw8x_IO2Tmxo--MzNbW32pqAzGdaIDnYq2HF9DkMbpW0aCEqJlH-POq8K0if0rCmUdNqNVzGHTtOD5Vc5iXXlYMrZsqbqWJ4Kjk9Bp3Mxpd_mpqa3sCP1VOc8e9SiNZ-FpTICUlucI6syM3amu29aioueQ822aQz_C8Zmqn_dXQEktMy" alt=""><figcaption></figcaption></figure>
-3.  This will show you the table containing the list of the existing users. Click on the **+** icon at the bottom of the list.\\
+3.  This will show you the table containing the list of the existing users. Click on the **+** icon at the bottom of the list.
 
     <figure><img src="https://lh5.googleusercontent.com/YESK1fozcAcYrPuZBbKlmK5SgFLb-0ctB2a7f_QQUWwiP9v0P7Ia2ckAoC-TcLyfpx_0zv0g1VlYjRH8lj_hOQGm0Sz6GWy8UuSofxOO3uQ3lUCS9hJoUNIvsBAHOJ3J4d7HCoYdQGPLO7ctR_sUopC1owKBQMy2kJgJT_CEss6dMs3-8RdCAf0n" alt=""><figcaption></figcaption></figure>
 4. Fill out all the required fields and any optional fields that are relevant in the form that appears.

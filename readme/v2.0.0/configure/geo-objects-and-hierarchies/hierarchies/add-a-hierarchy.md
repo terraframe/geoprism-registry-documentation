@@ -38,4 +38,4 @@ Registry Administrators can add a hierarchy for the organization they are a part
     <figure><img src="../../../../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
 
 
-6. See [6.4.3.2-manage-the-content-of-the-hierarchy.md](6.4.3.2-manage-the-content-of-the-hierarchy.md "mention") for next steps.
+6. See [manage-the-content-of-the-hierarchy.md](manage-the-content-of-the-hierarchy.md "mention") for next steps.
