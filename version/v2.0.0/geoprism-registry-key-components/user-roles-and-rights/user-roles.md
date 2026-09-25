@@ -7,6 +7,6 @@ The following roles are currently implemented in GeoPrism Registry:
 * **Registry Maintainer (RM)**: a user attached to a given organization, who has all the privileges of a Registry Contributor plus the ability to edit the content for specific Geo-Object Types under the curation mandate of their organization.
 * **Registry Contributor (RC)**: a user attached to a given organization, who has the ability to consult content for specific Geo-Object Types under the curation mandate of their organization, and submit change requests for these.
 
-Additionally, GeoPrism can also be accessed through a REST API (see [section 4](../../../current/external-system-integration/)) that uses the same roles for authentication.
+Additionally, GeoPrism can also be accessed through a REST API (see [External system integration](../../external-system-integration/README.md)) that uses the same roles for authentication.
 
 There is no anonymous user available. Any GeoPrism Registry deployment is able to use the API to create an interface that provides access to all the public data stored on the platform.

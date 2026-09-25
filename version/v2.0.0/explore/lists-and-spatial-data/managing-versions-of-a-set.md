@@ -21,7 +21,7 @@ Creating a set for a given Geo-Object Type generates two types of versions for e
 4.  Depending on the list type of the selected set as well as the frequency or the number of periods configured, there could be one or more validity dates or periods in the set. Find the validity date or period that you would like to publish a version for and click the **New Version** button.\\
 
     <figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
-5.  The _Metadata_ window will open. This contains the metadata information of the list and spatial data set (see [section 6.5.1.2](../../../current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.2-create-a-set.md)). The metadata information of either the list or spatial data or both can be edited to reflect the information of the version being published.\\
+5.  The _Metadata_ window will open. This contains the metadata information of the list and spatial data set (see [Creating a Set](creating-a-set.md)). The metadata information of either the list or spatial data or both can be edited to reflect the information of the version being published.\\
 
     <figure><img src="https://lh3.googleusercontent.com/W-5aE0QpiLSVxpxkZ_m8QkIAjS57s_GFbynDuE5T4Kn9h-z2ARjtsCSkpgQlq0lERXSS2rJcjbwx45Td4pqiurwZzv1fPE_iLM58TPT_qRa5tVFQYKAEauw9jX12u4YSfKPl42DhM0LmiBe4x2v9blErj6wA0hZfhiq_CdFK01v9Ukfdb4mubeTSuA" alt=""><figcaption></figcaption></figure>
 
@@ -30,8 +30,8 @@ Creating a set for a given Geo-Object Type generates two types of versions for e
 7.  The created version will now appear under the _Published Versions_ section.\\
 
     <figure><img src="../../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
-8. To explore the published version, follow the relevant steps in [section 6.5.1.4](../../../current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.4-explore.md).
-9. To export the published version, follow the relevant steps in [section 6.5.1.7](../../../current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.7-export.md).
+8. To explore the published version, follow the relevant steps in [Exploring Lists and Spatial Data](exploring-lists-and-spatial-data.md).
+9. To export the published version, follow the relevant steps in [Exporting Lists and Spatial Data](exporting-lists-and-spatial-data.md).
 10. If changes are made to the working version of the list and/or spatial data, you can create another version of the dataset by repeating the relevant steps above.
 11. The published version can also be deleted by clicking the **Delete** button and confirming the deletion when prompted.\\
 

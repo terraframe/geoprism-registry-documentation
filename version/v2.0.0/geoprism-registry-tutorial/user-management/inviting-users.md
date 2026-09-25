@@ -11,7 +11,7 @@ System Administrators and Registry Administrators can be invited to the system b
 2.  Under the _User Accounts_ section, click the **Invite User** button.
 
     <figure><img src="https://lh5.googleusercontent.com/iY-i15Toiw8x_IO2Tmxo--MzNbW32pqAzGdaIDnYq2HF9DkMbpW0aCEqJlH-POq8K0if0rCmUdNqNVzGHTtOD5Vc5iXXlYMrZsqbqWJ4Kjk9Bp3Mxpd_mpqa3sCP1VOc8e9SiNZ-FpTICUlucI6syM3amu29aioueQ822aQz_C8Zmqn_dXQEktMy" alt=""><figcaption></figcaption></figure>
-3.  Enter the email address of the person you would like to invite and specify the user role. See [section 5.3](https://github.com/terraframe/geoprism-registry-documentation/blob/main/readme/current/geoprism-registry-key-components/5.3-user-roles-and-their-rights) for more information.
+3.  Enter the email address of the person you would like to invite and specify the user role. See [User roles and rights](../../geoprism-registry-key-components/user-roles-and-rights/README.md) for more information.
 
     <figure><img src="https://lh4.googleusercontent.com/NlXVzEWbr0BhV2mUWvEbz00IbIVX2dkhuYc_IOlWzQe_7zasNMyajZ9x3LP2FJiZ9r2RRHuIHnG6J-Zn9tYh-lslB9LT4to1tEabsYLjXWll6H0wqjON0TbzV3SHk0aiU2WevumPTHnzBo_o-J4eXx4tQCmWunAu8dfHrTz933hdBzHki3mmqZGb" alt=""><figcaption></figcaption></figure>
 4. Click the **Submit** button.
@@ -25,7 +25,7 @@ System Administrators and Registry Administrators can be invited to the system b
 3.  This will show you the table containing the list of the existing users. Check if the email address of the person you want to invite is not yet in the list of users. If this is not the case, click the **Invite User** button on the upper right corner.
 
     <figure><img src="https://lh5.googleusercontent.com/YESK1fozcAcYrPuZBbKlmK5SgFLb-0ctB2a7f_QQUWwiP9v0P7Ia2ckAoC-TcLyfpx_0zv0g1VlYjRH8lj_hOQGm0Sz6GWy8UuSofxOO3uQ3lUCS9hJoUNIvsBAHOJ3J4d7HCoYdQGPLO7ctR_sUopC1owKBQMy2kJgJT_CEss6dMs3-8RdCAf0n" alt=""><figcaption></figcaption></figure>
-4.  Enter the email address of the person you would like to invite and specify the user role. See [section 5.3](https://github.com/terraframe/geoprism-registry-documentation/blob/main/readme/current/geoprism-registry-key-components/5.3-user-roles-and-their-rights) for more information.
+4.  Enter the email address of the person you would like to invite and specify the user role. See [User roles and rights](../../geoprism-registry-key-components/user-roles-and-rights/README.md) for more information.
 
     <figure><img src="https://lh4.googleusercontent.com/NlXVzEWbr0BhV2mUWvEbz00IbIVX2dkhuYc_IOlWzQe_7zasNMyajZ9x3LP2FJiZ9r2RRHuIHnG6J-Zn9tYh-lslB9LT4to1tEabsYLjXWll6H0wqjON0TbzV3SHk0aiU2WevumPTHnzBo_o-J4eXx4tQCmWunAu8dfHrTz933hdBzHki3mmqZGb" alt=""><figcaption></figcaption></figure>
 5. Click the **Submit** button.

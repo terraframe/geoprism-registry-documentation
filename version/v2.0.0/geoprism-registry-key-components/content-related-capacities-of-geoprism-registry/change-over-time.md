@@ -23,7 +23,7 @@ For this kind of change, GeoPrism Registry has the capacity to:
 
 Capturing the above information is sufficient to understand changes occurring to any independently created geographic objects, i.e., geographic objects that are not being created out of already existing ones (e.g., infrastructures such as health facilities or schools as opposed to a district splitting into two).
 
-All of this happens as part of the management of the lists in GeoPrism Registry. Please refer to [section 6.5.1](https://github.com/terraframe/geoprism-registry-documentation/blob/main/versions/current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data) for more details on how this information is captured and managed in GeoPrism Registry.
+All of this happens as part of the management of the lists in GeoPrism Registry. Please refer to [Lists and Spatial Data](../../explore/lists-and-spatial-data/README.md) for more details on how this information is captured and managed in GeoPrism Registry.
 
 The situation is different when looking at changes occurring through time for geographic objects that are being carved out from existing ones. For example, this occurs when boundaries change (e.g., split or merge) across administrative, health, statistical, or electoral units covering the entire territory of a given country.
 
@@ -41,4 +41,4 @@ For such cases, GeoPrism Registry has the capacity to capture:
 * The unique identifier and name of the geographic object before and after the change
 * Notes allowing to understand and/or track the change (e.g., the legal document in which the change is recorded)
 
-It then allows the user to generate a report containing all the historic changes (events) for a given Geo-Object Type over a specific period in time. Please refer to [section 6.5.3](../../../current/geoprism-registry-tutorial/6.5-content-management/6.5.3-historical-events/) for more information on how historic event information is captured in such a report.
+It then allows the user to generate a report containing all the historic changes (events) for a given Geo-Object Type over a specific period in time. Please refer to [Historical Events](../../curate/historical-events/README.md) for more information on how historic event information is captured in such a report.

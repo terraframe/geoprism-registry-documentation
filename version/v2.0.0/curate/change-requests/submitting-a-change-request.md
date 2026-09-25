@@ -35,7 +35,7 @@ A request to add a new Geo-Object can only be submitted by a Registry Contributo
     <figure><img src="../../../../.gitbook/assets/Screenshot from 2022-10-04 12-21-35.png" alt=""><figcaption></figcaption></figure>
 9. From there you can fill the information for the other tabs (_Attributes_, _Hierarchies_ and _Geometry_). Please refer to the list of attributes that are mandatory when adding a new Geo-Object to proceed (this should be documented in the relevant data dictionary for the Geo-Object Type).\
    \
-   _&#x4E;otes:_ (1) The temporal validity for the first instance of each attribute will have the same start and end date as the existence period specified under step 8. (2) The geometry of the Geo-Object can either be defined during the process described here or added by importing a shapefile (see [section 6.5.1.1](../../../current/geoprism-registry-tutorial/6.5-content-management/6.5.1-lists-and-spatial-data/6.5.1.1-import.md)).
+   _&#x4E;otes:_ (1) The temporal validity for the first instance of each attribute will have the same start and end date as the existence period specified under step 8. (2) The geometry of the Geo-Object can either be defined during the process described here or added by importing a shapefile (see [Import a Spreadsheet](../import-geospatial-data/import-a-spreadsheet.md)).
 10. Provide a reason for submitting the change request in the field at the bottom of the panel\\
 
     <figure><img src="../../../../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
