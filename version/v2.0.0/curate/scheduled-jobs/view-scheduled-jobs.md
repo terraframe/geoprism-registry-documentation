@@ -1,22 +1,37 @@
 # View Scheduled Jobs
 
-*   You will see the imported shapefile listed as one of the completed jobs when you click on the **View completed jobs** button.
+The **Scheduled Jobs** page lists the imports that are running or waiting for you to act, and a history of completed jobs.
 
-    <figure><img src="../../../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
-*   If there is any problem with the shapefile being imported, you will see this in the _In progress_ section with the part of the process with the problem highlighted in red. Click on the **Resolve Problems** button to see the details of the problem.
+1. Navigate to the **Scheduled Jobs** page from the sidebar. After you start an import, you can also click **Go to jobs** in the confirmation window.
 
-    <figure><img src="../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
-*   The _Job Details_ page will provide the problem type, message, and row number details of the issue and give you options on how to solve each problem when you click the **Resolve** button.\
-    \
-    _&#x4E;ote:_ Depending on the problem type, Geoprism Registry may ask you to fix the problem in the shapefile itself and then re-import it.
+## Jobs in progress
 
-    <figure><img src="https://lh4.googleusercontent.com/IhFFTih4s3WozWbMm45gssTdXBCZPzfiWERSX2eUAkDqOqKZDYNKgq696QBFKTEVRGzDB7lAfqKY9dGZFnu5GojoWgdr3J1j3sjiER3NJupj-i4Txa3k1jxw9wr0BJTO0HcIAo5tdDJnlgvCQpZlsNuumVjiXl68soFJFShsIy9cnoS4YT0BI-j-Xw" alt=""><figcaption></figcaption></figure>
-*   Depending on the problem type, there may also be cases when you can ignore the errors and proceed with the import. When this is the case, click the **Ignore All Errors** button.
+The **In progress** table shows each running import with its file name, the date it started and its status. A step indicator shows how far the import has got: **File Import**, **Staging**, **Validation** and **Database Import**. A step with a problem is highlighted in red.
 
-    <figure><img src="../../../../.gitbook/assets/image (26) (1).png" alt=""><figcaption></figcaption></figure>
-*   A warning message will appear asking if you want to mark the import as completed. Click the **Complete import** button. This will complete the import process.
+<figure><img src="../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="https://lh4.googleusercontent.com/dUb_qP2jbs_1Jhz2M7sL4o7SMNPXek9zMtd0Xp46sva4UFIpCsTrKtYZbineD3KV-a0sVu834moh72446WVaQ0JkGzugodEEHi86Mkar-GLpdgZ6t_GmLIclh1uBlGl6d-FGYyKI6-zGHAP8hpQ7KGXEjqGCiI1pDM-Zw4ULZizvbFCxF54ftmAmcQ" alt=""><figcaption></figcaption></figure>
-*   You will see the imported shapefile when you click on the **View completed jobs** button.
+Each job has buttons for what you can do next:
 
-    <figure><img src="../../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+* **Details** opens the job's details while it runs.
+* **Resolve Problems** appears when the job needs your attention (status **Needs Resolution**). It opens the job's details on the problems list. See [troubleshooting-scheduled-jobs.md](troubleshooting-scheduled-jobs.md "mention").
+* **Cancel import** appears when problems were found during validation, before any data was imported.
+* **Ignore All Errors** appears when problems were found during the database import. Some data has already been imported by then.
+
+## Completed jobs
+
+Click **View completed jobs** to see the **Completed Jobs** table. It lists each finished job with its status, the number of imported records, and when the import started and ended. Click **Details** to open a job.
+
+<figure><img src="../../../../.gitbook/assets/image (20).png" alt=""><figcaption></figcaption></figure>
+
+## Job details
+
+The **Job Details** page shows:
+
+* The file name, who uploaded it and when the import started.
+* How many records have been imported out of the total, and how many remain.
+* **Configuration**, which shows the settings the import was run with.
+* The **View Imported Data** tab, where you can see the imported data, and the **Problems** tab, which lists any problems that need to be resolved.
+
+{% hint style="info" %}
+Spatial Knowledge Graph RDF exports also appear on this page. When an export is ready, click **Download RDF Export** to download it. The download is removed 15 days after it was generated.
+{% endhint %}
