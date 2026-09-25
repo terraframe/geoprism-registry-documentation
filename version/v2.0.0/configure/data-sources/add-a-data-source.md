@@ -1,23 +1,23 @@
 # Add a Data Source
 
-1. Navigate to the _Data Source_ page from the sidebar.
+{% hint style="info" %}
+Every Data Source must name a Source Authority. If the organization responsible for the data isn't listed yet, [add a Source Authority](../source-authorities/add-a-source-authority.md) first.
+{% endhint %}
 
-<figure><img src="../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+1.  Navigate to the **Data Sources** page from the sidebar.
 
-2. Click the _Add Data Source_ button to open the creation modal. Fill out the form.
+    <figure><img src="../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure>
+2.  Click **Add Data Source** and fill out the form:
 
-<figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure>
 
-| Field                                                               | Description                                                                                                                                                                                                      | Required |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Code                                                                | The unique human readable identifier. The code can be used to determine the uniqueness of a Data Source if duplicate display labels exist in the system.                                                         | Required |
-| Label (defaultLocale)                                               | The default display label for the Data Source. The default value will be used if the default locale is selected in the language toggle or if another language is selected but no value exists for that language. | Required |
-| Label… (for any other locale that is installed in the system)       | Display label for any locales installed in the system. The system can have as many locales installed as needed. The system will allow the setting of the display label for each locale.                          |          |
-| Description (defaultLocale)                                         | The default description for the Data Source. The default value will be used if the default locale is selected in the language toggle or if another language is selected but no value exists for that language.   |          |
-| Description… (for any other locale that is installed in the system) | Description for any locales installed in the system. The system can have as many locales installed as needed. The system will allow the setting of the description for each locale.                              |          |
-| URI                                                                 | A URI pointing to the source of the actual data.                                                                                                                                                                 |          |
-| Governance Level                                                    | The type of governance that this data source falls under (e.g. authoritative, research, etc...).                                                                                                                 |          |
-| Metadata Profile                                                    | The type of metadata used by the data source (e.g. DCAT, GeoDCAT, etc...).                                                                                                                                       |          |
-| Source Authority                                                    | The source authority that has authority over this data source.                                                                                                                                                   |          |
-
-3. Click _Submit._
+    | Field | Description | Required |
+    | ----- | ----------- | -------- |
+    | Code | The unique human-readable identifier of the Data Source. It can't be changed later. | Required |
+    | Label | The display label, with one field per installed locale. The default locale is used when another language is selected but has no label. | Required |
+    | Description (Abstract) | A description, with one field per installed locale. | |
+    | URI | A link to the source of the data, such as a dataset's web page or download address. | |
+    | Governance Level | <p>How the data is governed:</p><ul><li>Authoritative</li><li>Official</li><li>Community Curated</li><li>Research</li><li>Derived</li><li>Experimental</li><li>Ad Hoc</li></ul> | |
+    | Metadata Profile | <p>The metadata standard the source uses to describe its data:</p><ul><li>DCAT</li><li>GeoDCAT</li><li>ISO19115</li><li>STAC</li><li>SensorML</li><li>FHIR</li><li>Data Cite</li><li>Custom</li><li>Ad Hoc</li><li>None</li></ul> | |
+    | Source Authority | The [Source Authority](../source-authorities/README.md) responsible for this data. | Required |
+3.  Click **Submit**.

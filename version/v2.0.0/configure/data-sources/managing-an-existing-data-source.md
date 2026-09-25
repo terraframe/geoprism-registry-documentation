@@ -1,7 +1,9 @@
 # Managing an Existing Data Source
 
-Existing data sources can be viewed, edited, and deleted as needed.&#x20;
-
-1. Push the view, edit, or delete button for the specific data source you would like to modify.
+The **Data Sources** page lists each Data Source with its governance level, label and Source Authority. Each row has three icons:
 
 <figure><img src="../../../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+
+* **View** opens the Data Source read-only.
+* **Edit** opens the form so you can change any field except the code. Click **Submit** to save your changes. See [add-a-data-source.md](add-a-data-source.md "mention") for details of each field.
+* **Delete** removes the Data Source after you confirm by clicking **Delete**.
