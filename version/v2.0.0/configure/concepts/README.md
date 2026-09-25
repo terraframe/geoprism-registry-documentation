@@ -15,6 +15,8 @@ Setting up Concepts involves three things you create in Geoprism Registry, plus 
 * The **Concepts** are loaded with the [Import Business Data](../../curate/import-business-data.md) page, and the relationships between them are loaded with the [Import Edge Data](../../curate/import-edge-data.md) page.
 * A **Concept Set** picks which Concepts are allowed as a Geo-Object Type's classification, either as a flat list or as a branch of a taxonomy. You choose the Concept Set when you create the Geo-Object Type, and it can't be changed later.
 
+All three are managed on the **Concept Classes** page in the sidebar, which has a section for each: **Concept Classes**, **Concept Edge Types** and **Concept Sets**.
+
 **Setup order**
 
 1. Create a Concept Class.

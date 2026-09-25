@@ -12,19 +12,32 @@ After you create a Concept Edge Type, load the relationships between your Concep
 The Concepts themselves must already be in the registry. Import them first on the [Import Business Data](../../curate/import-business-data.md) page, choosing **Concept Object**.
 {% endhint %}
 
-### Creating a concept edge type
+{% hint style="info" %}
+Registry Administrators can create Concept Edge Types for their organization. Only a System Administrator can edit or delete them.
+{% endhint %}
 
-1. Navigate to Concept Edge Types.
-2. Select _Create._
-3. Fill out the form and click submit.
+## Creating a Concept Edge Type
 
-<figure><img src="../../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+1.  Navigate to the **Concept Classes** page from the sidebar. The page has three sections, **Concept Classes**, **Concept Edge Types** and **Concept Sets**, which you choose at the top of the list. Select **Concept Edge Types**.
+2.  Click **Create** under your organization.
+3.  Fill out the form:
 
-| Form Field          | Description                                                                                                                                                                                                                                                                                                                                                                 |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Code                | <p>Unique ID of the concept edge type.<br><br>This code is globally unique.</p>                                                                                                                                                                                                                                                                                             |
-| Label               | Label for the concept edge type.                                                                                                                                                                                                                                                                                                                                            |
-| Description         | Optional description of the concept edge type.                                                                                                                                                                                                                                                                                                                              |
-| Parent Type         | Parent concept class in the edge relationship.                                                                                                                                                                                                                                                                                                                              |
-| Child Type          | Child concept class in the edge relationship.                                                                                                                                                                                                                                                                                                                               |
-| Discrete Graph Type | <p>The type of relationship between two concept classes. There is currently only one option.<br>- Taxonomy <br><br>A taxonomy concept edge type is fundamentally a directed acyclic graph (DAG). Defining a concept edge type's discrete graph type as taxonomy specifies that the relationship between the two concept classes is modeled as a DAG of taxonomic data.</p> |
+    <figure><img src="../../../../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure>
+
+    | Field | Description | Required |
+    | ----- | ----------- | -------- |
+    | Code | The unique identifier of the Concept Edge Type. It can't be changed later. | Required |
+    | Label | The display label, with one field per installed locale. | Required |
+    | Description (Abstract) | A description, with one field per installed locale. | |
+    | Parent Type | The Concept Class of the parent Concept in each relationship. It can't be changed later. | Required |
+    | Child Type | The Concept Class of the child Concept in each relationship. It can't be changed later. | Required |
+    | Discrete Graph Type | <p>The kind of relationship. There's currently one option, <strong>Taxonomy</strong>. A taxonomy is a directed acyclic graph (DAG): each Concept can have parents and children, but a Concept can never be its own ancestor. It can't be changed later.</p> | Required |
+4.  Click **Submit**.
+
+## Editing or deleting a Concept Edge Type
+
+Click the three-dot menu next to the Concept Edge Type:
+
+* **Edit** lets you change its label and description, then click **Submit**.
+* **Delete** removes it after you confirm.
+* **Import History** lists the imports into it.

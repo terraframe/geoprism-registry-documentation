@@ -6,24 +6,41 @@ A Concept Class defines the attribution structure for concepts contained within 
 
 By itself, a Concept Class is not linked to any other data in the system. It must be assigned to a Concept Edge Type and Concept Set before that Concept Set can be used to classify a Geo-Object Type.
 
-### Creating a concept class
+{% hint style="info" %}
+Registry Administrators can manage the Concept Classes of their organization.
+{% endhint %}
 
-1. Navigate to _Concept Classes._
-2. Click on _Add._
-3. Fill out the form and click **OK**.
+## Creating a Concept Class
 
-<figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
+1.  Navigate to the **Concept Classes** page from the sidebar. The page has three sections, **Concept Classes**, **Concept Edge Types** and **Concept Sets**, which you choose at the top of the list. Make sure **Concept Classes** is selected.
+2.  Click **Add** under your organization.
+3.  Fill out the form:
 
-| Form Field   | Description                                                                 |
-| ------------ | --------------------------------------------------------------------------- |
-| Code         | <p>Unique ID of the concept class.<br><br>This code is globally unique.</p> |
-| Label        | Label for the concept class.                                                |
-| Description  | Optional description of the concept class.                                  |
-| Organization | Fixed to the organization the logged in user is a part of.                  |
+    <figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
+    | Field | Description | Required |
+    | ----- | ----------- | -------- |
+    | Code | The unique identifier of the Concept Class. It can't be changed later. | Required |
+    | Label | The display label, with one field per installed locale. The default locale is required. | Required |
+    | Description (Abstract) | A description, with one field per installed locale. | |
+    | Organization | The organization that manages the Concept Class. It's filled in with the organization you clicked **Add** under, and can't be changed. | |
+4.  Click **Ok**. The new Concept Class opens.
 
+## Adding attributes
 
-Successful submission creates a concept class object that now has attributes assigned to it. Custom attributes can be created by editing the concept class.
+Every Concept Class has default attributes, such as the code and name of each Concept. To store more information about each Concept, such as a definition or a source, add custom attributes:
+
+1.  Click the three-dot menu next to the Concept Class and select **Edit**.
+2.  In the **Attributes** section, click **+ Add**, fill out the **Add a new attribute** form and click **Submit**. The form is the same as for Business Types, including **Is change over time**. See [managing-attributes-of-a-business-type.md](../business-types/managing-attributes-of-a-business-type.md "mention").
 
 <figure><img src="../../../../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
 
+## Other options
+
+The three-dot menu next to a Concept Class also has:
+
+* **View Data**, which opens a table of the Concepts in that class.
+* **Import History**, which lists the imports into that class.
+* **Delete**, which deletes the Concept Class after you confirm.
+
+To load Concepts into a Concept Class, see [Import Business Data](../../curate/import-business-data.md).
