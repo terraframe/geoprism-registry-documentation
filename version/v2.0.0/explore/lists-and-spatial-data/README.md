@@ -10,7 +10,7 @@ The **Lists and Spatial Data** page publishes the Geo-Objects of a Geo-Object Ty
   * **Period-based:** a list for each period you define.
 * **Working version:** the live copy of the list for each date or period. It reflects the current data, and it's where you add, edit and curate Geo-Objects.
 * **Published version:** a snapshot of the working version that doesn't change. Publish one when you want a fixed version to share or export.
-* **List and Spatial Data:** each version has a **List**, shown as a table, and **Spatial Data**, shown as a layer in the [Explorer](../explorer.md). Each has its own metadata, visibility (**Public** or **Private**) and authoritativeness (**Master** or **Non-master**).
+* **List and Spatial Data:** each version has a **List**, shown as a table, and **Spatial Data**, shown as a layer in the [Explorer](../explorer/README.md). Each has its own metadata, visibility (**Public** or **Private**) and authoritativeness (**Master** or **Non-master**).
 
 ## Finding a set
 

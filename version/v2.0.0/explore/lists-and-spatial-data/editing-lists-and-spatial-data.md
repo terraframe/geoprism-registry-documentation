@@ -4,7 +4,7 @@
 The System Administrator, Registry Administrators and Registry Maintainers can directly edit the lists and spatial data of the Geo-Object Types under the curation mandate of their organization. Registry Contributors can suggest edits, which are submitted as change requests.
 {% endhint %}
 
-You add and edit Geo-Objects from the working version of a list. The editing itself happens in the [Explorer](../explorer.md).
+You add and edit Geo-Objects from the working version of a list. The editing itself happens in the [Explorer](../explorer/README.md).
 
 ## Adding a new Geo-Object
 
@@ -17,7 +17,7 @@ You add and edit Geo-Objects from the working version of a list. The editing its
 3.  Click **Add Geo-Object**. For a group, choose which Geo-Object Type in the group to add.
 
     <figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
-4.  The Explorer opens with a new Geo-Object ready to fill in. See [Adding a Geo-Object](../explorer.md#adding-a-geo-object).
+4.  The Explorer opens with a new Geo-Object ready to fill in. See [Adding a Geo-Object](../explorer/adding-a-geo-object.md).
 
 ## Editing an existing Geo-Object
 
@@ -27,6 +27,6 @@ You add and edit Geo-Objects from the working version of a list. The editing its
 2.  Find the Geo-Object, using the filters if needed, and click the eye icon at the start of its row.
 
     <figure><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
-3.  The Explorer opens with the Geo-Object selected. See [Editing a Geo-Object](../explorer.md#editing-a-geo-object).
+3.  The Explorer opens with the Geo-Object selected. See [Editing a Geo-Object](../explorer/editing-a-geo-object.md).
 
 After you edit Geo-Objects, click **Refresh** in the working version to update the list.

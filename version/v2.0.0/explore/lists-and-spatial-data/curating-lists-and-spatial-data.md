@@ -29,7 +29,7 @@ The check covers only the date or period of that list, not all the data in the r
     <figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="../../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
-5.  To fix a problem, click **Resolve**. The Geo-Object opens in the [Explorer](../explorer.md), where you can [add its geometry](../explorer.md#editing-a-geo-object). Then select **Resolved** in the report.
+5.  To fix a problem, click **Resolve**. The Geo-Object opens in the [Explorer](../explorer/README.md), where you can [add its geometry](../explorer/editing-a-geo-object.md). Then select **Resolved** in the report.
 
 The latest report stays available until you run curation again. Click the **Last curation** link next to **Run Curation** to open it.
 

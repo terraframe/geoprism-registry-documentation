@@ -32,7 +32,7 @@ Other users can explore lists and spatial data that the organization has made **
 
 ## Viewing the spatial data
 
-To see the data on a map in the [Explorer](../explorer.md):
+To see the data on a map in the [Explorer](../explorer/README.md):
 
 * Click **View on map** at the top of the list.
 
@@ -40,4 +40,4 @@ To see the data on a map in the [Explorer](../explorer.md):
 * Click the eye icon at the start of a row to open that Geo-Object in the Explorer.
 * On the set's page, click **Spatial Data** under a version.
 
-See [Explorer](../explorer.md) for how to use the map and view each Geo-Object's attributes, hierarchies, geometry and history.
+See [Explorer](../explorer/README.md) for how to use the map and view each Geo-Object's attributes, hierarchies, geometry and history.
