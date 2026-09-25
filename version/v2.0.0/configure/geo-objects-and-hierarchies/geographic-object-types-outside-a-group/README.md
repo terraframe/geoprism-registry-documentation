@@ -1,2 +1,3 @@
-# 6.4.2. Geo-Object Types (outside a group)
+# Geo-Object Types
 
+test claude
