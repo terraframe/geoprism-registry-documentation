@@ -325,6 +325,8 @@
         * [Adding a Business Type](version/v2.0.0/configure/business-types/adding-a-business-type.md)
         * [Editing a Business Type](version/v2.0.0/configure/business-types/editing-a-business-type.md)
         * [Managing attributes of a Business Type](version/v2.0.0/configure/business-types/managing-attributes-of-a-business-type.md)
+        * [Deleting a Business Type](version/v2.0.0/configure/business-types/delete-a-business-type.md)
+        * [Business Edge Types](version/v2.0.0/configure/business-types/business-edge-types.md)
       * [Source Authorities](version/v2.0.0/configure/source-authorities/README.md)
         * [Add a Source Authority](version/v2.0.0/configure/source-authorities/add-a-source-authority.md)
         * [Managing an Existing Source Authority](version/v2.0.0/configure/source-authorities/managing-an-existing-source-authority.md)
