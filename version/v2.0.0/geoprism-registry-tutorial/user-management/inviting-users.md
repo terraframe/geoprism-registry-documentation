@@ -4,28 +4,21 @@
 System Administrators and Registry Administrators can be invited to the system by a System Administrator. Registry Maintainers and Registry Contributors for an organization can be invited by a Registry Administrator for the organization the users are being invited to.
 {% endhint %}
 
-## Directly from the _User Accounts_ section
+Inviting a user sends them an email with a link to create their own account. You choose their roles when you invite them.
 
-1. Go to the **Settings** module from the sidebar.\
-   ![](<../../../../.gitbook/assets/image (28).png>)
-2.  Under the _User Accounts_ section, click the **Invite User** button.
+## Sending an invitation
 
-    <figure><img src="https://lh5.googleusercontent.com/iY-i15Toiw8x_IO2Tmxo--MzNbW32pqAzGdaIDnYq2HF9DkMbpW0aCEqJlH-POq8K0if0rCmUdNqNVzGHTtOD5Vc5iXXlYMrZsqbqWJ4Kjk9Bp3Mxpd_mpqa3sCP1VOc8e9SiNZ-FpTICUlucI6syM3amu29aioueQ822aQz_C8Zmqn_dXQEktMy" alt=""><figcaption></figcaption></figure>
-3.  Enter the email address of the person you would like to invite and specify the user role. See [User roles and rights](../../geoprism-registry-key-components/user-roles-and-rights/README.md) for more information.
+1.  Go to the **Settings** page from the sidebar.
 
-    <figure><img src="https://lh4.googleusercontent.com/NlXVzEWbr0BhV2mUWvEbz00IbIVX2dkhuYc_IOlWzQe_7zasNMyajZ9x3LP2FJiZ9r2RRHuIHnG6J-Zn9tYh-lslB9LT4to1tEabsYLjXWll6H0wqjON0TbzV3SHk0aiU2WevumPTHnzBo_o-J4eXx4tQCmWunAu8dfHrTz933hdBzHki3mmqZGb" alt=""><figcaption></figcaption></figure>
-4. Click the **Submit** button.
-
-## From the _Manage Accounts_ section
-
-1. Go to the Settings page.
-2.  Under the _User Accounts_ section, click the **Manage Accounts** button.
+    ![](<../../../../.gitbook/assets/image (28).png>)
+2.  In the **User Accounts** section, click **Invite User**. You can also click **Manage Accounts** and then **Invite User** at the top of the list, which lets you first check that the person doesn't already have an account.
 
     <figure><img src="https://lh5.googleusercontent.com/iY-i15Toiw8x_IO2Tmxo--MzNbW32pqAzGdaIDnYq2HF9DkMbpW0aCEqJlH-POq8K0if0rCmUdNqNVzGHTtOD5Vc5iXXlYMrZsqbqWJ4Kjk9Bp3Mxpd_mpqa3sCP1VOc8e9SiNZ-FpTICUlucI6syM3amu29aioueQ822aQz_C8Zmqn_dXQEktMy" alt=""><figcaption></figcaption></figure>
-3.  This will show you the table containing the list of the existing users. Check if the email address of the person you want to invite is not yet in the list of users. If this is not the case, click the **Invite User** button on the upper right corner.
-
-    <figure><img src="https://lh5.googleusercontent.com/YESK1fozcAcYrPuZBbKlmK5SgFLb-0ctB2a7f_QQUWwiP9v0P7Ia2ckAoC-TcLyfpx_0zv0g1VlYjRH8lj_hOQGm0Sz6GWy8UuSofxOO3uQ3lUCS9hJoUNIvsBAHOJ3J4d7HCoYdQGPLO7ctR_sUopC1owKBQMy2kJgJT_CEss6dMs3-8RdCAf0n" alt=""><figcaption></figcaption></figure>
-4.  Enter the email address of the person you would like to invite and specify the user role. See [User roles and rights](../../geoprism-registry-key-components/user-roles-and-rights/README.md) for more information.
+3.  In **Invite a User**, enter the person's **Email Address** and choose their **Roles**. At least one role is required. See [User roles and rights](../../geoprism-registry-key-components/user-roles-and-rights/README.md).
 
     <figure><img src="https://lh4.googleusercontent.com/NlXVzEWbr0BhV2mUWvEbz00IbIVX2dkhuYc_IOlWzQe_7zasNMyajZ9x3LP2FJiZ9r2RRHuIHnG6J-Zn9tYh-lslB9LT4to1tEabsYLjXWll6H0wqjON0TbzV3SHk0aiU2WevumPTHnzBo_o-J4eXx4tQCmWunAu8dfHrTz933hdBzHki3mmqZGb" alt=""><figcaption></figcaption></figure>
-5. Click the **Submit** button.
+4.  Click **Submit**.
+
+## Accepting an invitation
+
+The invited person receives an email with a link. The link opens the **Create Your Account** page, where they enter their details, choose a username and password, and submit the form. They can then log in with the roles they were invited with.
