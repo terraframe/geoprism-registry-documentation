@@ -1,2 +1,2 @@
-# 6. GeoPrism Registry tutorial
+# GeoPrism Registry tutorial
 

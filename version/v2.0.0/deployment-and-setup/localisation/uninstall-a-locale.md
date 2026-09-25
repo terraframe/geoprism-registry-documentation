@@ -1,4 +1,4 @@
-# 3.4.6. Uninstall a locale
+# Uninstall a locale
 
 Existing locales can be uninstalled through the Settings module.
 

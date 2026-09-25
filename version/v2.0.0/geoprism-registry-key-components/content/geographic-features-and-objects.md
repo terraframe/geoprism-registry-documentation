@@ -1,4 +1,4 @@
-# 5.1.1. Geographic features and geographic objects
+# Geographic features and geographic objects
 
 Geographic features are features of the Earth, natural (e.g., rivers) or artificial (e.g., buildings), physical (e.g., roads) or abstract (e.g., administrative division). Each sector has its own set of geographic features that are core to the implementation of its programs and activities. Those core to the health sector, for example, include but are not limited to: health facilities, vaccination points, settlements, ambulances, patients, roads and administrative divisions.
 

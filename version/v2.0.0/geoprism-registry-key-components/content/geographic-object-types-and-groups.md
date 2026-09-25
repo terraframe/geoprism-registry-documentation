@@ -1,4 +1,4 @@
-# 5.1.2. Geographic object types and groups
+# Geographic object types and groups
 
 The types of geographic objects (a.k.a. **Geo-Object Types**) handled by GeoPrism Registry can be categorized based on how they would be represented on a map:
 

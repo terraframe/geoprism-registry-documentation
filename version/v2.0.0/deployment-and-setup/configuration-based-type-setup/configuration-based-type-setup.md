@@ -1,4 +1,4 @@
-# 3.8.1. Import type definitions
+# Import type definitions
 
 1. Go to the **Settings** module from the sidebar.\
    ![](<../../../../.gitbook/assets/image (28).png>)

@@ -1,4 +1,4 @@
-# 3.4. Localization
+# Localization
 
 GeoPrism Registry can be localized to different languages. The default locale of the system is English, however support for other locales can be added. Localization management must be done by a System Administrator.
 

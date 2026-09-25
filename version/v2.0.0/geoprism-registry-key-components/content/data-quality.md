@@ -1,4 +1,4 @@
-# 5.1.7. Data quality
+# Data quality
 
 The content hosted in GeoPrism Registry is meant to serve as the source of truth (ground reference) for any information system to properly contextualize, visualize, and analyze business data in both space and time. As such, this content is meant to present the highest level of quality possible across the six dimensions of data quality (uniqueness, completeness, timeliness, accuracy, validity, and consistency).
 

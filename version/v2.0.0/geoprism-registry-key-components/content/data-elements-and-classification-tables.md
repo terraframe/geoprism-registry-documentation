@@ -1,4 +1,4 @@
-# 5.1.3. Data elements and classification tables
+# Data elements and classification tables
 
 GeoPrism Registry focuses on all the information that allows to contextualize any piece of information in both space and time. It therefore only handles data elements meant to:
 

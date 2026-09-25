@@ -1,4 +1,4 @@
-# 3.4.5. Switch locale
+# Switch locale
 
 The language toggle is used to switch GeoPrism Registry to any locale that is installed.
 

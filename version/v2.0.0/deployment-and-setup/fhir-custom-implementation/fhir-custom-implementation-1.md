@@ -1,4 +1,4 @@
-# 3.7.2. Create a custom implementation for exporting data to FHIR
+# Create a custom implementation for exporting data to FHIR
 
 {% hint style="warning" %}
 All custom implementations for exporting data to a FHIR instance must implement the _net.geoprism.registry.etl.fhir.FhirDataPopulator_ interface.

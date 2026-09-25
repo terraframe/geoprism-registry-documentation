@@ -1,4 +1,4 @@
-# 6.1 Logging in
+# Logging in
 
 Logging in using local GeoPrism Registry credentials is done as follows:
 

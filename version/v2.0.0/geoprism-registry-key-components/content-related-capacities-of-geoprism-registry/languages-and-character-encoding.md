@@ -1,4 +1,4 @@
-# 5.2.6. Languages and character encoding
+# Languages and character encoding
 
 In addition to the possibility for GeoPrism Registry user’s interface to be localized (see [section 3.4](https://github.com/terraframe/geoprism-registry-documentation/blob/main/versions/current/3-deployment-and-setup/3.4-localisation)) users have the possibility to import, store and share the information associated with each data element in the local language.
 

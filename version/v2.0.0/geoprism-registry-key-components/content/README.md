@@ -1,4 +1,4 @@
-# 5.1. Content
+# Content
 
 GeoPrism Registry is being used to simultaneously host, maintain, update and share **lists** as well as associated **hierarchies** and **spatial data** for the **geographic objects** core to development in general and public health in particular.
 

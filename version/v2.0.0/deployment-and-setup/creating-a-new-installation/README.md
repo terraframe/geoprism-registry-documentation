@@ -1,2 +1,2 @@
-# 3.2. Creating a new installation
+# Creating a new installation
 

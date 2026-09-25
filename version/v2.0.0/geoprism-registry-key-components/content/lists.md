@@ -1,4 +1,4 @@
-# 5.1.5. Lists
+# Lists
 
 A **list** is a tabular representation of the data elements associated with all the active, and past active, geographic objects (records) of a given type at a given point in time.
 

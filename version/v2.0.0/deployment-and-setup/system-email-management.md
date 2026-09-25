@@ -1,4 +1,4 @@
-# 3.5. System email management
+# System email management
 
 GeoPrism Registry uses email settings to send email notifications to users of the system, in particular account creation invitations and automated change request notifications. Email configuration must be done by a System Administrator.
 

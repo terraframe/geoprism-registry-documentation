@@ -1,4 +1,4 @@
-# 3.7. FHIR custom implementation
+# FHIR custom implementation
 
 {% hint style="warning" %}
 This documentation covers advanced system configuration.

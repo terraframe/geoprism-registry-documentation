@@ -1,4 +1,4 @@
-# 3.2.1 System Architecture
+# System Architecture
 
 The Geoprism Registry is a Java web application built on-top of Tomcat.
 

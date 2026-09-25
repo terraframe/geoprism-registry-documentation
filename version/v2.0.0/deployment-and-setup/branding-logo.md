@@ -1,4 +1,4 @@
-# 3.6. Branding (Logo)
+# Branding (Logo)
 
 The logo displayed in the top left of GeoPrism Registry is configurable by a System Administrator.
 

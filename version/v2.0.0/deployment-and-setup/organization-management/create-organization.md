@@ -1,4 +1,4 @@
-# 3.3.1. Create an organization
+# Create an organization
 
 Organizations can only be created by users with the System Administrator role.
 

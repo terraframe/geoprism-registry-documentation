@@ -1,4 +1,4 @@
-# 5.1.4. Hierarchies
+# Hierarchies
 
 Knowing how geographic objects relate to each other over time as part of different hierarchies is important not only to be able to aggregate information to support decision making, when applicable, but also to ensure relational consistency between geographic objects.
 

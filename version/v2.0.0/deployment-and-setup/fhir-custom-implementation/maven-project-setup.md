@@ -1,4 +1,4 @@
-# 3.7.1. Maven project setup
+# Maven project setup
 
 First create a new Maven project and add the _georegistry-server_ as a dependency:
 

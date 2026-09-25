@@ -1,4 +1,4 @@
-# 5.1.6. Geospatial data
+# Geospatial data
 
 Also referred to as spatial data, **geospatial data** corresponds to information about the locations and shapes of geographic features and the relationships between them, usually stored as coordinates and topology (e.g., geographic location of health facilities, boundaries of administrative units…).
 

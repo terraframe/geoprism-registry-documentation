@@ -1,4 +1,4 @@
-# 3.3.2. Invite a user to serve as the Registry Administrator for an organization
+# Invite a user to serve as the Registry Administrator for an organization
 
 Each organization in GeoPrism Registry is managed separately by users with a Registry Administrator role for that organization. Users with the System Administrator role can invite users to create an account with a Registry Administrator role for a given organization.
 

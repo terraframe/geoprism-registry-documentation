@@ -1,4 +1,4 @@
-# 5.2.4. Accessibility
+# Accessibility
 
 The full value of a common geo-registry is expressed once its content is accessible to the largest number of users possible.
 
