@@ -23,6 +23,6 @@
 
 ### Synchronization
 
-GeoPrism Registry supports using an Apache Jena external system synchronization to push data to an Apache Jena instance.&#x20;
+Geoprism Registry supports using an Apache Jena external system synchronization to push data to an Apache Jena instance.&#x20;
 
 * See [apache-jena-synchronization.md](../synchronize-an-external-system/apache-jena-synchronization.md "mention")

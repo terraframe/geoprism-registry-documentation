@@ -10,7 +10,7 @@ By itself, a Concept Class is not linked to any other data in the system. It mus
 
 1. Navigate to _Concept Classes._
 2. Click on _Add._
-3. Fill out the form and push the _OK button_.
+3. Fill out the form and click **OK**.
 
 <figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 

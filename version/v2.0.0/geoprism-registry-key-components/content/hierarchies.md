@@ -2,7 +2,7 @@
 
 Knowing how geographic objects relate to each other over time as part of different hierarchies is important not only to be able to aggregate information to support decision making, when applicable, but also to ensure relational consistency between geographic objects.
 
-One of the functions of GeoPrism Registry is to capture and use not only geographic relationships that exist between geographic objects (is within, lives in) but also other types of relationships such as administrative (is reporting to), health-related (covers, providing service to, refers to), and associative (is part of).
+One of the functions of Geoprism Registry is to capture and use not only geographic relationships that exist between geographic objects (is within, lives in) but also other types of relationships such as administrative (is reporting to), health-related (covers, providing service to, refers to), and associative (is part of).
 
 These different relationships can be represented in distinct **hierarchies** like those included in Figure 5.1.
 

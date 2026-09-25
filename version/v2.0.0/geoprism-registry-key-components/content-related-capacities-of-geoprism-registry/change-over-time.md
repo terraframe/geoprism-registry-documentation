@@ -1,10 +1,10 @@
 # Changes over time
 
-Geography evolves over time, for example the creation of a new district, the closing of a health facility, or a change of phone number for a community health worker. This is why a core function of GeoPrism Registry is to be able to capture the changes occurring over time for the geographic objects it hosts as well as to conserve the information as it was before the change and, when applicable, the information necessary to reconstruct that change (e.g., the unique identifier and name of the district from which a new district has been carved). This information is critical to perform trend analyses, especially in countries where the administrative structure changes frequently (e.g., to reconstruct disease prevalence trends across districts that have changed over time).
+Geography evolves over time, for example the creation of a new district, the closing of a health facility, or a change of phone number for a community health worker. This is why a core function of Geoprism Registry is to be able to capture the changes occurring over time for the geographic objects it hosts as well as to conserve the information as it was before the change and, when applicable, the information necessary to reconstruct that change (e.g., the unique identifier and name of the district from which a new district has been carved). This information is critical to perform trend analyses, especially in countries where the administrative structure changes frequently (e.g., to reconstruct disease prevalence trends across districts that have changed over time).
 
-This capability of GeoPrism Registry allows for the retrieval of the lists and associated geospatial data for any geographic object at any point in time, over the entire period for which data has been uploaded in the platform.
+This capability of Geoprism Registry allows for the retrieval of the lists and associated geospatial data for any geographic object at any point in time, over the entire period for which data has been uploaded in the platform.
 
-The three main types of changes that can be captured in GeoPrism Registry for any given geographic object are as follows:
+The three main types of changes that can be captured in Geoprism Registry for any given geographic object are as follows:
 
 | Type               | Description                                                                             | Example                                                                                                            |
 | ------------------ | --------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
@@ -16,14 +16,14 @@ Figure 5.5 provides an illustration of these main types of changes for a health 
 
 ![Figure 5.5: Example of changes occurring over time for some data elements associated with a health facility](https://lh6.googleusercontent.com/cB5LZJXz4YBUUCe3ziMytMwrW7U1R6Md0BRjdZk4-cPZZ7AAQVRW27rMdHx3sYvPxgQLi-sstaUvLztC3ohUres8Swa-b9BaPa6-J_SIQH5pEXK4ILdTpDl9p59zv-dhrv2_8JXrnrs1G7tSCgQbME43LkXr5rXBMhUsuwvUqlTvkYIEVBcqG4gB)
 
-For this kind of change, GeoPrism Registry has the capacity to:
+For this kind of change, Geoprism Registry has the capacity to:
 
 * Set the period of existence of the geographic object (1984-04-19 to 2021-04-01)
 * Capture and retain the value for each instance of the data elements that have changed through time, together with the period over which each value has been valid (e.g., Patrick Dupont over the 1984-04-19 to 2008-06-06 period and then Henri Dunant over the 2008-06-06 to 2021-04-01 period as the health facility head).
 
 Capturing the above information is sufficient to understand changes occurring to any independently created geographic objects, i.e., geographic objects that are not being created out of already existing ones (e.g., infrastructures such as health facilities or schools as opposed to a district splitting into two).
 
-All of this happens as part of the management of the lists in GeoPrism Registry. Please refer to [Lists and Spatial Data](../../explore/lists-and-spatial-data/README.md) for more details on how this information is captured and managed in GeoPrism Registry.
+All of this happens as part of the management of the lists in Geoprism Registry. Please refer to [Lists and Spatial Data](../../explore/lists-and-spatial-data/README.md) for more details on how this information is captured and managed in Geoprism Registry.
 
 The situation is different when looking at changes occurring through time for geographic objects that are being carved out from existing ones. For example, this occurs when boundaries change (e.g., split or merge) across administrative, health, statistical, or electoral units covering the entire territory of a given country.
 
@@ -33,7 +33,7 @@ When this is the case, capturing the period over which each unit has been in exi
 
 While the district of Soroti, for example, has been in existence over the complete period reported in Figure 5.6, its geographic extent has significantly changed twice over that same period. In this case, a common geo-registry should be able to capture the period of existence of the district of Soroti, as well as information on the two changes, including which instances (single occurrence) of the Soroti district the districts of Katakwi and Kaberamaido have been carved, in March 1997 and July 2007, respectively.
 
-For such cases, GeoPrism Registry has the capacity to capture:
+For such cases, Geoprism Registry has the capacity to capture:
 
 * The date of the change
 * The type of change (split, merge, transfer, upgrade, downgrade)

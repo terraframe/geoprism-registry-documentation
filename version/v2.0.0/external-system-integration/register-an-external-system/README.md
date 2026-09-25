@@ -6,7 +6,7 @@ Registering an external system can only be done by a Registry Administrator or S
 
 Setting up an external system synchronization enables a user to push data to that external system. Synchronization configurations require an external system to be registered and the external identifiers to be set through the data import process.
 
-GeoPrism Registry currently supports integrations with the following systems:
+Geoprism Registry currently supports integrations with the following systems:
 
 * Apache Jena
 * [Fast Healthcare Interoperability Resources®](https://www.hl7.org/fhir/) (FHIR)

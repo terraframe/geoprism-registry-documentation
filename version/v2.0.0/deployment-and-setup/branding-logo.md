@@ -1,6 +1,6 @@
 # Branding (Logo)
 
-The logo displayed in the top left of GeoPrism Registry is configurable by a System Administrator.
+The logo displayed in the top left of Geoprism Registry is configurable by a System Administrator.
 
 1. Go to the **Settings** module from the sidebar.\
    ![](<../../../.gitbook/assets/image (28).png>)
@@ -10,4 +10,4 @@ The logo displayed in the top left of GeoPrism Registry is configurable by a Sys
 3.  Drag and drop a file containing the logo into the modal.\\
 
     <figure><img src="https://lh4.googleusercontent.com/tyrwO0UVjPz_2ZeQGHqcvGz-judKdiAvjHgJ2MhZPGqdaLAw9RMS9vY0XfKOjQtt6Ir_jQ8VLzq8UYb1j41qj0KScvkJLPED8PHCrBkWn6MizZlLwBw3KjGg4yFkQlJqL8xFAj-YlmhFuSXDqb1iZV7rUDtNvrEUXeWRz-3tMhmvf0My_gPAlIQn" alt=""><figcaption></figcaption></figure>
-4. Click **Upload**. The logo will be uploaded and should appear in the upper left corner of GeoPrism Registry.
+4. Click **Upload**. The logo will be uploaded and should appear in the upper left corner of Geoprism Registry.

@@ -8,5 +8,5 @@ layout: landing
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure></div>
 
-GeoPrism Registry is certified as a Digital Public Good (DPG) of the DPG Alliance.
+Geoprism Registry is certified as a Digital Public Good (DPG) of the DPG Alliance.
 

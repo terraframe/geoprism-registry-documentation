@@ -1,6 +1,6 @@
 # Configuration-based type setup
 
-GeoPrism Registry supports automatically building Geo-Object Types, Hierarchies, directed acyclic graphs, and undirected graphs using configurations defined in XML. This is useful for quickly setting up a GeoPrism Registry instance.
+Geoprism Registry supports automatically building Geo-Object Types, Hierarchies, directed acyclic graphs, and undirected graphs using configurations defined in XML. This is useful for quickly setting up a Geoprism Registry instance.
 
 {% hint style="warning" %}
 Importing type definitions can only be done by a System Administrator.

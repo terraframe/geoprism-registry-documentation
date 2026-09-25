@@ -3,16 +3,16 @@
 ## Synchronization
 
 {% hint style="info" %}
-A registered FHIR external system must exist in GeoPrism Registry.
+A registered FHIR external system must exist in Geoprism Registry.
 {% endhint %}
 
 {% hint style="info" %}
-A system synchronization must be created separately for a pull and push of data. GeoPrism Registry does not support using one external synchronization that does both a pull and a push.
+A system synchronization must be created separately for a pull and push of data. Geoprism Registry does not support using one external synchronization that does both a pull and a push.
 {% endhint %}
 
-External system synchronizations enable the ability to push and pull data between a GeoPrism Registry instance and a FHIR instance.
+External system synchronizations enable the ability to push and pull data between a Geoprism Registry instance and a FHIR instance.
 
-### Pushing data to FHIR instance from a GeoPrism Registry instance <a href="#pushing-data-to-fhir-from-the-cgr" id="pushing-data-to-fhir-from-the-cgr"></a>
+### Pushing data to FHIR instance from a Geoprism Registry instance <a href="#pushing-data-to-fhir-from-the-cgr" id="pushing-data-to-fhir-from-the-cgr"></a>
 
 1. Navigate to the _Settings_ page.
 2. Find the _External System Synchronizations_ section and click the + button to register synchronizations.
@@ -32,10 +32,10 @@ External system synchronizations enable the ability to push and pull data betwee
     | Org Units       | A mapping between the Geo-Object Types in the selected GPR hierarchy and the types in the DHIS2 instance. |
 5. Click Submit.
 
-### Pulling data from a FHIR instance to a GeoPrism Registry instance
+### Pulling data from a FHIR instance to a Geoprism Registry instance
 
 {% hint style="danger" %}
-Pulling data from a FHIR instance to GeoPrism Registry requires a custom transformation to be integrated with the GeoPrism Registry instance which defines how data is pulled into GeoPrism Registry. Contact your System Administrator to get more information. System Administrators can see [FHIR custom implementation](../../deployment-and-setup/fhir-custom-implementation/README.md) for documentation on how to setup the FHIR custom implementations.
+Pulling data from a FHIR instance to Geoprism Registry requires a custom transformation to be integrated with the Geoprism Registry instance which defines how data is pulled into Geoprism Registry. Contact your System Administrator to get more information. System Administrators can see [FHIR custom implementation](../../deployment-and-setup/fhir-custom-implementation/README.md) for documentation on how to setup the FHIR custom implementations.
 {% endhint %}
 
 1. Navigate to the Settings page.
@@ -50,8 +50,8 @@ Pulling data from a FHIR instance to GeoPrism Registry requires a custom transfo
     | Label           | Label of the synchronization configuration.                                                           | Yes |
     | Organization    | The organization the synchronization configuration will be available to.                              | Yes |
     | External System | The registered external system that this synchronization will use to push data to an external system. | Yes |
-    | Synchronization | Export data to the FHIR instance or Import data to the GeoPrism Registry instance.                    | Yes |
-    | Type            | The GeoPrism Registry instance.                                                                       | Yes |
+    | Synchronization | Export data to the FHIR instance or Import data to the Geoprism Registry instance.                    | Yes |
+    | Type            | The Geoprism Registry instance.                                                                       | Yes |
     | Implementation  | The custom implementation of a HAPI FHIR synchronization configuration.                               | Yes |
 
     <figure><img src="https://lh5.googleusercontent.com/exnu4HLjcpICJ4BE2i5AbridnGwmjkNmnrnr215Q60CB8oh3_Tc7iXgBKhRgtmFhli_5BVdDLN1_ZCrTDBL-hm5RGwUSeSTLlEP-L50gP3H80Gjg1_W_88I2TNuXW_RLv5s92K31PAGePNMdcIsJ2Sm5Jly0sbqIgolm1QrZ8ZJkkHSuXZu9Bss8sA" alt=""><figcaption></figcaption></figure>

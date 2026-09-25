@@ -1,6 +1,6 @@
 # Invite a user to serve as the Registry Administrator for an organization
 
-Each organization in GeoPrism Registry is managed separately by users with a Registry Administrator role for that organization. Users with the System Administrator role can invite users to create an account with a Registry Administrator role for a given organization.
+Each organization in Geoprism Registry is managed separately by users with a Registry Administrator role for that organization. Users with the System Administrator role can invite users to create an account with a Registry Administrator role for a given organization.
 
 When logged in as a System Administrator:
 
@@ -13,4 +13,4 @@ When logged in as a System Administrator:
 
     <figure><img src="https://lh6.googleusercontent.com/SXkLWaqCUbwWJB7vY5e65gmrA5iMBQ6VcOeeq2urROY5LO4QXom-tFYYgj0dkoCO2Aoa0g2d-yOyHgAXYYLeZsXM6VCyZi1UW06SS2DZpLRNIGGpsdPfiOOQ89BFBeHoL4qn8-9KdUazxuvlfmQ2ie_0OumbiDAyovrnhOTZYoBp0GUEf8Dz2oKsTg" alt=""><figcaption></figcaption></figure>
 4. Click **Submit**.
-5. The invited user receives an email to create a GeoPrism Registry account, and once logged in, this user can access GeoPrism Registry as a Registry Administrator for the relevant organization.
+5. The invited user receives an email to create a Geoprism Registry account, and once logged in, this user can access Geoprism Registry as a Registry Administrator for the relevant organization.

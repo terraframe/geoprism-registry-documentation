@@ -1,6 +1,6 @@
 # Install a new locale
 
-Installing a locale enables the GeoPrism Registry to be translated to that language. This is the first step to enable a GeoPrism Registry instance to be translated. All locale options that can be installed in the GPR can be found [here](https://www.oracle.com/technetwork/java/javase/java8locales-2095355.html#util-text).
+Installing a locale enables the Geoprism Registry to be translated to that language. This is the first step to enable a Geoprism Registry instance to be translated. All locale options that can be installed in the GPR can be found [here](https://www.oracle.com/technetwork/java/javase/java8locales-2095355.html#util-text).
 
 You must install all the locales you expect your users to need. Sometimes there are slightly different locales that all need to be included because a browser may have only one version and not the other. As an example, Khmer has two locale versions (_kh\_KM_ and _kh_). Both of these locales must be installed and imported to ensure the Khmer language is shown in all browsers.
 

@@ -6,7 +6,7 @@ Registry Administrators and Registry Maintainers can manage versions of a set cr
 
 Creating a set for a given Geo-Object Type generates two types of versions for each instance (list or spatial data) of this set:
 
-* The _working version_ allows the authorized user to access the Geo-Object Type data either for viewing or editing. This version is generated automatically by GeoPrism Registry.
+* The _working version_ allows the authorized user to access the Geo-Object Type data either for viewing or editing. This version is generated automatically by Geoprism Registry.
 * The _published versions_ correspond to a snapshot in time of the Geo-Object Type data for the configured validity date or period. This type of version cannot be modified but can still be explored and exported.
 
 1.  Go to the _Lists and Spatial Data_ module either by clicking the module icon on the homepage or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/4ieAODNcwrlKZ6iUiZnYlbLGZmQJiEse_Z8mls7B1vwiKHOfldO3TWH3smxfa1IJQb_BhxM7c6iTe--Wm0sPvlovt4jp-DaoMkTqq5MNslg-imIrXqyoa3A3Fnq-Ct_7AAaQzW-xMCIbev1kGSUU8xN5v8iFIayG4z8c4H78mU80Ms6J_4PBB1ghQw)) on the upper right corner and selecting **Lists and Spatial Data**.\\

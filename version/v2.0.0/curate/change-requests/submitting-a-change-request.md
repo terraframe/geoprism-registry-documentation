@@ -52,7 +52,7 @@ Submitting a change request to modify an existing Geo-Object can be done in four
 3. Specify the reason for submitting a change request
 4. Submit the change request
 
-The Geo-Object-specific editing view can be reached by the Registry Contributor through three different modules in GeoPrism Registry:
+The Geo-Object-specific editing view can be reached by the Registry Contributor through three different modules in Geoprism Registry:
 
 * _Change Requests_
 * _Lists and Spatial Data_
@@ -210,7 +210,7 @@ To add an instance of a given attribute, hierarchy or geometry or period of exis
     <figure><img src="../../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="https://lh4.googleusercontent.com/9EPoWKQK6l6swd-GSudlHG6oZ06CYYmEbtSPRnwG-7fQEgmC2RPYHqpdZcELNfZBQhNTdjKSmQI6kgfih6sf_cqi17U8TIT45xUoEWVB7wHI7RLO2k2bQN09DVbdVF35zIv8aqsQn5WRQ0FvdWpyGVcRQaPRo2qPauhaUjbOi4eQvw-KnlXSmq0kng" alt=""><figcaption></figcaption></figure>
-3.  Fill in the new instance with a value and provide a validity start and end date. Also adjust the validity period of other instances of the same attribute/hierarchical information/geometry to remove any temporal validity overlaps and ideally gaps as well. When adding instances of hierarchical information, the validity period must be entered first so GeoPrism Registry will only provide parent Geo-Objects that are valid for that period as options.\\
+3.  Fill in the new instance with a value and provide a validity start and end date. Also adjust the validity period of other instances of the same attribute/hierarchical information/geometry to remove any temporal validity overlaps and ideally gaps as well. When adding instances of hierarchical information, the validity period must be entered first so Geoprism Registry will only provide parent Geo-Objects that are valid for that period as options.\\
 
     <figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 

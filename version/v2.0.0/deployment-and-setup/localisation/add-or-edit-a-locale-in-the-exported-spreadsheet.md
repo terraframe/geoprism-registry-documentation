@@ -5,12 +5,12 @@ The exported localized Excel file contains the following four worksheets:
 1. **Exceptions**: Messages provided to the user in case the action performed by the user was invalid
 2. **Core Exceptions**: Messages provided to the user when reaching an exception core to the platform functionalities
 3. **UI Text**: Terms and sentences used in the user interface
-4. **Registry Metadata**: Terms and sentences related to the Geo-Object Types and hierarchies that have been created in GeoPrism Registry
+4. **Registry Metadata**: Terms and sentences related to the Geo-Object Types and hierarchies that have been created in Geoprism Registry
 
 {% hint style="info" %}
 **Important notes**
 
-* GeoPrism Registry automatically creates the header of the column under which translations need to be added (e.g., _pt\_MZ_). Do not change this header.
+* Geoprism Registry automatically creates the header of the column under which translations need to be added (e.g., _pt\_MZ_). Do not change this header.
 * Do not reorder columns, tabs, or change keys, column headers or types in this file. The system needs this data to be able to read the spreadsheet.
 * Do not change the labels on the tabs.
 * Keep the special characters unchanged in the translation (e.g., \[{0}], ${, ...).
@@ -24,4 +24,4 @@ To add a locale in the exported spreadsheet, for each tab:
 
     <figure><img src="../../../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
-As Geo-Object Types, hierarchies or other elements are being in GeoPrism Registry, the number of terms and sentences will increase in the Registry Metadata spreadsheet of the Excel file. It can also be that users notice the need to improve the translation of some of the terms or sentences. In this case, it is always possible for the System Administrator to re-export the localization spreadsheet, and make the necessary changes before re-importing it following the steps from [Import a new locale from the localization spreadsheet](import-a-new-locale-from-the-spreadsheet.md).
+As Geo-Object Types, hierarchies or other elements are being in Geoprism Registry, the number of terms and sentences will increase in the Registry Metadata spreadsheet of the Excel file. It can also be that users notice the need to improve the translation of some of the terms or sentences. In this case, it is always possible for the System Administrator to re-export the localization spreadsheet, and make the necessary changes before re-importing it following the steps from [Import a new locale from the localization spreadsheet](import-a-new-locale-from-the-spreadsheet.md).

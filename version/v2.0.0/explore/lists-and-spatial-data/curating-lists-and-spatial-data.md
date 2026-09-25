@@ -1,10 +1,10 @@
 # Curating Lists and Spatial Data
 
 {% hint style="info" %}
-Two types of semi-automatic curation are implemented in GeoPrism Registry:
+Two types of semi-automatic curation are implemented in Geoprism Registry:
 
 1. The System Administrator, Registry Administrator and Registry Maintainer can check if some of the records in the working list do not have a geometry.
-2. GeoPrism Registry automatically produces tasks in the _Curation_ module each time a new historical event (see [Historical Events](../../curate/historical-events/README.md)) requires for some changes to be applied by the Registry Administrator or Registry Maintainer on relevant Geo-Objects (for example, the split of a district would require for the health facilities located in a part of it it to be reassigned to the new one that has been created)
+2. Geoprism Registry automatically produces tasks in the _Curation_ module each time a new historical event (see [Historical Events](../../curate/historical-events/README.md)) requires for some changes to be applied by the Registry Administrator or Registry Maintainer on relevant Geo-Objects (for example, the split of a district would require for the health facilities located in a part of it it to be reassigned to the new one that has been created)
 
 Apart from the above, the System Administrator, Registry Administrator, Registry Maintainer and Registry Contributor role can also use the sort functionality in an open list to identify Geo-Objects with empty values for a given attribute.
 {% endhint %}
@@ -44,8 +44,8 @@ To view the tasks generated in relation to captured historical events:
     <figure><img src="../../../../.gitbook/assets/image (17) (4).png" alt=""><figcaption></figcaption></figure>
 3. To learn more about the event mentioned in the task, you can go to the _Historical Events_ module to explore the particular historical event the Geo-Object is a part of (see [Historical Events](../../curate/historical-events/README.md)) to know how to explore historical events.
 4. The number of changes you would have to apply depends on the number of geo-objects impacted by the historical event that has been captured. In the above task for example, all the national hospitals located in the Santa Rosa shire before 04/20/07 will have to be reassigned to the Bacong shire after that date. Depending on the number of changes you have to apply, you may either:
-   1. Import a spreadsheet containing the geo-objects that are being impacted together with the new parent information (See Section 6.5.1.1 above to know how to import a spreadsheet).
-   2. Edit each impacted Geo-Object separately using the Lists and Spatial Data module (see Section 6.5.1.4 above to know how to edit an existing Geo-Object).
+   1. Import a spreadsheet containing the geo-objects that are being impacted together with the new parent information (see [Import a Spreadsheet](../../curate/import-geospatial-data/import-a-spreadsheet.md) to know how to import a spreadsheet).
+   2. Edit each impacted Geo-Object separately using the Lists and Spatial Data module (see [Editing Lists and Spatial Data](editing-lists-and-spatial-data.md) to know how to edit an existing Geo-Object).
 5.  Once the changes have been made, go back to the _Curation_ module. Find the task that has been addressed and mark it as complete by clicking the **Complete** radio button. The task will now be moved to the _Completed Tasks_ section.\\
 
     <figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>

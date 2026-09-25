@@ -1,6 +1,6 @@
 # FHIR External System
 
-By storing both a standard GeoPrism Registry identifier and external system identifier, GeoPrism Registry can maintain a mapping between object instances in the two systems. The external identifiers are set in the system through the data import process.
+By storing both a standard Geoprism Registry identifier and external system identifier, Geoprism Registry can maintain a mapping between object instances in the two systems. The external identifiers are set in the system through the data import process.
 
 
 
@@ -25,7 +25,7 @@ By storing both a standard GeoPrism Registry identifier and external system iden
 
 ### Compatibility
 
-Integration with FHIR requires use of FHIR OAuth security integration. Not all versions of [HAPI FHIR](https://hapifhir.io/) are known to be capable of integrating with GeoPrism Registry via OAuth. The following table shows whether or not the steps in this document have been found to work with the listed version of HAPI FHIR.
+Integration with FHIR requires use of FHIR OAuth security integration. Not all versions of [HAPI FHIR](https://hapifhir.io/) are known to be capable of integrating with Geoprism Registry via OAuth. The following table shows whether or not the steps in this document have been found to work with the listed version of HAPI FHIR.
 
 | HAPPI FHIR version | Integration via OAuth possible? |
 | ------------------ | ------------------------------- |
@@ -33,6 +33,6 @@ Integration with FHIR requires use of FHIR OAuth security integration. Not all v
 
 ### Synchronization
 
-GeoPrism Registry supports using an Apache Jena external system synchronization to push data to an Apache Jena instance.&#x20;
+Geoprism Registry supports using an Apache Jena external system synchronization to push data to an Apache Jena instance.&#x20;
 
 * See [fhir-synchronization.md](../synchronize-an-external-system/fhir-synchronization.md "mention")

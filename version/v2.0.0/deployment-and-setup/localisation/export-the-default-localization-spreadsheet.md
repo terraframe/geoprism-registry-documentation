@@ -1,6 +1,6 @@
 # Export the default localization spreadsheet
 
-All GeoPrism Registry text that can be localized is found in the localization spreadsheet. The localization spreadsheet can only be exported by a System Administrator.
+All Geoprism Registry text that can be localized is found in the localization spreadsheet. The localization spreadsheet can only be exported by a System Administrator.
 
 1.  Navigate to the **Settings** page and scroll to the 'Localization' section.\\
 

@@ -64,7 +64,7 @@ To edit an existing Geo-Object:
 7.  Click on the data elements tab (_Attributes_, _Hierarchies_, _Geometry_) containing the information you would like to edit.\\
 
     <figure><img src="../../../../.gitbook/assets/image (33).png" alt=""><figcaption></figcaption></figure>
-8. Once in the correct data elements tab, make the necessary changes. GeoPrism Registry marks the data elements tab with changes with an orange dot, changes the font color of the modified information to orange, and indicates the type of change that has been made:
+8. Once in the correct data elements tab, make the necessary changes. Geoprism Registry marks the data elements tab with changes with an orange dot, changes the font color of the modified information to orange, and indicates the type of change that has been made:
    1.  _Value Change:_ If only the attribute value has been modified.\\
 
        <figure><img src="../../../../.gitbook/assets/image (15) (2).png" alt=""><figcaption></figcaption></figure>

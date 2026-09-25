@@ -21,8 +21,8 @@ If a taxonomy edge type and the imported concept edges define the types of human
 
 A concept set can be specified on a Geo-Object Type when [creating one new](../geo-objects-and-hierarchies/geographic-object-types-outside-a-group/) and used during import to apply a constraint to an attribute on the data.
 
-{% hint style="info" %}
-Pre-requisite: The concept edge type values must be[ imported ](../../curate/import-business-data.md)first before adding a concept set to a new Geo-Object Type and before importing Geo-Object data to that type in the system.
+{% hint style="warning" %}
+Pre-requisite: The concept edge type values must be [imported](../../curate/import-business-data.md) first before adding a concept set to a new Geo-Object Type and before importing Geo-Object data to that type in the system.
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>

@@ -4,7 +4,7 @@
 Synchronizations can only be created by administrators.
 {% endhint %}
 
-Apache Jena Synchronizations perform an update of the the external system's data, rather than a full delete and replace of the destination's Jena database..&#x20;
+Apache Jena Synchronizations perform an update of the external system's data, rather than a full delete and replace of the destination's Jena database.&#x20;
 
 
 
@@ -31,7 +31,7 @@ Apache Jena Synchronizations perform an update of the the external system's data
 | Namespace               | <p>The base URI that begins the identifier of every resource in the published graph (e.g., <code>https://data.example.gov/gpr/</code>). This is the root descriptor of all the graph data.<br><br>Use a domain your organization controls, and avoid changing it after publishing, since that changes every identifier.</p> | Yes       |
 | Graph                   | The name of the graph in the triple store that this synchronization populates. Named graphs keep each published SKG separate, so it can be queried, updated, or removed on its own.                                                                                                                                         | Yes       |
 
-4.  Fill out the form and click _Submit to save the configuration._<br>
+4.  Fill out the form and click **Submit** to save the configuration.<br>
 
     <figure><img src="../../../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
 5.  Click the _View_ button to view the options for running the synchronization. <br>
@@ -39,5 +39,5 @@ Apache Jena Synchronizations perform an update of the the external system's data
     <figure><img src="../../../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure>
 
 
-6. Click _Publish_ to push the selected SKG to Jena..
+6. Click **Publish** to push the selected SKG to Jena.
 

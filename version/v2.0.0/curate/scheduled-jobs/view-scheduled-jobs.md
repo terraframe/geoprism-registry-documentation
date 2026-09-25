@@ -8,7 +8,7 @@
     <figure><img src="../../../../.gitbook/assets/image (14) (2).png" alt=""><figcaption></figcaption></figure>
 *   The _Job Details_ page will provide the problem type, message, and row number details of the issue and give you options on how to solve each problem when you click the **Resolve** button.\
     \
-    _&#x4E;ote:_ Depending on the problem type, GeoPrism Registry may ask you to fix the problem in the shapefile itself and then re-import it.
+    _&#x4E;ote:_ Depending on the problem type, Geoprism Registry may ask you to fix the problem in the shapefile itself and then re-import it.
 
     <figure><img src="https://lh4.googleusercontent.com/IhFFTih4s3WozWbMm45gssTdXBCZPzfiWERSX2eUAkDqOqKZDYNKgq696QBFKTEVRGzDB7lAfqKY9dGZFnu5GojoWgdr3J1j3sjiER3NJupj-i4Txa3k1jxw9wr0BJTO0HcIAo5tdDJnlgvCQpZlsNuumVjiXl68soFJFShsIy9cnoS4YT0BI-j-Xw" alt=""><figcaption></figcaption></figure>
 *   Depending on the problem type, there may also be cases when you can ignore the errors and proceed with the import. When this is the case, click the **Ignore All Errors** button.

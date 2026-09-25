@@ -1,4 +1,4 @@
-# Create a custom implementation for importing data from FHIR to GeoPrism Registry
+# Create a custom implementation for importing data from FHIR to Geoprism Registry
 
 {% hint style="warning" %}
 All custom implementations for importing data from a FHIR instance must implement the _net.geoprism.registry.etl.fhir.FhirResourceProcessor_ interface.

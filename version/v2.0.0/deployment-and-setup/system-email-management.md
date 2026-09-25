@@ -1,8 +1,8 @@
 # System email management
 
-GeoPrism Registry uses email settings to send email notifications to users of the system, in particular account creation invitations and automated change request notifications. Email configuration must be done by a System Administrator.
+Geoprism Registry uses email settings to send email notifications to users of the system, in particular account creation invitations and automated change request notifications. Email configuration must be done by a System Administrator.
 
-GeoPrism Registry is not directly capable of sending emails by itself. It must be connected to a remote email server which is capable of sending those emails on behalf of GeoPrism Registry. These instructions will enable you to configure the connection with that remote email server.
+Geoprism Registry is not directly capable of sending emails by itself. It must be connected to a remote email server which is capable of sending those emails on behalf of Geoprism Registry. These instructions will enable you to configure the connection with that remote email server.
 
 {% hint style="info" %}
 **Note:** The system only works with Simple Mail Transfer Protocol (SMTP) compliant email servers.
@@ -20,7 +20,7 @@ GeoPrism Registry is not directly capable of sending emails by itself. It must b
     | Server   | The server URL hosting the SMTP system (e.g., email-smtp.us-west-2.amazonaws.com)                                        |
     | Username | Username with ability to send emails                                                                                     |
     | Password | Password for the user                                                                                                    |
-    | Port     | Port used to provide access to the SMTP server. This is configured on the email server, not the GeoPrism Registry server |
+    | Port     | Port used to provide access to the SMTP server. This is configured on the email server, not the Geoprism Registry server |
     | From     | An email address used to send emails                                                                                     |
     | To       | An email address used to receive emails                                                                                  |
 4. Click Submit

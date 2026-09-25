@@ -1,8 +1,8 @@
 # Data quality
 
-The content hosted in GeoPrism Registry is meant to serve as the source of truth (ground reference) for any information system to properly contextualize, visualize, and analyze business data in both space and time. As such, this content is meant to present the highest level of quality possible across the six dimensions of data quality (uniqueness, completeness, timeliness, accuracy, validity, and consistency).
+The content hosted in Geoprism Registry is meant to serve as the source of truth (ground reference) for any information system to properly contextualize, visualize, and analyze business data in both space and time. As such, this content is meant to present the highest level of quality possible across the six dimensions of data quality (uniqueness, completeness, timeliness, accuracy, validity, and consistency).
 
-While GeoPrism Registry is meant to help improve and maintain the quality of this content across these dimensions, the higher the quality of this content at the time of uploading it in the platform, the lesser the work afterwards and the faster positive impacts can be seen.
+While Geoprism Registry is meant to help improve and maintain the quality of this content across these dimensions, the higher the quality of this content at the time of uploading it in the platform, the lesser the work afterwards and the faster positive impacts can be seen.
 
 The quality of the content before its upload in the platform can be ensured through the implementation of good data management practices throughout the overall geospatial data management cycle in Figure 5.4. The implementation of this cycle, and associated good practices, should ideally take place as part of the activities of the National Spatial Data Infrastructure (NSDI).
 

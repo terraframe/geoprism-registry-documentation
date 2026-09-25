@@ -1,6 +1,6 @@
 # Change Requests
 
-Geo-Objects need to be regularly updated so that they reflect changes in the geographic features they represent as closely as possible. To avoid the proliferation of different versions of lists of Geo-Objects being managed separately within and between programs, such lists can be centrally managed in GeoPrism, only by those who are given the responsibility to do so.
+Geo-Objects need to be regularly updated so that they reflect changes in the geographic features they represent as closely as possible. To avoid the proliferation of different versions of lists of Geo-Objects being managed separately within and between programs, such lists can be centrally managed in Geoprism, only by those who are given the responsibility to do so.
 
 Geo-Objects can either be directly modified by users with a Registry Maintainer role for the relevant Geo-Object Type, or through change requests submitted by users with a Registry Contributor role for it, and then reviewed by the Registry Maintainers through Geoprism Registry.
 

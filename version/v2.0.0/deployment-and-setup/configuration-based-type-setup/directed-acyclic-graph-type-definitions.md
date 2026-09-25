@@ -1,7 +1,7 @@
 # Directed acyclic graph type definitions
 
 {% hint style="warning" %}
-All acyclic graph type relationships between Geo-Objects (instance data) must be done through the [GeoPrism Registry API](https://georegistry-api-docs.geoprism.net/#tag/ETL/operation/importEdgeJson).
+All acyclic graph type relationships between Geo-Objects (instance data) must be done through the [Geoprism Registry API](https://georegistry-api-docs.geoprism.net/#tag/ETL/operation/importEdgeJson).
 {% endhint %}
 
 ## XSD definition <a href="#xsd-definition.2" id="xsd-definition.2"></a>
