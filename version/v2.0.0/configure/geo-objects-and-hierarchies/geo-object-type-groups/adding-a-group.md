@@ -1,26 +1,32 @@
 # Adding a group
 
-1.  Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.<br>
+{% hint style="info" %}
+Registry Administrators can create groups under the curation mandate of their organization
+{% endhint %}
 
-    <figure><img src="../../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
-2.  Click the **Add Group** button.
+1. Navigate to the **Geo-Objects and Hierarchies** page from the sidebar and make sure **Geo-Object Types** is selected at the top of the list.
 
-    <figure><img src="../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
-3. Fill out all the required fields and any optional fields that are relevant in the form that appears.
+   <figure><img src="../../../../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+2. Click **Add Group** under your organization.
 
-| Field                                                               | Description                                                                                                                                                                                                                                          | Required |
-| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Code                                                                | The unique human readable identifier. The code can be used to determine the uniqueness of a Geo-Object Type group if duplicate display labels exist in the system.                                                                                   | Required |
-| Label (defaultLocale)                                               | The default display label for the Geo-Object Type group. The default value will be used if the default locale is selected in the language toggle or if another language is selected but no value exists for that language.                           | Required |
-| Label… (for any other locale that is installed in the system)       | Display label for any locales installed in the system. A common geo-registry can have as many locales installed as needed. The system will allow the setting of the display label for each locale.                                                   |          |
-| Description (defaultLocale)                                         | The default description for the Geo-Object Type group. The default value will be used if the default locale is selected in the language toggle or if another language is selected but no value exists for that language.                             |          |
-| Description… (for any other locale that is installed in the system) | Description for any locales installed in the system. A common geo-registry can have as many locales installed as needed. The system will allow the setting of the description for each locale.                                                       |          |
-| Group Geo-Object Type (Group Membership)                            | The option for setting this Geo-Object Type as a group type. This is automatically selected and cannot be unchecked in this case.                                                                                                                    |          |
-| Private (Visibility)                                                | The option for setting if the Geo-Object Type group is private or public. Private makes the Geo-Object Type Group accessible only to people within the organization it belongs to. Public is visible (read only) to all organizations in the system. |          |
-| Geometry Type                                                       | The geometry type (point, line, or polygon) that all instance data loaded to this Geo-Object Type group must adhere to.                                                                                                                              |          |
-| Enable geometry editing                                             | Sets whether the Geo-Object geometries can be edited through Geoprism Registry's web-based editing tools.                                                                                                                                            |          |
-| Organization                                                        | The organization this Geo-Object Type group will be managed by.                                                                                                                                                                                      |          |
+   <figure><img src="../../../../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+3. Fill out the form:
+
+| Field | Description | Required |
+| ----- | ----------- | -------- |
+| Code | The unique human-readable identifier of the group. It can't be changed later. | Required |
+| Label (Default Locale) | The display label for the group. It's used when the default locale is selected in the language toggle, or when another language is selected but has no label. | Required |
+| Label (other installed locales) | A display label for each other locale installed in the system. | |
+| Description (Abstract) | A description of the group, with one field per installed locale. | |
+| Group Membership | **Group Geo-Object Type** is selected and can't be changed. | |
+| Visibility | Select **Private** to make the group visible only to people in its organization. Every Geo-Object Type in the group uses this setting. | |
+| Geometry Type | The geometry that all Geo-Objects in the group must have: **Point**, **Line**, **Polygon** or **Mixed Geometries**. Every Geo-Object Type in the group uses this setting. It can't be changed later. | Required |
+| Enable geometry editing | Whether Geo-Object geometries can be edited with Geoprism Registry's web-based editing tools. Selected by default. | |
+| Organization | The organization that manages the group. It's filled in with the organization you clicked **Add Group** under, and can't be changed. | |
+| Concept Set | <p>Optional. The Concept Set used to classify Geo-Objects in this group. Selecting one adds a <strong>classification</strong> attribute. When you import Geo-Object data, you map a column in your file to this attribute, and its values must be Concepts in the Concept Set.<br><br><mark style="color:$warning;">IMPORTANT: The Concept Set can't be added, changed or removed after the group is created.</mark></p> | |
+| Start Date / End Date | The period of validity for the Concept Set. Only shown when you choose a Concept Set. | Required with a Concept Set |
+| Root Term | For a taxonomy Concept Set, the Concept whose branch of the taxonomy provides the allowed values. | |
 
 <figure><img src="https://lh3.googleusercontent.com/DWx50Sipzjq4Oddh9w1bM1_qnDFQbsX_t_9WaoNBF7r5qVWLwUFOmx6de-kWpgW1RPLWNZjUqNo7p8TKtPlA_j41xvpPbsr3E-UvVpN-Z8wG4q77DOYQM-4vHi19fLeaDW83oa-7NbLcdDLfcEzjBxRAFZ2YStw2mXvGGNrWseiRdmxL-XoYnN8O" alt=""><figcaption></figcaption></figure>
 
-5\. Click the **OK** button. The newly created group will now show up under the _Geo-Object Types_ column on the sidebar. <br>
+4. Click **Ok**. The group appears under your organization. Next, [add Geo-Object Types to the group](adding-a-geo-object-type-to-a-group.md).

@@ -4,33 +4,30 @@
 Registry Administrators can create the Geo-Object Types under the curation mandate of their organization
 {% endhint %}
 
+1. Navigate to the **Geo-Objects and Hierarchies** page from the sidebar and make sure **Geo-Object Types** is selected at the top of the list.
 
+   <figure><img src="../../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+2. Click **Add Geo-Object Type** under your organization.
 
-1.  Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.<br>
+   <figure><img src="../../../../../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
+3. Fill out the form:
 
-    <figure><img src="../../../../../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
-2.  Click the **Add Geo-Object Type** button.
+| Field | Description | Required |
+| ----- | ----------- | -------- |
+| Code | The unique human-readable identifier. It tells Geo-Object Types apart if two have the same label. It can't be changed later. | Required |
+| Label (Default Locale) | The display label for the Geo-Object Type. It's used when the default locale is selected in the language toggle, or when another language is selected but has no label. | Required |
+| Label (other installed locales) | A display label for each other locale installed in the system. | |
+| Description (Abstract) | A description of the Geo-Object Type, with one field per installed locale. | |
+| Group Membership | Shows whether this is a group. It can't be changed here. To create a group, click **Add Group** instead. See [Geo-Object Type Groups](../geo-object-type-groups/README.md). | |
+| Visibility | Select **Private** to make the Geo-Object Type visible only to people in its organization. Public types can be viewed (read only) by all organizations. | |
+| Geometry Type | The geometry that all Geo-Objects of this type must have: **Point**, **Line**, **Polygon** or **Mixed Geometries**. It can't be changed later. | Required |
+| Enable geometry editing | Whether Geo-Object geometries can be edited with Geoprism Registry's web-based editing tools. Selected by default. | |
+| Organization | The organization that manages the Geo-Object Type. It's filled in with the organization you clicked **Add Geo-Object Type** under, and can't be changed. | |
+| Concept Set | <p>Optional. The Concept Set used to classify Geo-Objects of this type. Selecting one adds a <strong>classification</strong> attribute to the type. When you import Geo-Object data, you map a column in your file to this attribute, and its values must be Concepts in the Concept Set.<br><br><mark style="color:$warning;">IMPORTANT: The Concept Set can't be added, changed or removed after the Geo-Object Type is created.</mark></p> | |
+| Start Date / End Date | The period of validity for the Concept Set on this type. Only shown when you choose a Concept Set. | Required with a Concept Set |
+| Root Term | For a taxonomy Concept Set, the Concept whose branch of the taxonomy provides the allowed values. | |
 
-    <figure><img src="../../../../../.gitbook/assets/image (6) (1) (2).png" alt=""><figcaption></figcaption></figure>
-3.  Fill out all the required fields and any optional fields that are relevant in the form that appears.
+   <figure><img src="../../../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+4. Click **Ok**. The new Geo-Object Type opens, and you can [add its attributes](manage-the-attributes-associated-to-a-geographic-object-type.md).
 
-    | Field                                                               | Description                                                                                                                                                                                                                                                                             | Required |
-    | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-    | Code                                                                | The unique human readable identifier. The code can be used to determine the uniqueness of a Geo-Object Type if duplicate display labels exist in the system.                                                                                                                            | Required |
-    | Label (defaultLocale)                                               | The default display label for the Geo-Object Type. The default value will be used if the default locale is selected in the language toggle or if another language is selected but no value exists for that language.                                                                    | Required |
-    | Label… (for any other locale that is installed in the system)       | Display label for any locales installed in the system. A common geo-registry can have as many locales installed as needed. The system will allow the setting of the display label for each locale.                                                                                      |          |
-    | Description (defaultLocale)                                         | The default description for the Geo-Object Type. The default value will be used if the default locale is selected in the language toggle or if another language is selected but no value exists for that language.                                                                      |          |
-    | Description… (for any other locale that is installed in the system) | Description for any locales installed in the system. A common geo-registry can have as many locales installed as needed. The system will allow the setting of the description for each locale.                                                                                          |          |
-    | Group Geo-Object Type (Group Membership)                            | The option for setting this Geo-Object Type as a group type.                                                                                                                                                                                                                            |          |
-    | Private (Visibility)                                                | The option for setting if the Geo-Object Type is private or public. Private makes the Geo-Object Type accessible only to people within the organization it belongs to. Public is visible (read only) to all organizations in the system.                                                |          |
-    | Geometry Type                                                       | The geometry type (point, line, or polygon) that all instance data loaded to this Geo-Object Type must adhere to.                                                                                                                                                                       |          |
-    | Enable geometry editing                                             | Sets whether the Geo-Object geometries can be edited through Geoprism Registry's web-based editing tools.                                                                                                                                                                               |          |
-    | Organization                                                        | The organization this Geo-Object Type will be managed by.                                                                                                                                                                                                                               |          |
-    | Concept Set                                                         | <p>Optional. The Concept Set used to classify Geo-Objects of this type. Selecting one adds a <strong>classification</strong> attribute to the type. When you import Geo-Object data, you map a column in your file to this attribute, and its values must be Concepts in the Concept Set.<br><br><mark style="color:$warning;">IMPORTANT: The Concept Set can't be added, changed or removed after the Geo-Object Type is created.</mark></p> |          |
-
-    <br>
-
-    <figure><img src="../../../../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
-4.  Click the **OK** button. Once added, you will be able to see the Geo-Object Type under the organization it has been added to.\\
-
-    <figure><img src="https://lh4.googleusercontent.com/o7M8ZVCNZHZN0UP2jV0KSgFsivunPL8tNkNAZjqb8SEO13cudcNkDBP_HpLBOEU53fZoUebtppPUcjXzxHoVHPgsRjWMsgjkO6HqcCKsOq2-nysbkHcoWZj78yXTvqVtaIGSy2a9VZiXjeSsy1-399d6otzENPg_iEEPvlTI8vn3fF7sTiLzukJ7" alt=""><figcaption></figcaption></figure>
+   <figure><img src="https://lh4.googleusercontent.com/o7M8ZVCNZHZN0UP2jV0KSgFsivunPL8tNkNAZjqb8SEO13cudcNkDBP_HpLBOEU53fZoUebtppPUcjXzxHoVHPgsRjWMsgjkO6HqcCKsOq2-nysbkHcoWZj78yXTvqVtaIGSy2a9VZiXjeSsy1-399d6otzENPg_iEEPvlTI8vn3fF7sTiLzukJ7" alt=""><figcaption></figcaption></figure>

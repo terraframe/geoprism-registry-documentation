@@ -2,7 +2,7 @@
 
 Rollback returns the registry to the state it was in before a data import. Use it to undo an import that loaded the wrong file or bad data.
 
-Each time a data import runs, Geoprism Registry saves a **rollback checkpoint** for it. The **Data Rollback** page lists these checkpoints by file name, newest first.
+Each time a data import runs, Geoprism Registry saves a **rollback checkpoint** for it. The **Rollback Data** page lists these checkpoints by file name, newest first.
 
 {% hint style="danger" %}
 A rollback can't be undone. Rolling back an import also rolls back **every import and change made after it**, not just that one file.
@@ -16,7 +16,7 @@ A rollback can't be undone. Rolling back an import also rolls back **every impor
 
 ## Rolling back an import
 
-1. Navigate to the **Data Rollback** page from the sidebar.
+1. Navigate to the **Rollback Data** page from the sidebar.
 2. Find the import you want to undo. Click its file name to open the import job and check that it's the right one.
 3. Click **Rollback** next to the file.
 4. A confirmation asks whether you want to roll back all data imported, and all changes made, since before that file was imported. Click **Rollback** to confirm.

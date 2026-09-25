@@ -1,29 +1,32 @@
 # Managing the attributes for a Geo-Object Type in a group
 
-1. Navigate to the _Geo-Objects and Hierarchies_ page from the sidebar.
-2.  Click the three dot menu option button to open the options for that group. Select the _Edit_.<br>
+{% hint style="info" %}
+Registry Administrators can manage the attributes of groups under the curation mandate of their organization
+{% endhint %}
 
-    <figure><img src="../../../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
-3.  The _Manage Geo-Object Type_ window will open. Scroll down to the _Attributes_ section and click the **+ Add** button.
+Attributes you add to a group apply to every Geo-Object Type in the group. To add an attribute to just one Geo-Object Type in the group, edit that Geo-Object Type instead.
 
-    <figure><img src="../../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
-4. The _Add a new attribute_ window will open. Select the data type of the new attribute you want to add that will apply to all geographic object types in the group and fill out all the required fields and any optional fields that are relevant.
+1. Navigate to the **Geo-Objects and Hierarchies** page from the sidebar.
+2. Click the three-dot menu next to the group and select **Edit**.
 
-| Field                                                               | Description                                                                                                                                                                                                                                                                                                                                                                            | Required |
-| ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| Data Type                                                           | <p>The data type that defines the type of values for the attribute. Options include text, integer, decimal, date, Boolean, and term. The data type will be enforced for any instance data stored for this attribute.</p><p><br><em>Example: Number of beds in a health facility should be an integer data type to ensure values are stored as whole numbers with no decimals.</em></p> | Required |
-| Code                                                                | <p>The unique human readable identifier. The code can be used to determine the uniqueness of an attribute if duplicate display labels exist in the system.</p><p><br><em>Example: CHW could be used for a Community Health Worker Geo-Object Type.</em></p>                                                                                                                            | Required |
-| Label (defaultLocale)                                               | The default display label for the attribute.                                                                                                                                                                                                                                                                                                                                           | Required |
-| Label… (for any other locale that is installed in the system)       | Display label for any locales installed in the system. A common geo-registry can have as many locales installed as needed. The system will allow the setting of the display label for each locale.                                                                                                                                                                                     |          |
-| Description (defaultLocale)                                         | The default description for the attribute.                                                                                                                                                                                                                                                                                                                                             |          |
-| Description… (for any other locale that is installed in the system) | Description for any locales installed in the system. A common geo-registry can have as many locales installed as needed. The system will allow the setting of the description for each locale.                                                                                                                                                                                         |          |
-| Length (Decimal type only)                                          | The total number of digits in the number.                                                                                                                                                                                                                                                                                                                                              |          |
-| Decimal (Decimal type only)                                         | The number of digits to the right of the decimal point.                                                                                                                                                                                                                                                                                                                                |          |
+   <figure><img src="../../../../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+3. In the **Attributes** section, click **+ Add**.
+
+   <figure><img src="../../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
+4. The **Add a new attribute** form opens. Select the data type and fill out the form:
+
+| Field | Description | Required |
+| ----- | ----------- | -------- |
+| Data Type | <p>The type of values the attribute holds: <strong>Text</strong>, <strong>Localized Text</strong> (a value for each installed locale), <strong>Integer</strong>, <strong>Decimal</strong>, <strong>Date</strong> or <strong>Boolean</strong>. The data type is enforced for every value stored in the attribute.</p><p><em>Example: The number of beds in a health facility should be an Integer, so values are stored as whole numbers.</em></p> | Required |
+| Code | <p>The unique identifier of the attribute. It can't contain spaces and can't be changed later.</p><p><em>Example: NUMBER_OF_BEDS</em></p> | Required |
+| Label | The display label, with one field per installed locale. The default locale is required. | Required |
+| Description (Abstract) | A description, with one field per installed locale. | |
+| Length (Decimal only) | The total number of digits in the number. The default is 32. | Required |
+| Decimal (Decimal only) | The number of digits to the right of the decimal point. The default is 8. | Required |
 
 <figure><img src="https://lh5.googleusercontent.com/FVXOBtSvWqQdrzn7g-wLHDFXjnO5G0DrOX9FNHbxvrSw2mTVFgX2Xid3WXr2Ey3-oSwk3aXvi5RL2zgSU1dlXkXRrAp42koraX4wp81OsmDlzUYQSyuAWKu8itY1EeeQkp0p9vxCpKG1X6QSfRRXO9jTQqvs40XGtBH6w-ur1S4AeYHscGyZzGMl" alt=""><figcaption></figcaption></figure>
 
-6\. Click the **Submit** button.
+5. Click **Submit**. The attribute is saved right away.
+6. To add another attribute, repeat steps 3 to 5.
 
-7\. To add another attribute, repeat steps 4 to 6.
-
-8\. Once the custom attributes have been added, click the **Submit** button in the _Manage Geo-Object Type_ window.
+To edit or remove an attribute, see [Editing or removing an attribute](../geographic-object-types-outside-a-group/manage-the-attributes-associated-to-a-geographic-object-type.md#editing-or-removing-an-attribute).
