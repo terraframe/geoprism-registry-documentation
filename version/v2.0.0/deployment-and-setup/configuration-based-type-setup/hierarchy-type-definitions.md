@@ -1,5 +1,7 @@
 # Hierarchy type definitions
 
+Put `<hierarchy>` elements inside an `<organization>` element. Each `<child>` is the code of a Geo-Object Type, and can contain its own `<child>` elements for the next level down. Use `extends` to inherit another hierarchy.
+
 ## XSD definition <a href="#xsd-definition.1" id="xsd-definition.1"></a>
 
 ```

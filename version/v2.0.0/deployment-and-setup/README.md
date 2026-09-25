@@ -6,10 +6,11 @@ This section is for System Administrators. It explains how to deploy Geoprism Re
 | ---- | -------------- |
 | [License](license.md) | The license Geoprism Registry is released under. |
 | [Creating a new installation](creating-a-new-installation/README.md) | System architecture, hardware requirements, SSL, and installing, configuring and updating Geoprism Registry. |
-| [Organization management](organization-management/README.md) | Creating organizations and inviting their Registry Administrators. |
+| [Organization management](organization-management/README.md) | Creating organizations, arranging them in a hierarchy, and inviting their Registry Administrators. |
 | [Localization](localisation/README.md) | Adding and managing the languages of the user interface. |
 | [System email management](system-email-management.md) | The email settings used for invitations and password resets. |
 | [Branding (Logo)](branding-logo.md) | Changing the logo in the user interface. |
+| [Backup and restore](backup-and-restore.md) | Backing up, restoring and deleting the instance's data. |
 | [FHIR custom implementation](fhir-custom-implementation/README.md) | Building custom code for FHIR imports and exports. |
 | [Configuration-based type setup](configuration-based-type-setup/README.md) | Defining types from configuration files instead of the user interface. |
 

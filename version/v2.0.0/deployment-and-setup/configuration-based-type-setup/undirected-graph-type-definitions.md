@@ -1,7 +1,9 @@
 # Undirected graph type definitions
 
-{% hint style="warning" %}
-All undirected graph type relationships between Geo-Objects (instance data) must be done through the [Geoprism Registry API](https://georegistry-api-docs.geoprism.net/#tag/ETL/operation/importEdgeJson).
+Put `<undirected-graph>` elements inside an `<organization>` element. In the schema, directed acyclic graph and undirected graph types share one type definition, named `graph`, with the same attributes shown below.
+
+{% hint style="info" %}
+This file only creates the graph type. To load the relationships between Geo-Objects, use [Import Edge Data](../../curate/import-edge-data.md) or the [API](../../external-system-integration/available-apis.md).
 {% endhint %}
 
 ## XSD definition <a href="#xsd-definition.3" id="xsd-definition.3"></a>

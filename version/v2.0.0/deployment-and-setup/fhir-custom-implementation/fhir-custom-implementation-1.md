@@ -4,7 +4,19 @@
 All custom implementations for exporting data to a FHIR instance must implement the _net.geoprism.registry.etl.fhir.FhirDataPopulator_ interface.
 {% endhint %}
 
-```
+An export implementation turns each row of a list version into FHIR `Location` and `Organization` resources. The easiest way to write one is to extend `AbstractFhirDataPopulator`, which handles the basic resources and provides helpers for hierarchy extensions (`addHierarchyExtension`) and `partOf` references (`setPartOf`).
+
+| Method | Called |
+| ------ | ------ |
+| `getLabel()` | To show the implementation's name in the **Implementation** list of a synchronization configuration. |
+| `configure(FhirConnection context, ListTypeVersion version, boolean resolveIds)` | Once, before the export, with the connection to the FHIR server and the list version being exported. |
+| `populate(Business row, Facility facility)` | For each row of the list, to fill in the facility's `Location` and `Organization`. |
+| `createExtraResources(Business row, Bundle bundle, Facility facility)` | For each row, to add any other resources to the bundle. |
+| `finish(Bundle bundle)` | Once, after all rows have been processed. |
+
+This example publishes locations and organizations using the IHE mCSD profiles. It's based on the mCSD export implementation built into Geoprism Registry.
+
+```java
 package com.terraframe.demo;
 
 import java.util.LinkedList;
@@ -19,14 +31,15 @@ import org.hl7.fhir.r4.model.Organization;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
+import com.runwaysdk.Pair;
 import com.runwaysdk.business.Business;
 
-import net.geoprism.registry.MasterList;
-import net.geoprism.registry.MasterListVersion;
+import net.geoprism.registry.ListType;
 import net.geoprism.registry.etl.fhir.AbstractFhirDataPopulator;
 import net.geoprism.registry.etl.fhir.Facility;
+import net.geoprism.registry.etl.fhir.FhirConnection;
 import net.geoprism.registry.etl.fhir.FhirDataPopulator;
-import net.geoprism.registry.etl.fhir.FhirExportContext;
+import net.geoprism.registry.ListTypeVersion;
 import net.geoprism.registry.model.ServerGeoObjectType;
 import net.geoprism.registry.model.ServerHierarchyType;
 
@@ -48,11 +61,11 @@ public class DemoFhirDataPopulator extends AbstractFhirDataPopulator implements 
   }
 
   @Override
-  public void configure(FhirExportContext context, MasterListVersion version, boolean resolveIds)
+  public void configure(FhirConnection context, ListTypeVersion version, boolean resolveIds)
   {
     super.configure(context, version, resolveIds);
 
-    MasterList list = version.getMasterlist();
+    ListType list = version.getListType();
 
     JsonArray hierarchies = list.getHierarchiesAsJson();
 
@@ -62,7 +75,7 @@ public class DemoFhirDataPopulator extends AbstractFhirDataPopulator implements 
 
       String hCode = hierarchy.get("code").getAsString();
 
-      List<String> pCodes = list.getParentCodes(hierarchy);
+      List<Pair<String, Integer>> pCodes = list.getParentCodes(hierarchy);
 
       if (pCodes.size() > 0)
       {
@@ -76,7 +89,7 @@ public class DemoFhirDataPopulator extends AbstractFhirDataPopulator implements 
   {
     super.populate(row, facility);
 
-    ServerGeoObjectType type = this.getList().getGeoObjectType();
+    ServerGeoObjectType type = this.getList().getServerGeoObjectType();
     String label = type.getLabel().getValue();
     String system = this.getContext().getSystem();
 
@@ -94,6 +107,7 @@ public class DemoFhirDataPopulator extends AbstractFhirDataPopulator implements 
     {
       location.getMeta().addProfile("http://ihe.net/fhir/StructureDefinition/IHE.mCSD.FacilityLocation");
       location.addType(new CodeableConcept().addCoding(new Coding("urn:ietf:rfc:3986", "urn:ihe:iti:mcsd:2019:facility", "Facility")));
+      location.setPhysicalType(new CodeableConcept().setText("Building").addCoding(new Coding("http://terminology.hl7.org/CodeSystem/location-physical-type", "bu", "Building")));
 
       organization.getMeta().addProfile("http://ihe.net/fhir/StructureDefinition/IHE.mCSD.FacilityOrganization");
       organization.addType(new CodeableConcept().addCoding(new Coding("urn:ietf:rfc:3986", "urn:ihe:iti:mcsd:2019:facility", "Facility")));
@@ -102,14 +116,22 @@ public class DemoFhirDataPopulator extends AbstractFhirDataPopulator implements 
     {
       location.getMeta().addProfile("http://ihe.net/fhir/StructureDefinition/IHE.mCSD.JurisdictionLocation");
       location.addType(new CodeableConcept().addCoding(new Coding("urn:ietf:rfc:3986", "urn:ihe:iti:mcsd:2019:jurisdiction", "Jurisdiction")));
+      location.setPhysicalType(new CodeableConcept().setText("Jurisdiction").addCoding(new Coding("http://terminology.hl7.org/CodeSystem/location-physical-type", "jdn", "Jurisdiction")));
 
       organization.getMeta().addProfile("http://ihe.net/fhir/StructureDefinition/IHE.mCSD.JurisdictionsOrganization");
       organization.addType(new CodeableConcept().addCoding(new Coding("urn:ietf:rfc:3986", "urn:ihe:iti:mcsd:2019:jurisdiction", "Jurisdiction")));
     }
 
-    for (ServerHierarchyType hierarchy : this.hierarchies)
+    if (this.hierarchies.size() > 1)
     {
-      this.addHierarchyExtension(row, facility, hierarchy);
+      for (ServerHierarchyType hierarchy : this.hierarchies)
+      {
+        this.addHierarchyExtension(row, facility, hierarchy);
+      }
+    }
+    else if (this.hierarchies.size() == 1)
+    {
+      this.setPartOf(row, facility, this.hierarchies.get(0));
     }
   }
 

@@ -1,11 +1,25 @@
 # FHIR custom implementation
 
 {% hint style="warning" %}
-This documentation covers advanced system configuration.
+This documentation covers advanced system configuration, for Java developers.
 {% endhint %}
 
-{% hint style="info" %}
-These transformations are what is used when importing or exporting data through an External Synchronization from or to a FHIR instance.
-{% endhint %}
+When Geoprism Registry exchanges data with a Fast Healthcare Interoperability Resources (FHIR) server through a [FHIR synchronization](../../external-system-integration/synchronize-an-external-system/fhir-synchronization.md), the data is transformed by an **implementation**:
 
-The data coming in and out of a Fast Healthcare Interoperability Resources (FHIR) instance is transformed through the use of the Java Service IOC architecture. A developer can add a new transformation by creating a JAR file that registers its classes as implementations of the FHIR interfaces. The following sections describe a step-by-step process to create a new FHIR implementation in the system.
+* An **export implementation** (`FhirDataPopulator`) turns list data into FHIR resources.
+* An **import implementation** (`FhirResourceProcessor`) turns FHIR resources into Geo-Objects.
+
+Geoprism Registry includes these implementations, which you can choose in a synchronization configuration without writing any code:
+
+| Implementation | Type | Class |
+| -------------- | ---- | ----- |
+| Basic Export Implementation | Export | `net.geoprism.registry.etl.fhir.BasicFhirDataPopulator` |
+| mCSD Export Implementation | Export | `net.geoprism.registry.etl.fhir.MCSDFhirDataPopulator` |
+| Basic Resource processor | Import | `net.geoprism.registry.etl.fhir.BasicFhirResourceProcessor` |
+
+If these don't fit your data, a developer can write a custom implementation. Implementations are found with the Java `ServiceLoader`, so you add one by building a JAR that registers its classes. The steps are:
+
+1.  [maven-project-setup.md](maven-project-setup.md "mention")
+2.  [fhir-custom-implementation-1.md](fhir-custom-implementation-1.md "mention"), [fhir-custom-implementation-2.md](fhir-custom-implementation-2.md "mention"), or both
+3.  [fhir-custom-implementation-3.md](fhir-custom-implementation-3.md "mention")
+4.  [fhir-custom-implementation-4.md](fhir-custom-implementation-4.md "mention")

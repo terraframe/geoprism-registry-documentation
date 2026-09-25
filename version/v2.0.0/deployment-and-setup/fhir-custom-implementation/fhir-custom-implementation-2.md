@@ -4,13 +4,18 @@
 All custom implementations for importing data from a FHIR instance must implement the _net.geoprism.registry.etl.fhir.FhirResourceProcessor_ interface.
 {% endhint %}
 
-```
+An import implementation turns FHIR `Location` and `Organization` resources into Geo-Objects. The easiest way to write one is to extend `AbstractFhirResourceProcessor` and implement how to find each resource's Geo-Object Type (`getType`), its identifier (`getIdentifier`), and how to fill in the Geo-Object (`populate`). You can also override `getGeometry` to read the geometry.
+
+This example is based on the basic resource processor built into Geoprism Registry.
+
+```java
 package com.terraframe.demo;
 
 import java.util.Date;
 import java.util.Optional;
 
 import org.commongeoregistry.adapter.dataaccess.LocalizedValue;
+import org.commongeoregistry.adapter.dataaccess.ValueOverTimeDTO;
 import org.hl7.fhir.r4.model.CodeableConcept;
 import org.hl7.fhir.r4.model.Coding;
 import org.hl7.fhir.r4.model.Identifier;
@@ -18,7 +23,6 @@ import org.hl7.fhir.r4.model.Location;
 import org.hl7.fhir.r4.model.Organization;
 
 import com.runwaysdk.dataaccess.ProgrammingErrorException;
-import com.runwaysdk.dataaccess.graph.attributes.ValueOverTime;
 
 import net.geoprism.registry.etl.fhir.AbstractFhirResourceProcessor;
 import net.geoprism.registry.etl.fhir.FhirResourceProcessor;
@@ -43,8 +47,8 @@ public class DemoFhirResourceProcessor extends AbstractFhirResourceProcessor imp
     LocalizedValue value = LocalizedValue.createEmptyLocalizedValue();
     value.setValue(LocalizedValue.DEFAULT_LOCALE, location.getName());
 
-    geoObject.setDisplayLabel(value, lastUpdated, ValueOverTime.INFINITY_END_DATE);
-    geoObject.setExists(true, lastUpdated, ValueOverTime.INFINITY_END_DATE);
+    geoObject.setDisplayLabel(value, lastUpdated, ValueOverTimeDTO.INFINITY_END_DATE);
+    geoObject.setExists(true, lastUpdated, ValueOverTimeDTO.INFINITY_END_DATE);
   }
 
   @Override

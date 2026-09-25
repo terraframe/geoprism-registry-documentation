@@ -1,26 +1,25 @@
 # System email management
 
-Geoprism Registry uses email settings to send email notifications to users of the system, in particular account creation invitations and automated change request notifications. Email configuration must be done by a System Administrator.
-
-Geoprism Registry is not directly capable of sending emails by itself. It must be connected to a remote email server which is capable of sending those emails on behalf of Geoprism Registry. These instructions will enable you to configure the connection with that remote email server.
+Geoprism Registry sends emails to users, such as account invitations, password resets and change request notifications. It can't send email by itself: it connects to an email server that sends the messages for it. Only a System Administrator can configure email.
 
 {% hint style="info" %}
-**Note:** The system only works with Simple Mail Transfer Protocol (SMTP) compliant email servers.
+Geoprism Registry only works with SMTP (Simple Mail Transfer Protocol) email servers.
 {% endhint %}
 
-1. Go to the **Settings** module from the sidebar.\
-   ![](<../../../.gitbook/assets/image (28).png>)
-2.  Under the Email section, click **Configure**.\\
+1.  Go to the **Settings** page from the sidebar.
+
+    ![](<../../../.gitbook/assets/image (28).png>)
+2.  In the **Email** section, click **Configure**.
 
     <figure><img src="https://lh5.googleusercontent.com/ZOkJTcRXypi14doj0e9FN3ni6gwQxORSUwloulUcNibVGl3q7sk7SnzuxLEGgEn4siJeBEElaKYIsiLsnpgW2SefSANWdCRDXwQhiKJSRPA99YhcbHFipPfqzRPe2ACq-BPhEJBM6KF_b2N9lN1SjGM-YcHp2sYeo1LfELkAhCvlPu40frJb6XnS" alt=""><figcaption></figcaption></figure>
-3.  Enter the values in the displayed form.
+3.  Fill out the **Email Server** form:
 
-    | Field    | Description                                                                                                              |
-    | -------- | ------------------------------------------------------------------------------------------------------------------------ |
-    | Server   | The server URL hosting the SMTP system (e.g., email-smtp.us-west-2.amazonaws.com)                                        |
-    | Username | Username with ability to send emails                                                                                     |
-    | Password | Password for the user                                                                                                    |
-    | Port     | Port used to provide access to the SMTP server. This is configured on the email server, not the Geoprism Registry server |
-    | From     | An email address used to send emails                                                                                     |
-    | To       | An email address used to receive emails                                                                                  |
-4. Click Submit
+    | Field | Description | Required |
+    | ----- | ----------- | -------- |
+    | Server | The address of the SMTP server, for example `email-smtp.us-west-2.amazonaws.com`. | Required |
+    | User name | A user that can send email through the server. | Required |
+    | Password | That user's password. | Required |
+    | Port | The port the SMTP server accepts connections on. It's set on the email server, not on Geoprism Registry. | Required |
+    | From | The email address that emails are sent from. | Required |
+    | To | An email address that receives emails from the system. | |
+4.  Click **Submit**. The **Email** section shows **Configured** once email is set up.
