@@ -2,27 +2,27 @@
 
 An Apache Jena external system tells Geoprism Registry where to send data from a published Spatial Knowledge Graph. Geoprism Registry uses the Apache Jena Java client to load the data into the triple store at the URL you register.
 
-1. Go to the **Settings** module from the sidebar.\
-   ![](<../../../../.gitbook/assets/image (28).png>)
-2.  Scroll down to the 'External Systems' section and click on the **+** button to open the Registration modal.
+1.  Go to the **Settings** page from the sidebar.
+
+    ![](<../../../../.gitbook/assets/image (28).png>)
+2.  In the **External Systems** section, click the plus icon to open the **External System** form.
 
     <figure><img src="../../../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
-3.  Select Jena from the _Type_ dropdown and fill out the other fields.<br>
+3.  Select **Jena** as the **Type** and fill out the form:
 
     <figure><img src="../../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
 
-| Field name          | Description                                                                                                                 | Required? |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------- | --------- |
-| Type                | The type of external system.                                                                                                | Yes       |
-| Organization        | The organization the user belongs to. An external system will only be available to data and users within this organization. | Yes       |
-| ID                  | The identifier for this external system.                                                                                    | Yes       |
-| Label               | The label of the external system.                                                                                           | Yes       |
-| Description         | A description of the external system.                                                                                       | No        |
-| URL                 | The URL of the Jena instance (ex: [https://example.com:8182](https://example.com:8182))                                     | Yes       |
-| Authentication Type | <ul><li>None</li><li>IAM</li></ul>                                                                                          | Yes       |
+    | Field | Description | Required |
+    | ----- | ----------- | -------- |
+    | Type | The type of external system. It can't be changed later. | Required |
+    | Organization | The organization the external system is available to. It can't be changed later. | Required |
+    | ID | The identifier of the external system. It can't be changed later. | Required |
+    | Label | The display label, with one field per installed locale. | Required |
+    | Description | A description, with one field per installed locale. | |
+    | URL | The URL of the Jena instance, including the port, for example `https://example.com:8182`. Don't include the `/sparql` path. | Required |
+    | Authentication Type | <ul><li>None</li><li>IAM</li></ul> | Yes |
+4.  Click **Submit**.
 
-### Synchronization
+## Synchronization
 
-Geoprism Registry supports using an Apache Jena external system synchronization to push data to an Apache Jena instance.&#x20;
-
-* See [apache-jena-synchronization.md](../synchronize-an-external-system/apache-jena-synchronization.md "mention")
+To send a published Spatial Knowledge Graph to the Jena instance, see [apache-jena-synchronization.md](../synchronize-an-external-system/apache-jena-synchronization.md "mention").

@@ -1,68 +1,58 @@
 # FHIR Synchronization
 
-## Synchronization
-
 {% hint style="info" %}
-A registered FHIR external system must exist in Geoprism Registry.
+A registered [FHIR external system](../register-an-external-system/fhir-external-system.md) must exist in Geoprism Registry.
 {% endhint %}
 
-{% hint style="info" %}
-A system synchronization must be created separately for a pull and push of data. Geoprism Registry does not support using one external synchronization that does both a pull and a push.
-{% endhint %}
+A FHIR synchronization either sends data to a FHIR server (**Export**) or pulls data from one (**Import**). One synchronization can't do both, so create a separate configuration for each direction.
 
-External system synchronizations enable the ability to push and pull data between a Geoprism Registry instance and a FHIR instance.
+## Sending data to a FHIR server
 
-### Pushing data to FHIR instance from a Geoprism Registry instance <a href="#pushing-data-to-fhir-from-the-cgr" id="pushing-data-to-fhir-from-the-cgr"></a>
-
-1. Navigate to the _Settings_ page.
-2. Find the _External System Synchronizations_ section and click the + button to register synchronizations.
-3.  Click the create button on the _Synchronization Configurations_ page.\\
+1.  Go to the **Settings** page. In the **External System Synchronizations** section, click **Register Synchronization**.
+2.  On the **Synchronization Configurations** page, click **Create**.
 
     <figure><img src="https://lh4.googleusercontent.com/266T4bH2_5Q0C-oJ1VxvtdZIwrlnZM750n0HvEVnddkht0vxVNv4k9bB9KlynvGxsSERlUUUeQQ-SGAIu7UPj75ceWZelha7PrMPFF25YTiIEsHyecXZ1OLfyBVb4Dhc1WMaBdHK9aZpZpSh0kkQ2xZycnOmRF25kEiG7z7kFvZxr2DclU8x_A9Fxg" alt=""><figcaption></figcaption></figure>
-4.  Fill out the modal fields being sure to select _Export_ for the _Synchronization Type_.\\
+3.  Fill out the **Synchronization Configuration** form, selecting **Export** as the **Synchronization Type**:
 
     <figure><img src="../../../../.gitbook/assets/Screenshot 2022-11-01 134209.jpg" alt=""><figcaption></figcaption></figure>
 
-    | Field           | Description                                                                                               |
-    | --------------- | --------------------------------------------------------------------------------------------------------- |
-    | Label           | Label of the synchronization configuration.                                                               |
-    | Organization    | The organization the synchronization configuration will be available to.                                  |
-    | Hierarchy       | The hierarchy this synchronization will use to push data to an external system.                           |
-    | External System | The registered external system that this synchronization will use to push data to an external system.     |
-    | Org Units       | A mapping between the Geo-Object Types in the selected GPR hierarchy and the types in the DHIS2 instance. |
-5. Click Submit.
+    | Field | Description | Required |
+    | ----- | ----------- | -------- |
+    | Label | The label of the synchronization configuration. | Required |
+    | Organization | The organization the configuration is available to. It can't be changed later. | Required |
+    | External System | The registered FHIR external system to send data to. It can't be changed later. | Required |
+    | Synchronization Type | **Export** | Required |
+    | Levels | <p>The data to send, one level at a time. For each level, choose:</p><ul><li><strong>Master List:</strong> the list to send, from <a href="../../explore/lists-and-spatial-data/README.md">Lists and Spatial Data</a>.</li><li><strong>List Valid For:</strong> the version of that list.</li><li><strong>Implementation:</strong> the code that converts the data to FHIR resources. See <a href="../../deployment-and-setup/fhir-custom-implementation/README.md">FHIR custom implementation</a>.</li></ul><p>Click the plus icon (<strong>Add new level</strong>) to add another level, or <strong>Delete</strong> to remove one. This section is labelled <strong>Org Units</strong> in the current version.</p> | Required |
+4.  Click **Submit**.
 
-### Pulling data from a FHIR instance to a Geoprism Registry instance
+## Pulling data from a FHIR server
 
 {% hint style="danger" %}
-Pulling data from a FHIR instance to Geoprism Registry requires a custom transformation to be integrated with the Geoprism Registry instance which defines how data is pulled into Geoprism Registry. Contact your System Administrator to get more information. System Administrators can see [FHIR custom implementation](../../deployment-and-setup/fhir-custom-implementation/README.md) for documentation on how to setup the FHIR custom implementations.
+Pulling data from a FHIR server requires a custom implementation, installed on your Geoprism Registry instance, that defines how the data is brought in. Contact your System Administrator for more information. System Administrators can see [FHIR custom implementation](../../deployment-and-setup/fhir-custom-implementation/README.md) for how to set one up.
 {% endhint %}
 
-1. Navigate to the Settings page.
-2. Find the _External System Synchronizations_ section and click the **+** button to register synchronizations.
-3.  Click the **Create** button on the _Synchronization Configurations_ page.\\
+1.  Go to the **Settings** page. In the **External System Synchronizations** section, click **Register Synchronization**.
+2.  On the **Synchronization Configurations** page, click **Create**.
 
     <figure><img src="https://lh4.googleusercontent.com/266T4bH2_5Q0C-oJ1VxvtdZIwrlnZM750n0HvEVnddkht0vxVNv4k9bB9KlynvGxsSERlUUUeQQ-SGAIu7UPj75ceWZelha7PrMPFF25YTiIEsHyecXZ1OLfyBVb4Dhc1WMaBdHK9aZpZpSh0kkQ2xZycnOmRF25kEiG7z7kFvZxr2DclU8x_A9Fxg" alt=""><figcaption></figcaption></figure>
-4.  Fill out the modal fields being sure to select 'Import' for the _Synchronization Type_.\\
+3.  Fill out the form, selecting **Import** as the **Synchronization Type**:
 
-    | Field           | Description                                                                                           |     |
-    | --------------- | ----------------------------------------------------------------------------------------------------- | --- |
-    | Label           | Label of the synchronization configuration.                                                           | Yes |
-    | Organization    | The organization the synchronization configuration will be available to.                              | Yes |
-    | External System | The registered external system that this synchronization will use to push data to an external system. | Yes |
-    | Synchronization | Export data to the FHIR instance or Import data to the Geoprism Registry instance.                    | Yes |
-    | Type            | The Geoprism Registry instance.                                                                       | Yes |
-    | Implementation  | The custom implementation of a HAPI FHIR synchronization configuration.                               | Yes |
+    | Field | Description | Required |
+    | ----- | ----------- | -------- |
+    | Label | The label of the synchronization configuration. | Required |
+    | Organization | The organization the configuration is available to. It can't be changed later. | Required |
+    | External System | The registered FHIR external system to pull data from. It can't be changed later. | Required |
+    | Synchronization Type | **Import** | Required |
+    | Implementation | The custom implementation that defines how FHIR data is brought into Geoprism Registry. | Required |
 
     <figure><img src="https://lh5.googleusercontent.com/exnu4HLjcpICJ4BE2i5AbridnGwmjkNmnrnr215Q60CB8oh3_Tc7iXgBKhRgtmFhli_5BVdDLN1_ZCrTDBL-hm5RGwUSeSTLlEP-L50gP3H80Gjg1_W_88I2TNuXW_RLv5s92K31PAGePNMdcIsJ2Sm5Jly0sbqIgolm1QrZ8ZJkkHSuXZu9Bss8sA" alt=""><figcaption></figcaption></figure>
-5. Click **Submit**.
+4.  Click **Submit**.
 
-### Run a synchronization <a href="#execute-a-synchronization" id="execute-a-synchronization"></a>
+## Running a synchronization
 
-1. Navigate to the _Setting_ page.
-2. Find the _External System Synchronizations_ section and scroll to an existing configuration.
-3. Click on the **View** button of the FHIR configuration.
-4.  Click the view button on the FHIR configuration row.
+1.  On the **Synchronization Configurations** page, click **View** next to the FHIR configuration.
 
     <figure><img src="../../../../.gitbook/assets/spaces_TFjfDjimCUEX9iARJhTf_uploads_git-blob-206af95e0bc746991b94f5442b3e62aa6e7c14de_image (72).png" alt=""><figcaption></figcaption></figure>
-5. On the synchronization page click the “Run now“ button to queue a new synchronization job. The results of the job will appear in the “Jobs“ section lower on the page. The user can also click on “Generate Bundle“ to generate a JSON bundle of the data which would be exported.
+2.  Click **Run now** to start a synchronization job. Its progress and any errors appear under **Jobs**.
+
+For an export, you can also click **Generate Bundle** to download a JSON bundle of the data that would be sent.

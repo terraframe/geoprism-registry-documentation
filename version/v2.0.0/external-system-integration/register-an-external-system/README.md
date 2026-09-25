@@ -1,14 +1,20 @@
 # Register an External System
 
-Registering an external system lets you specify a persistent configuration for integrating with external systems. The external system registration is where synchronizations can be triggered (Apache Jena and FHIR only), modified, and generally referenced to understand how the integration is defined. Its primary function is to enable pushing content to an external system.
+Registering an external system saves the connection details Geoprism Registry uses to send data to it. Synchronizations then use the registered system to send data.
 
-Registering an external system can only be done by a Registry Administrator or System Administrator. If a Registry Administrator creates the external system it will only be available to the organization that Registry Administrator is a member of. A System Administrator must assign the external system to an organization.
+{% hint style="info" %}
+Registry Administrators and System Administrators can register external systems. A system registered by a Registry Administrator is only available to their organization. A System Administrator chooses the organization when registering one.
+{% endhint %}
 
-Setting up an external system synchronization enables a user to push data to that external system. Synchronization configurations require an external system to be registered and the external identifiers to be set through the data import process.
+Geoprism Registry currently supports:
 
-Geoprism Registry currently supports integrations with the following systems:
+* [apache-jena-external-system.md](apache-jena-external-system.md "mention")
+* [fhir-external-system.md](fhir-external-system.md "mention"): [Fast Healthcare Interoperability Resources®](https://www.hl7.org/fhir/)
 
-* Apache Jena
-* [Fast Healthcare Interoperability Resources®](https://www.hl7.org/fhir/) (FHIR)
+## Managing registered systems
 
-The following sections provide more details on registering each type of system.
+Registered systems are listed in the **External Systems** section of the **Settings** page, with their type, label and description.
+
+* Click the plus icon at the bottom of the list to register a new system.
+* Click the pencil icon to edit a system. Its type, organization and ID can't be changed.
+* Click the trash icon to remove a system.
