@@ -1,52 +1,54 @@
 # Curating Lists and Spatial Data
 
+Geoprism Registry helps you find and fix problems in your data in two ways:
+
+* **Run Curation** checks a working version of a list for Geo-Objects without a geometry.
+* **Curation tasks** are created when a [historical event](../../curate/historical-events/README.md) means other Geo-Objects may need changes. For example, when a district is split, the health facilities in it may need to be reassigned to the new district.
+
+You can also sort a column in an open list to find Geo-Objects with empty values for an attribute.
+
+## Checking for missing geometries
+
 {% hint style="info" %}
-Two types of semi-automatic curation are implemented in Geoprism Registry:
-
-1. The System Administrator, Registry Administrator and Registry Maintainer can check if some of the records in the working list do not have a geometry.
-2. Geoprism Registry automatically produces tasks in the _Curation_ module each time a new historical event (see [Historical Events](../../curate/historical-events/README.md)) requires for some changes to be applied by the Registry Administrator or Registry Maintainer on relevant Geo-Objects (for example, the split of a district would require for the health facilities located in a part of it it to be reassigned to the new one that has been created)
-
-Apart from the above, the System Administrator, Registry Administrator, Registry Maintainer and Registry Contributor role can also use the sort functionality in an open list to identify Geo-Objects with empty values for a given attribute.
+The System Administrator, Registry Administrators and Registry Maintainers can run curation.
 {% endhint %}
 
-To identify the Geo-Objects that do not have a geometry in a list (the check is performed in the list and not the graph database, meaning that it is performed only for the temporal validity of that list, date or period):
+The check covers only the date or period of that list, not all the data in the registry.
 
-1.  Go to the _Lists and Spatial Data_ module either by clicking the module icon on the homepage or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/4ieAODNcwrlKZ6iUiZnYlbLGZmQJiEse_Z8mls7B1vwiKHOfldO3TWH3smxfa1IJQb_BhxM7c6iTe--Wm0sPvlovt4jp-DaoMkTqq5MNslg-imIrXqyoa3A3Fnq-Ct_7AAaQzW-xMCIbev1kGSUU8xN5v8iFIayG4z8c4H78mU80Ms6J_4PBB1ghQw)) in the upper right corner and selecting **Lists and Spatial Data**.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
-2.  In the left sidebar, find and click the Geo-Object Type for which you would like to identify the Geo-Objects without a geometry for a given list (health center for example). Open the set containing the list presenting the temporal validity for which you want to perform the curation (the frequency-based list in this case):\\
+1.  Navigate to the **Lists and Spatial Data** page from the sidebar. On the left, click the Geo-Object Type under its organization, then click the title of the set.
 
     <figure><img src="../../../../.gitbook/assets/image (34) (1).png" alt=""><figcaption></figcaption></figure>
-3.  Open the working version of the list instance for which you want to perform the curation (_2022-01-01_ in this example).\\
+2.  Open the **List** of the working version for the date or period you want to check.
 
     <figure><img src="../../../../.gitbook/assets/image (1) (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
-4.  In the list that opens, click the **Run curation** button\\
+3.  Click **Run Curation**.
 
     <figure><img src="../../../../.gitbook/assets/image (18) (4).png" alt=""><figcaption></figcaption></figure>
-5. A curation report will appear:
-   1.  If there is at least one Geo-Object for which the geometry is missing in the list, the report will state for which Geo-Object this is the case.\\
+4.  The **Curation report** opens. It shows who started the check, when, and how many Geo-Objects have been checked. Each problem is listed with its **Problem Type** (**No Geometry**) and the Geo-Object's **Code**. If there are no problems, the report says **No validation issues found**.
 
-       <figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
-   2.  If all the Geo-Objects have a geometry, then the report will be empty.\\
+    <figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
-       <figure><img src="../../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
-6. The last curation run will remain accessible until the next one by clicking on the link on the right of the **Run Curation** button.\
-   ![](<../../../../.gitbook/assets/image (10) (1).png>)
-7. Go back to the list and address the missing geometries, if possible.
+    <figure><img src="../../../../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
+5.  To fix a problem, click **Resolve**. The Geo-Object opens in the [Explorer](../explorer.md), where you can [add its geometry](../explorer.md#editing-a-geo-object). Then select **Resolved** in the report.
 
-To view the tasks generated in relation to captured historical events:
+The latest report stays available until you run curation again. Click the **Last curation** link next to **Run Curation** to open it.
 
-1.  Go to the _Curation_ module either by clicking the module icon on the homepage or by clicking the hamburger menu (![](https://lh4.googleusercontent.com/LXLYgQWXwF0Rm7eHKexpUu_GXCMOZeSIZSyoj08-me4GjBUwtbljSg5P5twFI3HRGtbRvwD6L6cq0YyYZirbgNV45ESEyeBZPGvQDokvpyUyA88pGI5HyxeW7fvvpPz6_vSMOeLuk62zspLP_uedmw_jlEURxV6ACuRE4p-fpiGrvrqD86w26a6Z9Q)) in the upper right corner and selecting **Curation**.\\
+![](<../../../../.gitbook/assets/image (10) (1).png>)
 
-    <figure><img src="../../../../.gitbook/assets/image (7) (2).png" alt=""><figcaption></figcaption></figure>
-2.  In the _Curation_ module, there are two sections: _Open Tasks_ and _Completed Tasks_. In the _Open Tasks_ section, you will see the tasks related to Geo-Objects over which you have the curation mandate and for which hierarchy related information might need to be changed due to a historical event captured for one of its parents. In the example below, as the Ministry of Health Registry Administrator or Registry Maintainer, you are being informed that the _Santa Rosa Shire_ has been merged into the _Bacong Shire_ on 9/15/12 and suggested to look if any of the national hospitals located in the Santa Rosa Shire may need to be reassigned to the Bacong one starting from 9/15/12\\
+## Curation tasks from historical events
 
-    <figure><img src="../../../../.gitbook/assets/image (17) (4).png" alt=""><figcaption></figcaption></figure>
-3. To learn more about the event mentioned in the task, you can go to the _Historical Events_ module to explore the particular historical event the Geo-Object is a part of (see [Historical Events](../../curate/historical-events/README.md)) to know how to explore historical events.
-4. The number of changes you would have to apply depends on the number of geo-objects impacted by the historical event that has been captured. In the above task for example, all the national hospitals located in the Santa Rosa shire before 04/20/07 will have to be reassigned to the Bacong shire after that date. Depending on the number of changes you have to apply, you may either:
-   1. Import a spreadsheet containing the geo-objects that are being impacted together with the new parent information (see [Import a Spreadsheet](../../curate/import-geospatial-data/import-a-spreadsheet.md) to know how to import a spreadsheet).
-   2. Edit each impacted Geo-Object separately using the Lists and Spatial Data module (see [Editing Lists and Spatial Data](editing-lists-and-spatial-data.md) to know how to edit an existing Geo-Object).
-5.  Once the changes have been made, go back to the _Curation_ module. Find the task that has been addressed and mark it as complete by clicking the **Complete** radio button. The task will now be moved to the _Completed Tasks_ section.\\
+{% hint style="warning" %}
+In Geoprism Registry 2.0, the curation task list isn't linked from the sidebar. This section describes how tasks work, and will be updated once it's confirmed how to open them.
+{% endhint %}
+
+Tasks are listed under **Open Tasks** and **Completed Tasks**. An open task tells you about a historical event that may affect Geo-Objects you curate. For example, when Santa Rosa Shire is merged into Bacong Shire, you may need to reassign the hospitals in Santa Rosa Shire to Bacong Shire from the date of the merge.
+
+<figure><img src="../../../../.gitbook/assets/image (17) (4).png" alt=""><figcaption></figcaption></figure>
+
+To address a task:
+
+1.  To learn more about the event, find it on the [Historical Events](../../curate/historical-events/README.md) page.
+2.  Make the changes. If there are many, [import a spreadsheet](../../curate/import-geospatial-data/import-a-spreadsheet.md) with the new parent information. If there are only a few, [edit each Geo-Object](editing-lists-and-spatial-data.md).
+3.  Mark the task as complete. It moves to **Completed Tasks**. If you marked it complete by mistake, you can mark it as open again.
 
     <figure><img src="../../../../.gitbook/assets/image (6) (3).png" alt=""><figcaption></figcaption></figure>
-6. If you have incorrectly marked a task as complete, you may go to the _Completed Tasks_ section, find the particular task, and mark it as open again.

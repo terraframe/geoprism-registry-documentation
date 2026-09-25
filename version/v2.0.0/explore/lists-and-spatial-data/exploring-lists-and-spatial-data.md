@@ -3,61 +3,41 @@
 {% hint style="info" %}
 Registry Administrators, Registry Maintainers, and Registry Contributors can explore the lists and spatial data of the Geo-Object Types under the curation mandate of their organization.
 
-Other users can explore lists and spatial data of Geo-Object Types that are made visible to the public by the organization the Geo-Object Type belongs to.
+Other users can explore lists and spatial data that the organization has made **Public**.
 {% endhint %}
 
-The list and spatial data of a Geo-Object Type either from a working or published version can be explored through the _List and Spatial Data_ and _Explorer_ modules.
+## Opening a list
 
-## **Explore a list**
-
-1.  Go to the _Lists and Spatial Data_ module either by clicking the module icon on the homepage or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/4ieAODNcwrlKZ6iUiZnYlbLGZmQJiEse_Z8mls7B1vwiKHOfldO3TWH3smxfa1IJQb_BhxM7c6iTe--Wm0sPvlovt4jp-DaoMkTqq5MNslg-imIrXqyoa3A3Fnq-Ct_7AAaQzW-xMCIbev1kGSUU8xN5v8iFIayG4z8c4H78mU80Ms6J_4PBB1ghQw)) in the upper right corner and selecting **Lists and Spatial Data**.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
-2.  In the left sidebar, find and click the Geo-Object Type you would like to explore under the organization it belongs to. Then click its list and spatial data set (the _County (MOH)_ Geo-Object Type in the example below).\\
+1.  Navigate to the **Lists and Spatial Data** page from the sidebar. On the left, click the Geo-Object Type under its organization, then click the title of the set.
 
     <figure><img src="../../../../.gitbook/assets/image (3) (1) (3).png" alt=""><figcaption></figcaption></figure>
-3.  Depending on the list type of the set, you might see one or more validity dates/periods. On/in the validity date/period you would like to explore, you can click on the **Metadata** button to see the information about the list and spatial data of the Geo-Object Type. To close the _Metadata_ window, click on the **Cancel** or **Back** button at the bottom.\\
+2.  Find the date or period you want. To see a version's metadata, click **Metadata** (working version) or **Version Metadata** (published version).
 
     <figure><img src="../../../../.gitbook/assets/image (19) (2).png" alt=""><figcaption></figcaption></figure>
-4.  Still on/in the validity date/period you would like to explore, click **Lists** under either _Working Versions_ or _Published Versions_ (based on your user access, availability of the published versions, and needs).\\
+3.  Expand the working version or a published version, and click **List**. Each link shows whether it's **Public** or **Private**, and **Master** or **Non-master**.
 
     <figure><img src="../../../../.gitbook/assets/image (15) (3).png" alt=""><figcaption></figcaption></figure>
-5. The list for the Geo-Object Type will open. You can explore the list by:
-   1.  Sorting the content of any attribute alphabetically or numerically in ascending or descending order by clicking the arrows by the column name (the header of the attribute with the sorted content is colored green).\\
+4.  The list opens. The top of the page shows the version, its visibility and authoritativeness, when it was generated, and the date the list is valid for.
 
-       <figure><img src="../../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
-   2.  Filtering the content by typing the needed value in the filter/search field under the corresponding attribute header. This will return only the Geo-Objects whose content matches the entered value.\\
+## Working with the list
 
-       <figure><img src="../../../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+* **Sort:** click the arrows next to a column name to sort by that column.
 
-## Explore spatial data
+  <figure><img src="../../../../.gitbook/assets/image (14) (1).png" alt=""><figcaption></figcaption></figure>
+* **Filter:** type in the field under a column name to show only matching rows. Your sorting and filters are remembered the next time you open the version.
 
-1.  Go to the _Lists and Spatial Data_ module either by clicking the module icon on the homepage or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/4ieAODNcwrlKZ6iUiZnYlbLGZmQJiEse_Z8mls7B1vwiKHOfldO3TWH3smxfa1IJQb_BhxM7c6iTe--Wm0sPvlovt4jp-DaoMkTqq5MNslg-imIrXqyoa3A3Fnq-Ct_7AAaQzW-xMCIbev1kGSUU8xN5v8iFIayG4z8c4H78mU80Ms6J_4PBB1ghQw)) in the upper right corner and selecting **Lists and Spatial Data**.\\
+  <figure><img src="../../../../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+* **Also Show Invalid Geo-Objects:** includes Geo-Objects marked as invalid.
+* **Refresh:** in a working version, rebuilds the list from the latest data. It runs in the background, with a progress bar.
 
-    <figure><img src="../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
-2.  On the left sidebar, find and click the Geo-Object Type you would like to explore under the organization it belongs to. Then click on its list and spatial data set (the _County (MOH)_ Geo-Object Type in the example below).\\
+## Viewing the spatial data
 
-    <figure><img src="../../../../.gitbook/assets/image (28) (1).png" alt=""><figcaption></figcaption></figure>
-3.  Depending on the list type of the set, you might see one or more validity dates/periods. On/in the validity date/period you would like to explore, you can click on the **Metadata** button to see the information about the list and spatial data of the Geo-Object Type. To close the _Metadata_ window, click on the **Cancel** or **Back** button at the bottom.\\
+To see the data on a map in the [Explorer](../explorer.md):
 
-    <figure><img src="../../../../.gitbook/assets/image (17) (3).png" alt=""><figcaption></figcaption></figure>
-4. To open and explore the spatial data:
-   1. Through the list:
-      1.  Still in the validity date/period you would like to explore, click **List** under either _Working Versions_ or _Published Versions_ (based on your user access, availability of the published versions, and needs).\\
+* Click **View on map** at the top of the list.
 
-          <figure><img src="../../../../.gitbook/assets/image (8) (3).png" alt=""><figcaption></figcaption></figure>
-      2.  When the list opens, click on the **View on map** button.\\
+  <figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+* Click the eye icon at the start of a row to open that Geo-Object in the Explorer.
+* On the set's page, click **Spatial Data** under a version.
 
-          <figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
-5.  You will be redirected to the _Explorer_ module where the spatial data of the Geo-Object Type will be displayed. You can zoom in and out and pan the map to look at the spatial data.\\
-
-    <figure><img src="https://lh6.googleusercontent.com/W4YOlDp6OyYBMm1C0XcPBF8tR4MGw7mB8GjAPIMdcHVaF9EjXFdJfiG_sup19EA1icu20ce4NiHAF9RB72xFDky7d5C5u1TlZYiJanXDIt1gw1mWGpvRhCdjEmc1qPpjZ6WfgYZi-R6HArukyAPtNqPJL_nTWQJ5X7L8iABjHjCStVt3Od3G-WhLBQ" alt=""><figcaption></figcaption></figure>
-6.  Click on one of the Geo-Objects then click the **Edit** button in the information box that pops up.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (18) (3).png" alt=""><figcaption></figcaption></figure>
-7.  This will display the information for that particular Geo-Object in the left sidebar. By navigating the History bar, you will see if there are changes to the Geo-Object through time.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
-8.  Click on the different data elements tabs to explore the information about the attributes, hierarchies, and geometry of the Geo-Object.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+See [Explorer](../explorer.md) for how to use the map and view each Geo-Object's attributes, hierarchies, geometry and history.

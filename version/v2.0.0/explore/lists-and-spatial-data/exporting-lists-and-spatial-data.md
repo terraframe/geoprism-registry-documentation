@@ -1,43 +1,42 @@
 # Exporting Lists and Spatial Data
 
 {% hint style="info" %}
-Registry Administrators, Registry Maintainers and Registry Contributors can export the lists and spatial data for the Geo-Object Types in their organization, and for Geo-Object Types belonging to other organizations that are publicly visible.
+Registry Administrators, Registry Maintainers and Registry Contributors can export the lists and spatial data for the Geo-Object Types in their organization, and for lists and spatial data from other organizations that are **Public**.
 {% endhint %}
 
-The lists and spatial data of a Geo-Object Type can be exported as a spreadsheet or a shapefile, respectively:
+You can export a list as a spreadsheet, or its spatial data as a shapefile.
 
-1.  Go to the _Lists and Spatial Data_ module either by clicking the module icon on the homepage or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/4ieAODNcwrlKZ6iUiZnYlbLGZmQJiEse_Z8mls7B1vwiKHOfldO3TWH3smxfa1IJQb_BhxM7c6iTe--Wm0sPvlovt4jp-DaoMkTqq5MNslg-imIrXqyoa3A3Fnq-Ct_7AAaQzW-xMCIbev1kGSUU8xN5v8iFIayG4z8c4H78mU80Ms6J_4PBB1ghQw)) in the upper right corner and selecting **Lists and Spatial Data**.\\
-
-    <figure><img src="../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
-2.  In the left sidebar, find and click the Geo-Object Type of which you would like to export the list and/or spatial data. Then click on the set from which you want to perform the export (the _Community health worker (MOH)_ Geo-Object Type in the example below).\\
+1.  Navigate to the **Lists and Spatial Data** page from the sidebar. On the left, click the Geo-Object Type under its organization, then click the title of the set.
 
     <figure><img src="../../../../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
-3.  Depending on the type of set, you might see one or more instances in the set (one per date or period of validity). Decide for which instance you want to do the export (only one in the example here, dated _2022-03-03_) and if you want to export the working version or the published version and under that version, click **List**.\\
+2.  In the date or period you want, open the **List** of the working version or a published version.
 
     <figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure>
-4.  The list for the Geo-Object Type will open. Click the **Export** button.\\
+3.  Optionally, filter the list. Only the rows that match your filters are exported, and the button changes to **Export filtered list**. Invalid Geo-Objects are only included if **Also Show Invalid Geo-Objects** is selected.
+4.  Click **Export**.
 
     <figure><img src="../../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
-5.  The _Export_ window opens. Select whether you would like to export the list (spreadsheet) or the spatial data (shapefile) and then click the **Submit** button.\\
+5.  In the **Export** window, choose **List (spreadsheet)** or **Spatial data (shapefile)**. For a Geo-Object Type with mixed geometries, also choose the **Geometry Type** to export. Then click **Submit**.
 
     <figure><img src="https://lh3.googleusercontent.com/tX344nIeXFt4DF78ZaDvxdqIFhUbB-A862QfwBWdXGl_f1vZhzjoiYFX3mwUe_wBS6oKUGfkC3Zeuirz2cFb2fnvpcPRTOrmf8BFwZFhkwFGzSEPoIMtSDf2xNLoeK-JUxdHgBEdGQ9JoOte828GyQPUu_4C8bc2sSCh68K7LrhD3JcEGnwApMmSxA" alt=""><figcaption></figcaption></figure>
-6. Once the data has been downloaded, check the default downloads folder of your computer for the downloaded data.
-7. The downloaded file will contain the following depending on what has been selected:
-   1. _List (spreadsheet)_: The downloaded list is in .XLSX format with the file name being the Geo-Object Type code and the start date of validity of the selected list. In the example below, the downloaded list is of the _Community health worker (MOH)_ type with the starting date of validity of _2022-03-03,_ so the downloaded file name is _CHW-2022-03-03.xlsx_. This file has three worksheets:
-      1.  The first worksheet contains the list of the Geo-Objects as it appears in Geoprism Registry. The worksheet name is the first 31 characters of the name of the list and spatial data set in Geoprism Registry.\\
+6.  The file downloads to your computer.
 
-          <figure><img src="https://lh6.googleusercontent.com/ozu5nxtx3EbnCntc8uNt6qQt0zcDnc-fibziRoGPUMS7sB0-B-QIgHHJjJKEfuZsqsciZw53y6HNM7GpVivEXo3GO7WJKD1DhJ2adzT50I_t6I1reTBXePNH0oF6HNFXMY2MYcELJRwj40FWBDOxtTLaWWZjXHkzurbgt9B-cI_NyduWS5Gub3SJqQ" alt=""><figcaption></figcaption></figure>
-      2.  The second worksheet is the metadata containing information about the list.\\
+## What the files contain
 
-          <figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-      3.  The third worksheet is the data dictionary providing details about the different fields/columns in the lists.\\
+**List (spreadsheet):** an XLSX file with three worksheets:
 
-          <figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
-   2.  _Spatial data (shapefile)_: The downloaded spatial data is stored in a compressed file (.ZIP) with the file name being the Geo-Object Type code and the start date of validity of the selected spatial data. In the example below, the downloaded spatial data is of the _Community health worker (MOH)_ type with the starting date of validity of _2022-03-03_ so the downloaded file name is _CHW-2022-03-03.zip_. The .ZIP file contains the six files composing a shapefile and a metadata file containing the information about the shapefile in .XLSX file format.\\
+1.  The list of Geo-Objects, as it appears in Geoprism Registry.
 
-       1.  You may now open the shapefile in your preferred geographic information system (GIS) software. The attribute table of the shapefile contains the information about the Geo-Objects as it appears in Geoprism Registry. The field names are abbreviated due to the field name length restriction for shapefiles. You will find the complete description of the field names in the _Data Dictionary_ worksheet of the metadata file.\\
+    <figure><img src="https://lh6.googleusercontent.com/ozu5nxtx3EbnCntc8uNt6qQt0zcDnc-fibziRoGPUMS7sB0-B-QIgHHJjJKEfuZsqsciZw53y6HNM7GpVivEXo3GO7WJKD1DhJ2adzT50I_t6I1reTBXePNH0oF6HNFXMY2MYcELJRwj40FWBDOxtTLaWWZjXHkzurbgt9B-cI_NyduWS5Gub3SJqQ" alt=""><figcaption></figcaption></figure>
+2.  **Metadata**, the list's metadata.
 
-           <figure><img src="https://lh5.googleusercontent.com/cZW_eFsbbB8BNproJmGO6gXqk-OIlCJwMwsGHtZeSBJDATLtadlMxXS4B9THyl82GSl9gtY9y7bM46ztHV79hOFBi9VyNUc-GevXadLo7sZ2hmcVtKkEwf0MMcTiaZVdW3w8pkl7sUlPXB6ZGJXWwvNdryhd63GurYXrUbGTpWI52XvViZBoHxwtXg" alt=""><figcaption></figcaption></figure>
-       2. The metadata file contains two worksheets, _Metadata_ and _Data Dictionary_, of which the content is the same as the one obtained when downloading the list.
+    <figure><img src="../../../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+3.  **Data Dictionary**, which describes each column.
 
-       <figure><img src="https://lh6.googleusercontent.com/qAiVur-H3PezIq2iP_MNwsxdw1VK6A6IQqmMFzdkv4m5gdqg7u1vviIDuXB5jMSPnzNqGXBO_yHnOVCuD71n2QXQGhsTF7b7nmEZlbATNoFgqe2CyKSguESBFBH8CI99dI-UKbkyJf_CimOpO0QhyC8NgK0CEXOSm5XRspykiWfeTfSG0eBkuLThnQ" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
+For a **Private** list, people outside the organization only get the code and label columns.
+
+**Spatial data (shapefile):** a ZIP file containing the files that make up the shapefile, and a metadata spreadsheet with **Metadata** and **Data Dictionary** worksheets built from the spatial data's metadata. Open the shapefile in your GIS software. Shapefile field names are shortened because of the format's length limit, so use the **Data Dictionary** to see what each field is.
+
+<figure><img src="https://lh5.googleusercontent.com/cZW_eFsbbB8BNproJmGO6gXqk-OIlCJwMwsGHtZeSBJDATLtadlMxXS4B9THyl82GSl9gtY9y7bM46ztHV79hOFBi9VyNUc-GevXadLo7sZ2hmcVtKkEwf0MMcTiaZVdW3w8pkl7sUlPXB6ZGJXWwvNdryhd63GurYXrUbGTpWI52XvViZBoHxwtXg" alt=""><figcaption></figcaption></figure>

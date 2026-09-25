@@ -4,35 +4,44 @@
 Registry Administrators and Registry Maintainers can manage versions of a set created for the Geo-Object Types under the curation mandate of their organization.
 {% endhint %}
 
-Creating a set for a given Geo-Object Type generates two types of versions for each instance (list or spatial data) of this set:
+Each date or period of a set has:
 
-* The _working version_ allows the authorized user to access the Geo-Object Type data either for viewing or editing. This version is generated automatically by Geoprism Registry.
-* The _published versions_ correspond to a snapshot in time of the Geo-Object Type data for the configured validity date or period. This type of version cannot be modified but can still be explored and exported.
+* One **working version**, the live copy of the data. It's created automatically, can be edited and refreshed, and can't be deleted.
+* Any number of **published versions**, which are snapshots of the working version. They can't be edited, but they can be explored and exported.
 
-1.  Go to the _Lists and Spatial Data_ module either by clicking the module icon on the homepage or by clicking the hamburger menu (![](https://lh3.googleusercontent.com/4ieAODNcwrlKZ6iUiZnYlbLGZmQJiEse_Z8mls7B1vwiKHOfldO3TWH3smxfa1IJQb_BhxM7c6iTe--Wm0sPvlovt4jp-DaoMkTqq5MNslg-imIrXqyoa3A3Fnq-Ct_7AAaQzW-xMCIbev1kGSUU8xN5v8iFIayG4z8c4H78mU80Ms6J_4PBB1ghQw)) on the upper right corner and selecting **Lists and Spatial Data**.\\
+## Publishing a version
 
-    <figure><img src="../../../../.gitbook/assets/image (19) (1) (1).png" alt=""><figcaption></figcaption></figure>
-2.  On the left sidebar, find the organization of which you are a member (this should be the first organization on the list). The Geo-Object Types that have been created are listed under each organization they belong to. Under your organization, click on the Geo-Object Type for which you would like to publish a version. In the example below, the _Community health worker (MOH)_ Geo-Object Type is selected.\\
-
-    <figure><img src="https://lh5.googleusercontent.com/MOAD6c5hx16S0-v4KLMLrkl45-Izl8LY8p27CNqmRLEt56VLZljFFE9oSRHOFbuEN9g5v4wK80ijuORjWWpQ00KAvFEWfDdepN3laiZs7EndvmikOVrwFc-YdGd47WIX9bJg8BZxr-KcP_yHgOfpavSNaI2avmS3IzSlJQyKtp2sk7zwvMBHo2qkjg" alt=""><figcaption></figcaption></figure>
-3.  Click on the name of the list and spatial data set for which you would like to publish a version. In the example below, the frequency-based set is selected.\\
+1.  Navigate to the **Lists and Spatial Data** page from the sidebar. On the left, Geo-Object Types are listed under the organization that manages them. Click the Geo-Object Type, then click the title of the set.
 
     <figure><img src="../../../../.gitbook/assets/image (18) (2).png" alt=""><figcaption></figcaption></figure>
-4.  Depending on the list type of the selected set as well as the frequency or the number of periods configured, there could be one or more validity dates or periods in the set. Find the validity date or period that you would like to publish a version for and click the **New Version** button.\\
+2.  The set shows a panel for each date or period. In the panel you want, click **Publish New Version**.
 
     <figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
-5.  The _Metadata_ window will open. This contains the metadata information of the list and spatial data set (see [Creating a Set](creating-a-set.md)). The metadata information of either the list or spatial data or both can be edited to reflect the information of the version being published.\\
+3.  The **Metadata** window opens, with a **List** tab and a **Spatial Data** tab. The fields are copied from the working version. Review them, and set **Is Master**, **Visibility** and **Label** for each tab. New versions start as **Private** and non-master. See [creating-a-set.md](creating-a-set.md "mention") for the other fields.
 
     <figure><img src="https://lh3.googleusercontent.com/W-5aE0QpiLSVxpxkZ_m8QkIAjS57s_GFbynDuE5T4Kn9h-z2ARjtsCSkpgQlq0lERXSS2rJcjbwx45Td4pqiurwZzv1fPE_iLM58TPT_qRa5tVFQYKAEauw9jX12u4YSfKPl42DhM0LmiBe4x2v9blErj6wA0hZfhiq_CdFK01v9Ukfdb4mubeTSuA" alt=""><figcaption></figcaption></figure>
 
     <figure><img src="https://lh4.googleusercontent.com/k-iT4mJYjR3vfgZEbvRilXn5fsoAyQEov-67X_BwPTLtcerFv9uVwSv2ZhRNDjsmgmIh9br6-HqrP6KGN7Hd2j-PBkuO-Gmh5TMSn-jLFhfHuzA-pUNdZ89q2H3iSaL6GXeeT6Dkw90VbvJaembrSU62Jproftclg0xPPk6z0aKVQfwI8Wez9w7Saw" alt=""><figcaption></figcaption></figure>
-6. Click the **Submit** button.
-7.  The created version will now appear under the _Published Versions_ section.\\
+4.  Click **Submit**. The new version appears under **Published Versions**.
 
     <figure><img src="../../../../.gitbook/assets/image (4) (2).png" alt=""><figcaption></figcaption></figure>
-8. To explore the published version, follow the relevant steps in [Exploring Lists and Spatial Data](exploring-lists-and-spatial-data.md).
-9. To export the published version, follow the relevant steps in [Exporting Lists and Spatial Data](exporting-lists-and-spatial-data.md).
-10. If changes are made to the working version of the list and/or spatial data, you can create another version of the dataset by repeating the relevant steps above.
-11. The published version can also be deleted by clicking the **Delete** button and confirming the deletion when prompted.\\
 
-    <figure><img src="https://lh3.googleusercontent.com/WNsNqjd7cbnSaU9xTakVP03LfAscANxzp9Sp7-9b5GBUrRUqXHZfVBZ3KKkilid4lX8rzW4J3L8CDv5I1B-hgolyQMDYB3N2e14mIz6eIfdI4hMcW666WX2UMvRFFGSrtXQIpnJGi6e3gMZ6nx-c4GYMLTjJQk2CuALH64NAV2ggxAG5bm30MPd7Vg" alt=""><figcaption></figcaption></figure>
+When the working version changes, publish another version to capture the changes. If a panel has more than two versions, click **See previous versions** to show the older ones.
+
+## Editing version metadata
+
+Click **Metadata** next to the working version, or **Version Metadata** next to a published version. Edit the fields and click **Submit**.
+
+## Deleting a published version
+
+Click **Delete** next to the published version and confirm. Working versions can't be deleted.
+
+<figure><img src="https://lh3.googleusercontent.com/WNsNqjd7cbnSaU9xTakVP03LfAscANxzp9Sp7-9b5GBUrRUqXHZfVBZ3KKkilid4lX8rzW4J3L8CDv5I1B-hgolyQMDYB3N2e14mIz6eIfdI4hMcW666WX2UMvRFFGSrtXQIpnJGi6e3gMZ6nx-c4GYMLTjJQk2CuALH64NAV2ggxAG5bm30MPd7Vg" alt=""><figcaption></figcaption></figure>
+
+## Adding periods to a frequency-based set
+
+For a frequency-based set, click **Update List Periods** at the top of the set to add entries for new periods.
+
+## Changing the set's configuration
+
+Click **Configuration** at the top of the set to view its settings. The type of set, code and filters can't be changed after the set is created.
