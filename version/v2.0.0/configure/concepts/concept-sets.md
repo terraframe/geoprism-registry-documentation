@@ -2,27 +2,29 @@
 
 See [.](./ "mention") for a definition of Concept and general overview.
 
-A Concept Set defines the allowed values for a Geo-Object Type attribute, drawn from your imported Concepts. Each Concept Set is defined by a set of concept classes and concept edge types.
+A Concept Set defines the allowed values for a Geo-Object Type's classification, drawn from your imported Concepts. Each Concept Set uses one Concept Class and one Concept Edge Type.
 
 There are two types of concept sets:
 
 * Enumeration
 * Taxonomy
 
-Enumerations define a flat list of data. This is typically how classification options would be defined to restrict the options in a Geo-Object Type attribute.&#x20;
+Enumerations define a flat list of data. This is typically how classification options would be defined to restrict the classification options for a Geo-Object Type.&#x20;
 
-Taxonomies define a hierarchical set of data for when classifications of information are nested in a larger tree of taxonomies. Larger taxonomies may define different levels of data classifications (e.g. residential is on one level with single family and multi-family residential being below that). This enables the ability to select a part of a taxonomy hierarchy that is most relevant to an attribute of a Geo-Object Type while keeping the over all taxonomic data in one place.
+Taxonomies define a hierarchical set of data for when classifications of information are nested in a larger tree of taxonomies. Larger taxonomies may define different levels of data classifications (e.g. residential is on one level with single family and multi-family residential being below that). This enables the ability to select a part of a taxonomy hierarchy that is most relevant to a Geo-Object Type while keeping the over all taxonomic data in one place.
 
 Example:&#x20;
 
-If a taxonomy edge type and the imported concept edges define the types of human built physical structures (e.g. building, dam, etc...), a concept set can package them together. That concept set can then be assigned to a Geo-Object Type and used during import to specify that the values of a Geo-Object attribute must be one of those physical structure options. A Geo-Object attribute value of "Dam" will be allowed because it's a type of built physical structure as defined by the taxonomy.
+If a taxonomy Concept Edge Type and your imported Concepts and their relationships define the types of human-built physical structures (e.g. building, dam, etc.), a Concept Set can package them together. Assign that Concept Set to a Geo-Object Type when you create it. During import, each Geo-Object's classification must then be one of those physical structure types. A classification value of "Dam" will be allowed because it's a type of built physical structure as defined by the taxonomy.
 
 #### Where concept sets are used
 
-A concept set can be specified on a Geo-Object Type when [creating one new](../geo-objects-and-hierarchies/geographic-object-types-outside-a-group/) and used during import to apply a constraint to an attribute on the data.
+You select a Concept Set when [creating a Geo-Object Type](../geo-objects-and-hierarchies/geographic-object-types-outside-a-group/add-a-geographic-object-type.md). This adds an attribute called **classification** to the type. The Concept Set can't be added, changed or removed after the Geo-Object Type is created.
+
+When you import Geo-Object data, the **classification** field appears on the screen where you match the columns in your file to system fields. Select the column that holds each Geo-Object's classification. Its values must be Concepts in the Concept Set.
 
 {% hint style="warning" %}
-Pre-requisite: The concept edge type values must be [imported](../../curate/import-business-data.md) first before adding a concept set to a new Geo-Object Type and before importing Geo-Object data to that type in the system.
+Prerequisite: Your Concepts and the relationships between them must be imported (see [Import Business Data](../../curate/import-business-data.md) and [Import Edge Data](../../curate/import-edge-data.md)) before you create a Geo-Object Type that uses the Concept Set, and before you import Geo-Object data to that type.
 {% endhint %}
 
 <figure><img src="../../../../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>

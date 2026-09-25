@@ -4,7 +4,7 @@ A **Concept** is a single, agreed-upon term that describes a kind of thing. Conc
 
 Concepts are grouped into **Concept Sets**. A Concept Set can be as simple as a list of allowed values (for example, _Open_, _Closed_, _Under Construction_) or organized into a hierarchy (for example, _Stream_ is a kind of _Waterway_).
 
-Once a Concept exists, you can use it to classify Geo-Object attributes.&#x20;
+Once your Concepts are imported, you can use them to classify Geo-Objects.&#x20;
 
 **How the pieces fit together**
 
@@ -12,16 +12,18 @@ Setting up Concepts involves three things you create in Geoprism Registry, plus 
 
 * A **Concept Class** is a template that says what information each Concept has, such as a name, code, or definition.
 * A **Concept Edge Type** defines how Concepts can be related, such as "is a" (_Dam_ is a _Structure_).
-* The **Concepts** and their relationships are loaded using the Business Data importer.
-* A **Concept Set** picks which Concepts are allowed for a Geo-Object Type attribute, either as a flat list or as a branch of a taxonomy. These are assigned to a Geo-Object Type at the time of Geo-Object Type creation.
+* The **Concepts** are loaded with the [Import Business Data](../../curate/import-business-data.md) page, and the relationships between them are loaded with the [Import Edge Data](../../curate/import-edge-data.md) page.
+* A **Concept Set** picks which Concepts are allowed as a Geo-Object Type's classification, either as a flat list or as a branch of a taxonomy. You choose the Concept Set when you create the Geo-Object Type, and it can't be changed later.
 
 **Setup order**
 
 1. Create a Concept Class.
 2. Create a Concept Edge Type that uses that class.
-3. Import your Concepts with the Business Data importer.
-4. Create a Concept Set.
-5. Use the Concept Set on a Geo-Object Type attribute.
+3. Import your Concepts on the Import Business Data page, choosing **Concept Object** and your Concept Class.
+4. Import the relationships between your Concepts on the Import Edge Data page, choosing your Concept Edge Type.
+5. Create a Concept Set.
+6. Create a Geo-Object Type and select the Concept Set. This adds a **classification** attribute to the type.
+7. When you import Geo-Object data, map a column in your file to the **classification** field.
 
 
 

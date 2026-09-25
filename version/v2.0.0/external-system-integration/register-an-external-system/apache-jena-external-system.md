@@ -1,6 +1,6 @@
 # Apache Jena External System
 
-
+An Apache Jena external system tells Geoprism Registry where to send data from a published Spatial Knowledge Graph. Geoprism Registry uses the Apache Jena Java client to load the data into the triple store at the URL you register.
 
 1. Go to the **Settings** module from the sidebar.\
    ![](<../../../../.gitbook/assets/image (28).png>)
