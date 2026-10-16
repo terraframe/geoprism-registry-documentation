@@ -4,7 +4,7 @@ Geoprism Registry is a Java web application. It runs in Docker as three containe
 
 | Container | Image | What it does |
 | --------- | ----- | ------------ |
-| Geoprism Registry | `terraframe/geoprism-registry` | The web application: Java 17 and Tomcat 11, running Geoprism Registry as a Spring Boot web application (WAR). Listens on port 8080. |
+| Geoprism Registry | `terraframe/geoprism-registry` | The web application: Java 25 and Tomcat 11, running Geoprism Registry as a Spring Boot web application (WAR). Listens on port 8080. |
 | PostgreSQL | `postgis/postgis` (PostgreSQL 18 with PostGIS 3.6) | Stores registry data and geometries. |
 | OrientDB | `orientdb:3.2` | The graph database that stores Geo-Objects, their relationships and their history. |
 
