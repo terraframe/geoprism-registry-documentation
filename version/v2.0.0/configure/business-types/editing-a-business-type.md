@@ -6,7 +6,7 @@ Registry Administrators can manage the Business Types of their organization.
 
 1.  Navigate to the **Business Types** page from the sidebar.
 
-    <figure><img src="../../../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../../../.gitbook/assets/image (97).png" alt=""><figcaption></figcaption></figure>
 2.  Click the three-dot menu next to the Business Type and select **Edit**.
 
     <figure><img src="../../../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure>
@@ -14,14 +14,14 @@ Registry Administrators can manage the Business Types of their organization.
 
     <figure><img src="../../../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure>
 
-    | Field | Description | Can be changed |
-    | ----- | ----------- | -------------- |
-    | Code | The unique identifier of the Business Type. | No |
-    | Label | The display label, with one field per installed locale. The default locale is required. | Yes |
-    | Label Attribute | The attribute whose value is used as the display label of each business object, for example a Name attribute. Choose from the Business Type's attributes. | Yes |
-    | Organization | The organization that manages the Business Type. | No |
-    | Attributes | The attributes stored for each business object. See [managing-attributes-of-a-business-type.md](managing-attributes-of-a-business-type.md "mention"). | Yes |
-4.  Click **Submit**.
+    | Field           | Description                                                                                                                                               | Can be changed |
+    | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+    | Code            | The unique identifier of the Business Type.                                                                                                               | No             |
+    | Label           | The display label, with one field per installed locale. The default locale is required.                                                                   | Yes            |
+    | Label Attribute | The attribute whose value is used as the display label of each business object, for example a Name attribute. Choose from the Business Type's attributes. | Yes            |
+    | Organization    | The organization that manages the Business Type.                                                                                                          | No             |
+    | Attributes      | The attributes stored for each business object. See [managing-attributes-of-a-business-type.md](managing-attributes-of-a-business-type.md "mention").     | Yes            |
+4. Click **Submit**.
 
 ## Other options
 
