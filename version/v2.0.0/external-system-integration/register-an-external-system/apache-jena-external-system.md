@@ -1,6 +1,15 @@
 # Apache Jena External System
 
-An Apache Jena external system tells Geoprism Registry where to send data from a published Spatial Knowledge Graph. Geoprism Registry uses the [Apache Jena Java client](https://jena.apache.org/) to load the data into the triple store at the URL you register. The Jena Java client sends data over the SPARQL protocol using the SPARQL format making a Jena External System type compatible with a database compliant with SPARQL 1.1.
+An Apache Jena external system tells Geoprism Registry where to send data from a published Spatial Knowledge Graph. Geoprism Registry loads the graph into a named graph in a triple store at the URL you register (see [Apache Jena Synchronization](https://docs.geoprismregistry.com/version/v2.0.0/external-system-integration/synchronize-an-external-system/apache-jena-synchronization)) using the W3C SPARQL 1.1 Graph Store HTTP Protocol and SPARQL 1.1 Update.
+
+Despite the name, this external system type isn’t limited to Apache Jena. Geoprism Registry supports two triple stores:
+
+* **Apache Jena Fuseki**
+* **Amazon Neptune**, including AWS IAM authentication
+
+Other triple stores that implement SPARQL 1.1 may work if they expose query, update, and graph store endpoints at `/sparql`, `/update`, and `/data` relative to the URL you register.
+
+
 
 1.  Go to the **Settings** page from the sidebar.
 
